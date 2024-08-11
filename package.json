@@ -1,5 +1,5 @@
 {
-  "name": "excpect-axios-matchers",
+  "name": "expect-axios-matchers",
   "version": "0.0.0-development",
   "description": "expect matchers for axios response",
   "keywords": ["test", "unittest", "integration test", "mocha", "vitest", "expect"],
