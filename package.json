@@ -9,6 +9,7 @@
   "scripts": {
     "prepare": "husky install",
     "test": "node --test",
+    "check": "npx @biomejs/biome check",
     "check:fix": "npx @biomejs/biome check --write",
     "semantic-release": "semantic-release"
   },
