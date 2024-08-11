@@ -28,7 +28,7 @@
     "access": "public"
   },
   "release": {
-    "branches": ["main"]
+    "branches": ["master"]
   },
   "repository": {
     "type": "git",
