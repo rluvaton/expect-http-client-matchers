@@ -3,9 +3,9 @@
   "version": "0.0.0-development",
   "description": "expect matchers for axios response",
   "keywords": ["test", "unittest", "integration test", "mocha", "vitest", "expect"],
-  "files": ["lib"],
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "files": ["src", "types"],
+  "main": "src/index.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "prepare": "husky install",
     "test": "node --test",
