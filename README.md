@@ -1,9 +1,7 @@
 <div align="center">
-  <h1>expect-axios-matchers</h1>
+  <h1>Expect Axios Matchers</h1>
 
-🃏💪
-
-Additional expect matchers (`jest`, `vitest`, `expect`)
+Additional expect matchers for axios, supports `jest`, `vitest`, `expect`.
 
 </div>
 
@@ -23,6 +21,7 @@ Additional expect matchers (`jest`, `vitest`, `expect`)
 - [API](#api)
     - [.toBeSuccessful()](#tobesuccessful)
     - [.toHave2xxStatus()](#tohave2xxstatus)
+    - [.toHave3xxStatus()](#tohave3xxstatus)
 
 ## Installation
 
@@ -213,7 +212,7 @@ axios.defaults.validateStatus = () => true;
 
 same as [`.toHave2xxStatus`](#tohave2xxstatus)
 
-Use `.toBeSuccessful` when checking if Axios response status code is between 200 and 299 included
+Use `.toBeSuccessful` when checking if Axios response status code is between 200 and 299 (included)
 
 ```js
 test('passes when response have status code 200', async () => {
@@ -244,6 +243,23 @@ test('passes when using .not.toHave2xxStatus() for 404', async () => {
     expect(response).not.toHave2xxStatus();
 });
 ```
+
+#### .toHave3xxStatus()
+
+Use `.toHave3xxStatus` when checking if Axios response status code is between 300 and 399 (included)
+
+```js
+test('passes when response have status code 300', async () => {
+    const response = await axios.get('https://httpstat.us/300');
+    expect(response).toHave3xxStatus();
+});
+
+test('passes when using .not.toHave3xxStatus() for 404', async () => {
+    const response = await axios.get('https://missing-website.com');
+    expect(response).not.toHave3xxStatus();
+});
+```
+
 
 ## LICENSE
 
