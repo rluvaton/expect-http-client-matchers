@@ -1,1 +1,1 @@
-import 'expect-axios-matchers';
+import 'expect-axios-matchers/types/jest';
