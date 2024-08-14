@@ -21,8 +21,9 @@ Additional expect matchers for axios, supports `jest`, `vitest`, `expect`.
 - [API](#api)
     - [.toBeSuccessful()](#tobesuccessful)
     - [.toHave2xxStatus()](#tohave2xxstatus)
-    - [.toHave3xxStatus()](#tohave3xxstatus)
+    - [.toHave3xxStatus()](#tohave3xxstatus) 
     - [.toHave4xxStatus()](#tohave4xxstatus)
+    - [.toHave5xxStatus()](#tohave5xxstatus)
 
 ## Installation
 
@@ -255,8 +256,8 @@ test('passes when response have status code 300', async () => {
     expect(response).toHave3xxStatus();
 });
 
-test('passes when using .not.toHave3xxStatus() for 404', async () => {
-    const response = await axios.get('https://missing-website.com');
+test('passes when using .not.toHave3xxStatus() for 200', async () => {
+    const response = await axios.get('http://example.com');
     expect(response).not.toHave3xxStatus();
 });
 ```
@@ -277,7 +278,21 @@ test('passes when using .not.toHave4xxStatus() for 200', async () => {
 });
 ```
 
+#### .toHave5xxStatus()
 
+Use `.toHave5xxStatus` when checking if Axios response status code is between 500 and 599 (included)
+
+```js
+test('passes when response have status code 500', async () => {
+    const response = await axios.get('https://httpstat.us/500');
+    expect(response).toHave5xxStatus();
+});
+
+test('passes when using .not.toHave4xxStatus() for 200', async () => {
+    const response = await axios.get('http://example.com');
+    expect(response).not.toHave5xxStatus();
+});
+```
 
 ## LICENSE
 
