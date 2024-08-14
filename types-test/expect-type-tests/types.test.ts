@@ -11,6 +11,9 @@ async function run() {
 
   expect(req).toHave2xxStatus();
   expect(req).not.toHave2xxStatus();
+
+  expect(req).toHave3xxStatus();
+  expect(req).not.toHave3xxStatus();
 }
 
 run();
