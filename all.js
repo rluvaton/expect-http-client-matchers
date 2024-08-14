@@ -1,4 +1,4 @@
-const matchers = require('./index');
+const matchers = require('./src');
 
 const globalExpect = global.expect;
 if (globalExpect !== undefined) {
