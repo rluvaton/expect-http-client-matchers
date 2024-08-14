@@ -22,6 +22,7 @@ Additional expect matchers for axios, supports `jest`, `vitest`, `expect`.
     - [.toBeSuccessful()](#tobesuccessful)
     - [.toHave2xxStatus()](#tohave2xxstatus)
     - [.toHave3xxStatus()](#tohave3xxstatus)
+    - [.toHave4xxStatus()](#tohave4xxstatus)
 
 ## Installation
 
@@ -259,6 +260,23 @@ test('passes when using .not.toHave3xxStatus() for 404', async () => {
     expect(response).not.toHave3xxStatus();
 });
 ```
+
+#### .toHave4xxStatus()
+
+Use `.toHave4xxStatus` when checking if Axios response status code is between 400 and 499 (included)
+
+```js
+test('passes when response have status code 400', async () => {
+    const response = await axios.get('https://httpstat.us/400');
+    expect(response).toHave4xxStatus();
+});
+
+test('passes when using .not.toHave4xxStatus() for 200', async () => {
+    const response = await axios.get('http://example.com');
+    expect(response).not.toHave4xxStatus();
+});
+```
+
 
 
 ## LICENSE

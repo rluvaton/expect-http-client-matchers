@@ -13,6 +13,11 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * Use .toHave3xxStatus when checking if Axios response status code is between 300 and 399 included
    */
   toHave3xxStatus(): R;
+
+  /**
+   * Use .toHave4xxStatus when checking if Axios response status code is between 400 and 499 included
+   */
+  toHave4xxStatus(): R;
 }
 
 // noinspection JSUnusedGlobalSymbols
@@ -31,4 +36,9 @@ export interface SharedMatchers<R> {
    * Use .toHave3xxStatus when checking if Axios response status code is between 300 and 399 included
    */
   toHave3xxStatus(): R;
+
+  /**
+   * Use .toHave4xxStatus when checking if Axios response status code is between 400 and 499 included
+   */
+  toHave4xxStatus(): R;
 }
