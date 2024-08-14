@@ -13,11 +13,10 @@ function getAxiosDebuggingInfo(response) {
 }
 /**
  *
- * @param {import('expect').MatcherUtils} matcherUtils
  * @param {import('axios').AxiosResponse} response
  * @return {string}
  */
-function printAxiosDebugInfo(matcherUtils, response) {
+function printAxiosDebugInfo(response) {
   return `axios response is:\n` + JSON.stringify(getAxiosDebuggingInfo(response), null, 2);
 }
 

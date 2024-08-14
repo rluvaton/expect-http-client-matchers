@@ -18,12 +18,12 @@ function toBeSuccessful(expected) {
           '\n\n' +
           'Expected status code to not be successful received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(this, expected)
+          printAxiosDebugInfo(expected)
         : matcherHint('.toBeSuccessful', 'received', '') +
           '\n\n' +
           'Expected status code to be successful received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(this, expected),
+          printAxiosDebugInfo(expected),
   };
 }
 

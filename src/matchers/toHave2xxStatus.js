@@ -18,12 +18,12 @@ function toHave2xxStatus(expected) {
           '\n\n' +
           'Expected status code to not be between 200 and 299 received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(this, expected)
+          printAxiosDebugInfo(expected)
         : matcherHint('.toHave2xxStatus', 'received', '') +
           '\n\n' +
           'Expected status code to be between 200 and 299 received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(this, expected),
+          printAxiosDebugInfo(expected),
   };
 }
 
