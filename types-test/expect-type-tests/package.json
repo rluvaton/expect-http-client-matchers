@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tsc --noEmit types.test.ts"
+    "test": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "expect-axios-matchers": "../../"
+  },
   "devDependencies": {
     "expect": "^29.7.0",
     "typescript": "^5.5.4"
