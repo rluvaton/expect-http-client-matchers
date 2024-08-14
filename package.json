@@ -9,8 +9,8 @@
   "scripts": {
     "prepare": "husky install",
     "test": "concurrently -n w: npm:test:*",
-    "test:unit": "node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test",
-    "unit:test:update-snapshot": "node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test-update-snapshots --test",
+    "test:unit": "FORCE_COLOR=true node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test",
+    "unit:test:update-snapshot": "FORCE_COLOR=true node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test-update-snapshots --test",
     "test:types:expect": "( cd types-test/expect-type-tests && npm test )",
     "test:types:jest:all": "( cd types-test/jest-all-type-tests && npm test )",
     "test:types:jest:partial": "( cd types-test/jest-partial-type-tests && npm test )",
