@@ -8,5 +8,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "files": ["types.test.ts", "global.d.ts"]
+  "files": ["setup.ts", "types.test.ts"]
 }

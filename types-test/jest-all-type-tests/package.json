@@ -1,9 +1,9 @@
 {
-  "name": "jest-type-tests",
+  "name": "jest-all-type-tests",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tsc --noEmit types.test.ts"
+    "test": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

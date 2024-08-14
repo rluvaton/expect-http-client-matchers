@@ -1,7 +1,3 @@
-/// <reference types="expect-axios-matchers/types/jest" />
-
-import 'expect-axios-matchers';
-
 import axios from 'axios';
 
 async function run() {
