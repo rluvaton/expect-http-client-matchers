@@ -8,7 +8,8 @@
   "typings": "types/index.d.ts",
   "scripts": {
     "prepare": "husky install",
-    "test": "node --test",
+    "test": "node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test",
+    "test:update-snapshot": "node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test-update-snapshots --test",
     "check": "npx @biomejs/biome check",
     "check:fix": "npx @biomejs/biome check --write",
     "semantic-release": "semantic-release"
@@ -21,7 +22,9 @@
     "@types/node": "^20",
     "axios": "^1.7.3",
     "expect": "^29.7.0",
+    "fastify": "^4.28.1",
     "husky": "^8.0.3",
+    "pretty-ansi": "^2.0.0",
     "semantic-release": "^19.0.5"
   },
   "peerDependencies": {
