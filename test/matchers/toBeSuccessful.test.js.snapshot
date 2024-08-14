@@ -1,7 +1,1905 @@
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 300 1`] = `
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 200 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>200</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 201 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>201</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 201,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 202 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>202</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 202,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 203 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>203</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 203,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 204 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>204</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 204,
+  "headers": {
+    "connection": "keep-alive"
+  },
+  "body": ""
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 205 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>205</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 205,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 206 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>206</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 206,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 207 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>207</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 207,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 208 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>208</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 208,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 209 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>209</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 209,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 210 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>210</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 210,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 211 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>211</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 211,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 212 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>212</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 212,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 213 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>213</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 213,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 214 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>214</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 214,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 215 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>215</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 215,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 216 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>216</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 216,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 217 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>217</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 217,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 218 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>218</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 218,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 219 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>219</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 219,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 220 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>220</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 220,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 221 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>221</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 221,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 222 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>222</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 222,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 223 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>223</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 223,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 224 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>224</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 224,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 225 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>225</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 225,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 226 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>226</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 226,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 227 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>227</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 227,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 228 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>228</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 228,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 229 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>229</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 229,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 230 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>230</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 230,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 231 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>231</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 231,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 232 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>232</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 232,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 233 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>233</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 233,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 234 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>234</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 234,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 235 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>235</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 235,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 236 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>236</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 236,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 237 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>237</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 237,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 238 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>238</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 238,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 239 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>239</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 239,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 240 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>240</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 240,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 241 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>241</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 241,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 242 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>242</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 242,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 243 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>243</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 243,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 244 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>244</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 244,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 245 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>245</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 245,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 246 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>246</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 246,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 247 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>247</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 247,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 248 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>248</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 248,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 249 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>249</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 249,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 250 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>250</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 250,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 251 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>251</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 251,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 252 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>252</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 252,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 253 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>253</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 253,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 254 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>254</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 254,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 255 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>255</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 255,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 256 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>256</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 256,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 257 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>257</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 257,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 258 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>258</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 258,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 259 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>259</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 259,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 260 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>260</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 260,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 261 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>261</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 261,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 262 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>262</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 262,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 263 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>263</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 263,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 264 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>264</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 264,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 265 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>265</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 265,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 266 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>266</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 266,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 267 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>267</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 267,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 268 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>268</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 268,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 269 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>269</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 269,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 270 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>270</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 270,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 271 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>271</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 271,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 272 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>272</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 272,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 273 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>273</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 273,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 274 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>274</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 274,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 275 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>275</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 275,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 276 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>276</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 276,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 277 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>277</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 277,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 278 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>278</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 278,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 279 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>279</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 279,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 280 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>280</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 280,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 281 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>281</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 281,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 282 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>282</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 282,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 283 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>283</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 283,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 284 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>284</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 284,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 285 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>285</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 285,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 286 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>286</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 286,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 287 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>287</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 287,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 288 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>288</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 288,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 289 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>289</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 289,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 290 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>290</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 290,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 291 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>291</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 291,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 292 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>292</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 292,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 293 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>293</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 293,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 294 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>294</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 294,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 295 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>295</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 295,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 296 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>296</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 296,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 297 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>297</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 297,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 298 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>298</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 298,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 299 1`] = `
+<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+
+Expected status code to not be successful received:
+  <red>299</color>
+
+axios response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 299,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 300 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>300</color>
 
 axios response is:
@@ -17,10 +1915,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 301 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 301 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>301</color>
 
 axios response is:
@@ -36,10 +1934,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 302 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 302 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>302</color>
 
 axios response is:
@@ -55,10 +1953,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 303 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 303 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>303</color>
 
 axios response is:
@@ -74,10 +1972,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 304 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 304 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>304</color>
 
 axios response is:
@@ -93,10 +1991,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 305 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 305 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>305</color>
 
 axios response is:
@@ -112,10 +2010,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 306 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 306 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>306</color>
 
 axios response is:
@@ -131,10 +2029,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 307 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 307 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>307</color>
 
 axios response is:
@@ -150,10 +2048,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 308 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 308 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>308</color>
 
 axios response is:
@@ -169,10 +2067,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 309 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 309 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>309</color>
 
 axios response is:
@@ -188,10 +2086,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 310 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 310 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>310</color>
 
 axios response is:
@@ -207,10 +2105,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 311 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 311 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>311</color>
 
 axios response is:
@@ -226,10 +2124,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 312 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 312 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>312</color>
 
 axios response is:
@@ -245,10 +2143,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 313 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 313 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>313</color>
 
 axios response is:
@@ -264,10 +2162,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 314 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 314 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>314</color>
 
 axios response is:
@@ -283,10 +2181,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 315 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 315 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>315</color>
 
 axios response is:
@@ -302,10 +2200,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 316 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 316 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>316</color>
 
 axios response is:
@@ -321,10 +2219,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 317 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 317 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>317</color>
 
 axios response is:
@@ -340,10 +2238,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 318 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 318 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>318</color>
 
 axios response is:
@@ -359,10 +2257,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 319 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 319 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>319</color>
 
 axios response is:
@@ -378,10 +2276,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 320 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 320 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>320</color>
 
 axios response is:
@@ -397,10 +2295,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 321 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 321 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>321</color>
 
 axios response is:
@@ -416,10 +2314,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 322 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 322 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>322</color>
 
 axios response is:
@@ -435,10 +2333,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 323 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 323 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>323</color>
 
 axios response is:
@@ -454,10 +2352,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 324 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 324 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>324</color>
 
 axios response is:
@@ -473,10 +2371,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 325 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 325 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>325</color>
 
 axios response is:
@@ -492,10 +2390,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 326 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 326 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>326</color>
 
 axios response is:
@@ -511,10 +2409,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 327 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 327 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>327</color>
 
 axios response is:
@@ -530,10 +2428,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 328 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 328 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>328</color>
 
 axios response is:
@@ -549,10 +2447,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 329 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 329 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>329</color>
 
 axios response is:
@@ -568,10 +2466,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 330 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 330 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>330</color>
 
 axios response is:
@@ -587,10 +2485,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 331 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 331 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>331</color>
 
 axios response is:
@@ -606,10 +2504,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 332 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 332 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>332</color>
 
 axios response is:
@@ -625,10 +2523,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 333 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 333 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>333</color>
 
 axios response is:
@@ -644,10 +2542,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 334 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 334 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>334</color>
 
 axios response is:
@@ -663,10 +2561,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 335 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 335 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>335</color>
 
 axios response is:
@@ -682,10 +2580,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 336 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 336 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>336</color>
 
 axios response is:
@@ -701,10 +2599,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 337 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 337 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>337</color>
 
 axios response is:
@@ -720,10 +2618,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 338 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 338 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>338</color>
 
 axios response is:
@@ -739,10 +2637,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 339 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 339 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>339</color>
 
 axios response is:
@@ -758,10 +2656,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 340 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 340 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>340</color>
 
 axios response is:
@@ -777,10 +2675,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 341 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 341 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>341</color>
 
 axios response is:
@@ -796,10 +2694,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 342 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 342 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>342</color>
 
 axios response is:
@@ -815,10 +2713,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 343 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 343 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>343</color>
 
 axios response is:
@@ -834,10 +2732,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 344 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 344 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>344</color>
 
 axios response is:
@@ -853,10 +2751,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 345 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 345 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>345</color>
 
 axios response is:
@@ -872,10 +2770,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 346 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 346 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>346</color>
 
 axios response is:
@@ -891,10 +2789,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 347 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 347 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>347</color>
 
 axios response is:
@@ -910,10 +2808,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 348 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 348 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>348</color>
 
 axios response is:
@@ -929,10 +2827,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 349 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 349 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>349</color>
 
 axios response is:
@@ -948,10 +2846,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 350 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 350 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>350</color>
 
 axios response is:
@@ -967,10 +2865,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 351 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 351 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>351</color>
 
 axios response is:
@@ -986,10 +2884,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 352 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 352 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>352</color>
 
 axios response is:
@@ -1005,10 +2903,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 353 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 353 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>353</color>
 
 axios response is:
@@ -1024,10 +2922,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 354 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 354 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>354</color>
 
 axios response is:
@@ -1043,10 +2941,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 355 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 355 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>355</color>
 
 axios response is:
@@ -1062,10 +2960,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 356 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 356 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>356</color>
 
 axios response is:
@@ -1081,10 +2979,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 357 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 357 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>357</color>
 
 axios response is:
@@ -1100,10 +2998,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 358 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 358 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>358</color>
 
 axios response is:
@@ -1119,10 +3017,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 359 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 359 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>359</color>
 
 axios response is:
@@ -1138,10 +3036,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 360 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 360 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>360</color>
 
 axios response is:
@@ -1157,10 +3055,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 361 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 361 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>361</color>
 
 axios response is:
@@ -1176,10 +3074,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 362 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 362 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>362</color>
 
 axios response is:
@@ -1195,10 +3093,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 363 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 363 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>363</color>
 
 axios response is:
@@ -1214,10 +3112,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 364 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 364 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>364</color>
 
 axios response is:
@@ -1233,10 +3131,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 365 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 365 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>365</color>
 
 axios response is:
@@ -1252,10 +3150,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 366 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 366 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>366</color>
 
 axios response is:
@@ -1271,10 +3169,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 367 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 367 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>367</color>
 
 axios response is:
@@ -1290,10 +3188,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 368 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 368 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>368</color>
 
 axios response is:
@@ -1309,10 +3207,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 369 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 369 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>369</color>
 
 axios response is:
@@ -1328,10 +3226,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 370 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 370 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>370</color>
 
 axios response is:
@@ -1347,10 +3245,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 371 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 371 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>371</color>
 
 axios response is:
@@ -1366,10 +3264,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 372 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 372 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>372</color>
 
 axios response is:
@@ -1385,10 +3283,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 373 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 373 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>373</color>
 
 axios response is:
@@ -1404,10 +3302,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 374 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 374 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>374</color>
 
 axios response is:
@@ -1423,10 +3321,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 375 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 375 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>375</color>
 
 axios response is:
@@ -1442,10 +3340,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 376 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 376 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>376</color>
 
 axios response is:
@@ -1461,10 +3359,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 377 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 377 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>377</color>
 
 axios response is:
@@ -1480,10 +3378,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 378 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 378 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>378</color>
 
 axios response is:
@@ -1499,10 +3397,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 379 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 379 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>379</color>
 
 axios response is:
@@ -1518,10 +3416,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 380 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 380 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>380</color>
 
 axios response is:
@@ -1537,10 +3435,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 381 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 381 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>381</color>
 
 axios response is:
@@ -1556,10 +3454,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 382 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 382 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>382</color>
 
 axios response is:
@@ -1575,10 +3473,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 383 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 383 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>383</color>
 
 axios response is:
@@ -1594,10 +3492,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 384 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 384 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>384</color>
 
 axios response is:
@@ -1613,10 +3511,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 385 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 385 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>385</color>
 
 axios response is:
@@ -1632,10 +3530,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 386 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 386 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>386</color>
 
 axios response is:
@@ -1651,10 +3549,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 387 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 387 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>387</color>
 
 axios response is:
@@ -1670,10 +3568,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 388 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 388 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>388</color>
 
 axios response is:
@@ -1689,10 +3587,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 389 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 389 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>389</color>
 
 axios response is:
@@ -1708,10 +3606,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 390 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 390 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>390</color>
 
 axios response is:
@@ -1727,10 +3625,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 391 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 391 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>391</color>
 
 axios response is:
@@ -1746,10 +3644,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 392 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 392 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>392</color>
 
 axios response is:
@@ -1765,10 +3663,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 393 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 393 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>393</color>
 
 axios response is:
@@ -1784,10 +3682,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 394 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 394 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>394</color>
 
 axios response is:
@@ -1803,10 +3701,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 395 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 395 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>395</color>
 
 axios response is:
@@ -1822,10 +3720,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 396 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 396 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>396</color>
 
 axios response is:
@@ -1841,10 +3739,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 397 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 397 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>397</color>
 
 axios response is:
@@ -1860,10 +3758,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 398 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 398 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>398</color>
 
 axios response is:
@@ -1879,10 +3777,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 399 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 399 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>399</color>
 
 axios response is:
@@ -1898,10 +3796,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 400 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 400 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>400</color>
 
 axios response is:
@@ -1917,10 +3815,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 401 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 401 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>401</color>
 
 axios response is:
@@ -1936,10 +3834,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 402 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 402 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>402</color>
 
 axios response is:
@@ -1955,10 +3853,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 403 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 403 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>403</color>
 
 axios response is:
@@ -1974,10 +3872,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 404 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 404 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>404</color>
 
 axios response is:
@@ -1993,10 +3891,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 405 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 405 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>405</color>
 
 axios response is:
@@ -2012,10 +3910,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 406 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 406 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>406</color>
 
 axios response is:
@@ -2031,10 +3929,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 407 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 407 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>407</color>
 
 axios response is:
@@ -2050,10 +3948,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 408 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 408 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>408</color>
 
 axios response is:
@@ -2069,10 +3967,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 409 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 409 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>409</color>
 
 axios response is:
@@ -2088,10 +3986,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 410 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 410 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>410</color>
 
 axios response is:
@@ -2107,10 +4005,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 411 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 411 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>411</color>
 
 axios response is:
@@ -2126,10 +4024,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 412 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 412 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>412</color>
 
 axios response is:
@@ -2145,10 +4043,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 413 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 413 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>413</color>
 
 axios response is:
@@ -2164,10 +4062,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 414 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 414 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>414</color>
 
 axios response is:
@@ -2183,10 +4081,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 415 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 415 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>415</color>
 
 axios response is:
@@ -2202,10 +4100,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 416 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 416 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>416</color>
 
 axios response is:
@@ -2221,10 +4119,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 417 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 417 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>417</color>
 
 axios response is:
@@ -2240,10 +4138,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 418 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 418 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>418</color>
 
 axios response is:
@@ -2259,10 +4157,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 419 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 419 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>419</color>
 
 axios response is:
@@ -2278,10 +4176,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 420 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 420 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>420</color>
 
 axios response is:
@@ -2297,10 +4195,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 421 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 421 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>421</color>
 
 axios response is:
@@ -2316,10 +4214,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 422 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 422 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>422</color>
 
 axios response is:
@@ -2335,10 +4233,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 423 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 423 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>423</color>
 
 axios response is:
@@ -2354,10 +4252,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 424 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 424 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>424</color>
 
 axios response is:
@@ -2373,10 +4271,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 425 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 425 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>425</color>
 
 axios response is:
@@ -2392,10 +4290,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 426 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 426 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>426</color>
 
 axios response is:
@@ -2411,10 +4309,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 427 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 427 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>427</color>
 
 axios response is:
@@ -2430,10 +4328,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 428 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 428 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>428</color>
 
 axios response is:
@@ -2449,10 +4347,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 429 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 429 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>429</color>
 
 axios response is:
@@ -2468,10 +4366,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 430 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 430 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>430</color>
 
 axios response is:
@@ -2487,10 +4385,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 431 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 431 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>431</color>
 
 axios response is:
@@ -2506,10 +4404,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 432 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 432 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>432</color>
 
 axios response is:
@@ -2525,10 +4423,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 433 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 433 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>433</color>
 
 axios response is:
@@ -2544,10 +4442,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 434 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 434 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>434</color>
 
 axios response is:
@@ -2563,10 +4461,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 435 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 435 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>435</color>
 
 axios response is:
@@ -2582,10 +4480,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 436 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 436 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>436</color>
 
 axios response is:
@@ -2601,10 +4499,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 437 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 437 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>437</color>
 
 axios response is:
@@ -2620,10 +4518,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 438 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 438 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>438</color>
 
 axios response is:
@@ -2639,10 +4537,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 439 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 439 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>439</color>
 
 axios response is:
@@ -2658,10 +4556,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 440 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 440 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>440</color>
 
 axios response is:
@@ -2677,10 +4575,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 441 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 441 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>441</color>
 
 axios response is:
@@ -2696,10 +4594,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 442 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 442 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>442</color>
 
 axios response is:
@@ -2715,10 +4613,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 443 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 443 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>443</color>
 
 axios response is:
@@ -2734,10 +4632,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 444 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 444 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>444</color>
 
 axios response is:
@@ -2753,10 +4651,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 445 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 445 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>445</color>
 
 axios response is:
@@ -2772,10 +4670,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 446 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 446 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>446</color>
 
 axios response is:
@@ -2791,10 +4689,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 447 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 447 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>447</color>
 
 axios response is:
@@ -2810,10 +4708,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 448 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 448 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>448</color>
 
 axios response is:
@@ -2829,10 +4727,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 449 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 449 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>449</color>
 
 axios response is:
@@ -2848,10 +4746,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 450 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 450 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>450</color>
 
 axios response is:
@@ -2867,10 +4765,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 451 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 451 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>451</color>
 
 axios response is:
@@ -2886,10 +4784,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 452 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 452 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>452</color>
 
 axios response is:
@@ -2905,10 +4803,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 453 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 453 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>453</color>
 
 axios response is:
@@ -2924,10 +4822,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 454 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 454 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>454</color>
 
 axios response is:
@@ -2943,10 +4841,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 455 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 455 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>455</color>
 
 axios response is:
@@ -2962,10 +4860,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 456 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 456 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>456</color>
 
 axios response is:
@@ -2981,10 +4879,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 457 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 457 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>457</color>
 
 axios response is:
@@ -3000,10 +4898,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 458 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 458 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>458</color>
 
 axios response is:
@@ -3019,10 +4917,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 459 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 459 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>459</color>
 
 axios response is:
@@ -3038,10 +4936,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 460 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 460 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>460</color>
 
 axios response is:
@@ -3057,10 +4955,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 461 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 461 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>461</color>
 
 axios response is:
@@ -3076,10 +4974,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 462 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 462 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>462</color>
 
 axios response is:
@@ -3095,10 +4993,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 463 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 463 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>463</color>
 
 axios response is:
@@ -3114,10 +5012,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 464 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 464 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>464</color>
 
 axios response is:
@@ -3133,10 +5031,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 465 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 465 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>465</color>
 
 axios response is:
@@ -3152,10 +5050,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 466 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 466 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>466</color>
 
 axios response is:
@@ -3171,10 +5069,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 467 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 467 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>467</color>
 
 axios response is:
@@ -3190,10 +5088,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 468 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 468 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>468</color>
 
 axios response is:
@@ -3209,10 +5107,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 469 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 469 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>469</color>
 
 axios response is:
@@ -3228,10 +5126,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 470 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 470 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>470</color>
 
 axios response is:
@@ -3247,10 +5145,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 471 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 471 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>471</color>
 
 axios response is:
@@ -3266,10 +5164,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 472 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 472 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>472</color>
 
 axios response is:
@@ -3285,10 +5183,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 473 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 473 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>473</color>
 
 axios response is:
@@ -3304,10 +5202,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 474 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 474 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>474</color>
 
 axios response is:
@@ -3323,10 +5221,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 475 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 475 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>475</color>
 
 axios response is:
@@ -3342,10 +5240,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 476 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 476 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>476</color>
 
 axios response is:
@@ -3361,10 +5259,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 477 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 477 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>477</color>
 
 axios response is:
@@ -3380,10 +5278,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 478 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 478 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>478</color>
 
 axios response is:
@@ -3399,10 +5297,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 479 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 479 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>479</color>
 
 axios response is:
@@ -3418,10 +5316,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 480 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 480 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>480</color>
 
 axios response is:
@@ -3437,10 +5335,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 481 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 481 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>481</color>
 
 axios response is:
@@ -3456,10 +5354,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 482 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 482 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>482</color>
 
 axios response is:
@@ -3475,10 +5373,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 483 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 483 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>483</color>
 
 axios response is:
@@ -3494,10 +5392,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 484 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 484 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>484</color>
 
 axios response is:
@@ -3513,10 +5411,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 485 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 485 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>485</color>
 
 axios response is:
@@ -3532,10 +5430,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 486 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 486 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>486</color>
 
 axios response is:
@@ -3551,10 +5449,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 487 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 487 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>487</color>
 
 axios response is:
@@ -3570,10 +5468,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 488 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 488 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>488</color>
 
 axios response is:
@@ -3589,10 +5487,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 489 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 489 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>489</color>
 
 axios response is:
@@ -3608,10 +5506,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 490 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 490 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>490</color>
 
 axios response is:
@@ -3627,10 +5525,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 491 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 491 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>491</color>
 
 axios response is:
@@ -3646,10 +5544,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 492 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 492 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>492</color>
 
 axios response is:
@@ -3665,10 +5563,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 493 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 493 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>493</color>
 
 axios response is:
@@ -3684,10 +5582,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 494 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 494 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>494</color>
 
 axios response is:
@@ -3703,10 +5601,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 495 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 495 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>495</color>
 
 axios response is:
@@ -3722,10 +5620,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 496 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 496 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>496</color>
 
 axios response is:
@@ -3741,10 +5639,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 497 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 497 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>497</color>
 
 axios response is:
@@ -3760,10 +5658,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 498 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 498 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>498</color>
 
 axios response is:
@@ -3779,10 +5677,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 499 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 499 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>499</color>
 
 axios response is:
@@ -3798,10 +5696,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 500 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 500 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>500</color>
 
 axios response is:
@@ -3817,10 +5715,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 501 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 501 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>501</color>
 
 axios response is:
@@ -3836,10 +5734,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 502 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 502 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>502</color>
 
 axios response is:
@@ -3855,10 +5753,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 503 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 503 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>503</color>
 
 axios response is:
@@ -3874,10 +5772,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 504 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 504 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>504</color>
 
 axios response is:
@@ -3893,10 +5791,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 505 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 505 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>505</color>
 
 axios response is:
@@ -3912,10 +5810,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 506 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 506 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>506</color>
 
 axios response is:
@@ -3931,10 +5829,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 507 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 507 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>507</color>
 
 axios response is:
@@ -3950,10 +5848,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 508 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 508 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>508</color>
 
 axios response is:
@@ -3969,10 +5867,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 509 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 509 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>509</color>
 
 axios response is:
@@ -3988,10 +5886,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 510 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 510 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>510</color>
 
 axios response is:
@@ -4007,10 +5905,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 511 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 511 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>511</color>
 
 axios response is:
@@ -4026,10 +5924,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 512 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 512 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>512</color>
 
 axios response is:
@@ -4045,10 +5943,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 513 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 513 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>513</color>
 
 axios response is:
@@ -4064,10 +5962,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 514 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 514 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>514</color>
 
 axios response is:
@@ -4083,10 +5981,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 515 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 515 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>515</color>
 
 axios response is:
@@ -4102,10 +6000,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 516 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 516 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>516</color>
 
 axios response is:
@@ -4121,10 +6019,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 517 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 517 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>517</color>
 
 axios response is:
@@ -4140,10 +6038,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 518 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 518 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>518</color>
 
 axios response is:
@@ -4159,10 +6057,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 519 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 519 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>519</color>
 
 axios response is:
@@ -4178,10 +6076,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 520 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 520 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>520</color>
 
 axios response is:
@@ -4197,10 +6095,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 521 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 521 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>521</color>
 
 axios response is:
@@ -4216,10 +6114,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 522 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 522 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>522</color>
 
 axios response is:
@@ -4235,10 +6133,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 523 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 523 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>523</color>
 
 axios response is:
@@ -4254,10 +6152,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 524 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 524 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>524</color>
 
 axios response is:
@@ -4273,10 +6171,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 525 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 525 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>525</color>
 
 axios response is:
@@ -4292,10 +6190,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 526 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 526 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>526</color>
 
 axios response is:
@@ -4311,10 +6209,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 527 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 527 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>527</color>
 
 axios response is:
@@ -4330,10 +6228,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 528 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 528 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>528</color>
 
 axios response is:
@@ -4349,10 +6247,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 529 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 529 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>529</color>
 
 axios response is:
@@ -4368,10 +6266,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 530 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 530 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>530</color>
 
 axios response is:
@@ -4387,10 +6285,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 531 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 531 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>531</color>
 
 axios response is:
@@ -4406,10 +6304,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 532 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 532 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>532</color>
 
 axios response is:
@@ -4425,10 +6323,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 533 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 533 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>533</color>
 
 axios response is:
@@ -4444,10 +6342,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 534 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 534 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>534</color>
 
 axios response is:
@@ -4463,10 +6361,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 535 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 535 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>535</color>
 
 axios response is:
@@ -4482,10 +6380,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 536 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 536 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>536</color>
 
 axios response is:
@@ -4501,10 +6399,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 537 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 537 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>537</color>
 
 axios response is:
@@ -4520,10 +6418,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 538 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 538 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>538</color>
 
 axios response is:
@@ -4539,10 +6437,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 539 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 539 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>539</color>
 
 axios response is:
@@ -4558,10 +6456,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 540 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 540 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>540</color>
 
 axios response is:
@@ -4577,10 +6475,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 541 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 541 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>541</color>
 
 axios response is:
@@ -4596,10 +6494,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 542 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 542 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>542</color>
 
 axios response is:
@@ -4615,10 +6513,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 543 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 543 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>543</color>
 
 axios response is:
@@ -4634,10 +6532,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 544 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 544 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>544</color>
 
 axios response is:
@@ -4653,10 +6551,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 545 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 545 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>545</color>
 
 axios response is:
@@ -4672,10 +6570,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 546 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 546 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>546</color>
 
 axios response is:
@@ -4691,10 +6589,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 547 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 547 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>547</color>
 
 axios response is:
@@ -4710,10 +6608,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 548 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 548 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>548</color>
 
 axios response is:
@@ -4729,10 +6627,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 549 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 549 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>549</color>
 
 axios response is:
@@ -4748,10 +6646,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 550 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 550 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>550</color>
 
 axios response is:
@@ -4767,10 +6665,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 551 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 551 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>551</color>
 
 axios response is:
@@ -4786,10 +6684,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 552 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 552 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>552</color>
 
 axios response is:
@@ -4805,10 +6703,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 553 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 553 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>553</color>
 
 axios response is:
@@ -4824,10 +6722,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 554 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 554 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>554</color>
 
 axios response is:
@@ -4843,10 +6741,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 555 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 555 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>555</color>
 
 axios response is:
@@ -4862,10 +6760,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 556 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 556 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>556</color>
 
 axios response is:
@@ -4881,10 +6779,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 557 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 557 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>557</color>
 
 axios response is:
@@ -4900,10 +6798,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 558 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 558 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>558</color>
 
 axios response is:
@@ -4919,10 +6817,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 559 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 559 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>559</color>
 
 axios response is:
@@ -4938,10 +6836,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 560 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 560 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>560</color>
 
 axios response is:
@@ -4957,10 +6855,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 561 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 561 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>561</color>
 
 axios response is:
@@ -4976,10 +6874,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 562 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 562 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>562</color>
 
 axios response is:
@@ -4995,10 +6893,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 563 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 563 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>563</color>
 
 axios response is:
@@ -5014,10 +6912,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 564 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 564 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>564</color>
 
 axios response is:
@@ -5033,10 +6931,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 565 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 565 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>565</color>
 
 axios response is:
@@ -5052,10 +6950,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 566 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 566 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>566</color>
 
 axios response is:
@@ -5071,10 +6969,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 567 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 567 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>567</color>
 
 axios response is:
@@ -5090,10 +6988,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 568 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 568 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>568</color>
 
 axios response is:
@@ -5109,10 +7007,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 569 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 569 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>569</color>
 
 axios response is:
@@ -5128,10 +7026,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 570 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 570 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>570</color>
 
 axios response is:
@@ -5147,10 +7045,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 571 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 571 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>571</color>
 
 axios response is:
@@ -5166,10 +7064,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 572 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 572 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>572</color>
 
 axios response is:
@@ -5185,10 +7083,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 573 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 573 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>573</color>
 
 axios response is:
@@ -5204,10 +7102,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 574 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 574 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>574</color>
 
 axios response is:
@@ -5223,10 +7121,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 575 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 575 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>575</color>
 
 axios response is:
@@ -5242,10 +7140,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 576 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 576 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>576</color>
 
 axios response is:
@@ -5261,10 +7159,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 577 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 577 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>577</color>
 
 axios response is:
@@ -5280,10 +7178,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 578 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 578 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>578</color>
 
 axios response is:
@@ -5299,10 +7197,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 579 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 579 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>579</color>
 
 axios response is:
@@ -5318,10 +7216,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 580 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 580 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>580</color>
 
 axios response is:
@@ -5337,10 +7235,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 581 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 581 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>581</color>
 
 axios response is:
@@ -5356,10 +7254,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 582 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 582 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>582</color>
 
 axios response is:
@@ -5375,10 +7273,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 583 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 583 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>583</color>
 
 axios response is:
@@ -5394,10 +7292,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 584 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 584 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>584</color>
 
 axios response is:
@@ -5413,10 +7311,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 585 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 585 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>585</color>
 
 axios response is:
@@ -5432,10 +7330,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 586 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 586 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>586</color>
 
 axios response is:
@@ -5451,10 +7349,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 587 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 587 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>587</color>
 
 axios response is:
@@ -5470,10 +7368,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 588 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 588 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>588</color>
 
 axios response is:
@@ -5489,10 +7387,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 589 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 589 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>589</color>
 
 axios response is:
@@ -5508,10 +7406,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 590 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 590 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>590</color>
 
 axios response is:
@@ -5527,10 +7425,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 591 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 591 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>591</color>
 
 axios response is:
@@ -5546,10 +7444,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 592 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 592 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>592</color>
 
 axios response is:
@@ -5565,10 +7463,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 593 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 593 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>593</color>
 
 axios response is:
@@ -5584,10 +7482,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 594 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 594 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>594</color>
 
 axios response is:
@@ -5603,10 +7501,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 595 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 595 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>595</color>
 
 axios response is:
@@ -5622,10 +7520,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 596 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 596 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>596</color>
 
 axios response is:
@@ -5641,10 +7539,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 597 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 597 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>597</color>
 
 axios response is:
@@ -5660,10 +7558,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 598 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 598 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>598</color>
 
 axios response is:
@@ -5679,10 +7577,10 @@ axios response is:
 }
 `;
 
-exports[`to be successful matcher > status 300 to 599 > fails when response have status code 599 1`] = `
+exports[`matcher > .toBeSuccessful > status 300 to 599 > fails when response have status code 599 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toBeSuccessful()</intensity>
 
-Expected value to be successful received:
+Expected status code to be successful received:
   <red>599</color>
 
 axios response is:

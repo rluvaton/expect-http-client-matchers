@@ -16,12 +16,12 @@ function toBeSuccessful(expected) {
       pass
         ? matcherHint('not.toBeSuccessful', 'received', '') +
           '\n\n' +
-          'Expected value to not be successful received:\n' +
+          'Expected status code to not be successful received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
           printAxiosDebugInfo(this, expected)
         : matcherHint('.toBeSuccessful', 'received', '') +
           '\n\n' +
-          'Expected value to be successful received:\n' +
+          'Expected status code to be successful received:\n' +
           `  ${printReceived(expected.status)}\n\n` +
           printAxiosDebugInfo(this, expected),
   };
