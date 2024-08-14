@@ -1,5 +1,4 @@
-function sum(a, b) {
-  return a + b;
-}
+const { toBeSuccessful } = require('./matchers/toBeSuccessful');
+const { toHave2xxStatus } = require('./matchers/toHave2xxStatus');
 
-module.exports = { sum };
+module.exports = { toBeSuccessful, toHave2xxStatus };

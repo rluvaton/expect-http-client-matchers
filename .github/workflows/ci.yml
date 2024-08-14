@@ -11,7 +11,7 @@ jobs:
       - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 22
           registry-url: https://registry.npmjs.org
 
       - name: Log Environment
@@ -22,6 +22,14 @@ jobs:
 
       - name: Install Dependencies
         run: npm i
+
+      - name: Install types-tests dependencies
+        run: |
+          ( cd types-test/expect-type-tests ; npm i )
+          ( cd types-test/jest-all-type-tests ; npm i )
+          ( cd types-test/jest-partial-type-tests ; npm i )
+          ( cd types-test/vitest-all-type-tests ; npm i )
+          ( cd types-test/vitest-partial-type-tests ; npm i )
 
       - name: Format & Lint
         run: npm run check
