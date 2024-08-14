@@ -1,4 +1,6 @@
-// The same as all-jest
+// ---------
+// IF UPDATING HERE, PLEASE UPDATE IN vitest.d.ts AS WELL
+// ---------
 
 // biome-ignore lint/style/noNamespace: jest-extended do this
 declare namespace jest {
