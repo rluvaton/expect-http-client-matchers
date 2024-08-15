@@ -288,7 +288,7 @@ test('passes when response have status code 500', async () => {
     expect(response).toHave5xxStatus();
 });
 
-test('passes when using .not.toHave4xxStatus() for 200', async () => {
+test('passes when using .not.toHave5xxStatus() for 200', async () => {
     const response = await axios.get('http://example.com');
     expect(response).not.toHave5xxStatus();
 });

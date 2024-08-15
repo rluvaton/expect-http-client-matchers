@@ -17,7 +17,7 @@ describe('matcher', () => {
     await buildServer();
   });
 
-  describe('.toHave3xxStatus', () => {
+  describe('.toHave4xxStatus', () => {
     test('passes when given a 4xx status code', async () => {
       for (let i = 400; i <= 499; i++) {
         const response = await axios.post(
@@ -54,7 +54,7 @@ describe('matcher', () => {
     });
   });
 
-  describe('.not.toHave2xxStatus', () => {
+  describe('.not.toHave4xxStatus', () => {
     test('passes when given status code not in range 400 to 499', async () => {
       for (let status = 200; status <= 599; status++) {
         if (status === 400) status = 500;

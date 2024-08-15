@@ -54,7 +54,7 @@ describe('matcher', () => {
     });
   });
 
-  describe('.not.toHave2xxStatus', () => {
+  describe('.not.toHave3xxStatus', () => {
     test('passes when given status code not in range 300 to 399', async () => {
       for (let status = 200; status <= 599; status++) {
         if (status === 300) status = 400;

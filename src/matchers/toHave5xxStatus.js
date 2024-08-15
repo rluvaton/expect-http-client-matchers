@@ -1,7 +1,7 @@
 const { printAxiosDebugInfo } = require('../utils/axios-debugging-info');
 
 /**
- * this matcher expects axios response to have 2xx status.
+ * this matcher expects axios response to have 5xx status.
  * @param {import('axios').AxiosResponse} expected
  * @returns {{pass: boolean, message: (function(): string)}}
  */

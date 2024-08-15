@@ -1,4 +1,4 @@
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 400 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 400 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -17,7 +17,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 401 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 401 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -36,7 +36,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 402 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 402 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -55,7 +55,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 403 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 403 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -74,7 +74,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 404 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 404 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -93,7 +93,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 405 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 405 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -112,7 +112,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 406 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 406 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -131,7 +131,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 407 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 407 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -150,7 +150,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 408 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 408 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -169,7 +169,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 409 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 409 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -188,7 +188,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 410 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 410 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -207,7 +207,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 411 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 411 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -226,7 +226,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 412 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 412 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -245,7 +245,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 413 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 413 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -264,7 +264,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 414 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 414 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -283,7 +283,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 415 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 415 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -302,7 +302,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 416 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 416 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -321,7 +321,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 417 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 417 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -340,7 +340,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 418 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 418 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -359,7 +359,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 419 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 419 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -378,7 +378,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 420 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 420 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -397,7 +397,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 421 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 421 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -416,7 +416,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 422 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 422 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -435,7 +435,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 423 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 423 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -454,7 +454,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 424 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 424 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -473,7 +473,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 425 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 425 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -492,7 +492,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 426 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 426 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -511,7 +511,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 427 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 427 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -530,7 +530,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 428 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 428 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -549,7 +549,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 429 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 429 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -568,7 +568,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 430 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 430 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -587,7 +587,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 431 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 431 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -606,7 +606,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 432 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 432 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -625,7 +625,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 433 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 433 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -644,7 +644,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 434 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 434 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -663,7 +663,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 435 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 435 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -682,7 +682,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 436 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 436 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -701,7 +701,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 437 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 437 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -720,7 +720,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 438 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 438 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -739,7 +739,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 439 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 439 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -758,7 +758,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 440 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 440 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -777,7 +777,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 441 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 441 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -796,7 +796,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 442 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 442 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -815,7 +815,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 443 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 443 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -834,7 +834,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 444 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 444 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -853,7 +853,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 445 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 445 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -872,7 +872,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 446 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 446 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -891,7 +891,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 447 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 447 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -910,7 +910,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 448 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 448 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -929,7 +929,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 449 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 449 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -948,7 +948,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 450 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 450 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -967,7 +967,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 451 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 451 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -986,7 +986,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 452 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 452 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1005,7 +1005,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 453 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 453 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1024,7 +1024,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 454 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 454 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1043,7 +1043,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 455 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 455 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1062,7 +1062,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 456 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 456 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1081,7 +1081,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 457 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 457 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1100,7 +1100,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 458 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 458 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1119,7 +1119,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 459 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 459 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1138,7 +1138,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 460 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 460 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1157,7 +1157,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 461 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 461 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1176,7 +1176,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 462 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 462 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1195,7 +1195,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 463 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 463 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1214,7 +1214,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 464 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 464 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1233,7 +1233,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 465 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 465 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1252,7 +1252,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 466 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 466 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1271,7 +1271,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 467 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 467 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1290,7 +1290,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 468 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 468 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1309,7 +1309,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 469 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 469 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1328,7 +1328,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 470 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 470 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1347,7 +1347,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 471 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 471 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1366,7 +1366,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 472 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 472 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1385,7 +1385,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 473 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 473 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1404,7 +1404,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 474 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 474 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1423,7 +1423,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 475 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 475 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1442,7 +1442,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 476 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 476 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1461,7 +1461,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 477 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 477 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1480,7 +1480,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 478 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 478 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1499,7 +1499,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 479 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 479 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1518,7 +1518,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 480 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 480 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1537,7 +1537,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 481 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 481 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1556,7 +1556,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 482 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 482 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1575,7 +1575,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 483 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 483 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1594,7 +1594,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 484 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 484 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1613,7 +1613,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 485 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 485 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1632,7 +1632,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 486 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 486 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1651,7 +1651,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 487 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 487 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1670,7 +1670,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 488 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 488 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1689,7 +1689,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 489 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 489 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1708,7 +1708,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 490 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 490 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1727,7 +1727,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 491 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 491 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1746,7 +1746,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 492 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 492 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1765,7 +1765,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 493 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 493 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1784,7 +1784,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 494 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 494 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1803,7 +1803,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 495 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 495 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1822,7 +1822,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 496 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 496 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1841,7 +1841,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 497 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 497 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1860,7 +1860,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 498 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 498 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1879,7 +1879,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .not.toHave2xxStatus > status 400 to 499 > fails when response have status code 499 1`] = `
+exports[`matcher > .not.toHave4xxStatus > status 400 to 499 > fails when response have status code 499 1`] = `
 <dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 400 and 499 received:
@@ -1898,7 +1898,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 200 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 200 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -1917,7 +1917,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 201 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 201 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -1936,7 +1936,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 202 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 202 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -1955,7 +1955,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 203 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 203 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -1974,7 +1974,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 204 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 204 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -1991,7 +1991,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 205 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 205 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2010,7 +2010,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 206 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 206 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2029,7 +2029,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 207 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 207 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2048,7 +2048,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 208 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 208 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2067,7 +2067,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 209 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 209 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2086,7 +2086,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 210 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 210 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2105,7 +2105,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 211 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 211 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2124,7 +2124,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 212 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 212 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2143,7 +2143,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 213 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 213 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2162,7 +2162,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 214 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 214 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2181,7 +2181,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 215 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 215 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2200,7 +2200,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 216 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 216 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2219,7 +2219,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 217 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 217 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2238,7 +2238,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 218 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 218 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2257,7 +2257,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 219 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 219 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2276,7 +2276,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 220 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 220 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2295,7 +2295,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 221 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 221 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2314,7 +2314,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 222 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 222 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2333,7 +2333,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 223 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 223 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2352,7 +2352,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 224 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 224 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2371,7 +2371,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 225 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 225 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2390,7 +2390,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 226 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 226 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2409,7 +2409,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 227 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 227 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2428,7 +2428,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 228 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 228 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2447,7 +2447,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 229 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 229 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2466,7 +2466,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 230 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 230 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2485,7 +2485,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 231 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 231 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2504,7 +2504,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 232 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 232 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2523,7 +2523,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 233 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 233 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2542,7 +2542,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 234 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 234 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2561,7 +2561,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 235 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 235 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2580,7 +2580,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 236 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 236 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2599,7 +2599,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 237 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 237 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2618,7 +2618,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 238 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 238 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2637,7 +2637,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 239 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 239 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2656,7 +2656,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 240 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 240 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2675,7 +2675,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 241 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 241 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2694,7 +2694,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 242 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 242 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2713,7 +2713,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 243 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 243 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2732,7 +2732,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 244 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 244 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2751,7 +2751,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 245 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 245 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2770,7 +2770,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 246 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 246 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2789,7 +2789,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 247 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 247 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2808,7 +2808,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 248 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 248 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2827,7 +2827,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 249 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 249 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2846,7 +2846,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 250 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 250 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2865,7 +2865,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 251 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 251 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2884,7 +2884,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 252 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 252 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2903,7 +2903,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 253 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 253 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2922,7 +2922,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 254 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 254 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2941,7 +2941,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 255 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 255 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2960,7 +2960,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 256 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 256 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2979,7 +2979,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 257 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 257 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -2998,7 +2998,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 258 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 258 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3017,7 +3017,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 259 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 259 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3036,7 +3036,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 260 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 260 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3055,7 +3055,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 261 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 261 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3074,7 +3074,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 262 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 262 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3093,7 +3093,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 263 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 263 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3112,7 +3112,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 264 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 264 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3131,7 +3131,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 265 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 265 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3150,7 +3150,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 266 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 266 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3169,7 +3169,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 267 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 267 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3188,7 +3188,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 268 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 268 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3207,7 +3207,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 269 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 269 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3226,7 +3226,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 270 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 270 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3245,7 +3245,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 271 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 271 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3264,7 +3264,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 272 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 272 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3283,7 +3283,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 273 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 273 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3302,7 +3302,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 274 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 274 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3321,7 +3321,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 275 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 275 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3340,7 +3340,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 276 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 276 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3359,7 +3359,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 277 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 277 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3378,7 +3378,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 278 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 278 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3397,7 +3397,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 279 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 279 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3416,7 +3416,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 280 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 280 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3435,7 +3435,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 281 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 281 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3454,7 +3454,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 282 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 282 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3473,7 +3473,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 283 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 283 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3492,7 +3492,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 284 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 284 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3511,7 +3511,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 285 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 285 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3530,7 +3530,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 286 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 286 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3549,7 +3549,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 287 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 287 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3568,7 +3568,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 288 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 288 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3587,7 +3587,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 289 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 289 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3606,7 +3606,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 290 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 290 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3625,7 +3625,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 291 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 291 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3644,7 +3644,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 292 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 292 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3663,7 +3663,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 293 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 293 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3682,7 +3682,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 294 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 294 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3701,7 +3701,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 295 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 295 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3720,7 +3720,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 296 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 296 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3739,7 +3739,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 297 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 297 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3758,7 +3758,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 298 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 298 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3777,7 +3777,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 299 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 299 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3796,7 +3796,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 300 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 300 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3815,7 +3815,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 301 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 301 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3834,7 +3834,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 302 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 302 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3853,7 +3853,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 303 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 303 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3872,7 +3872,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 304 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 304 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3891,7 +3891,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 305 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 305 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3910,7 +3910,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 306 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 306 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3929,7 +3929,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 307 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 307 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3948,7 +3948,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 308 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 308 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3967,7 +3967,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 309 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 309 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -3986,7 +3986,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 310 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 310 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4005,7 +4005,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 311 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 311 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4024,7 +4024,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 312 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 312 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4043,7 +4043,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 313 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 313 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4062,7 +4062,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 314 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 314 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4081,7 +4081,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 315 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 315 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4100,7 +4100,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 316 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 316 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4119,7 +4119,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 317 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 317 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4138,7 +4138,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 318 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 318 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4157,7 +4157,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 319 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 319 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4176,7 +4176,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 320 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 320 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4195,7 +4195,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 321 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 321 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4214,7 +4214,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 322 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 322 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4233,7 +4233,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 323 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 323 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4252,7 +4252,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 324 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 324 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4271,7 +4271,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 325 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 325 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4290,7 +4290,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 326 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 326 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4309,7 +4309,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 327 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 327 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4328,7 +4328,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 328 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 328 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4347,7 +4347,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 329 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 329 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4366,7 +4366,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 330 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 330 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4385,7 +4385,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 331 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 331 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4404,7 +4404,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 332 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 332 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4423,7 +4423,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 333 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 333 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4442,7 +4442,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 334 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 334 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4461,7 +4461,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 335 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 335 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4480,7 +4480,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 336 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 336 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4499,7 +4499,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 337 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 337 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4518,7 +4518,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 338 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 338 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4537,7 +4537,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 339 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 339 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4556,7 +4556,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 340 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 340 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4575,7 +4575,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 341 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 341 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4594,7 +4594,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 342 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 342 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4613,7 +4613,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 343 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 343 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4632,7 +4632,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 344 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 344 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4651,7 +4651,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 345 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 345 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4670,7 +4670,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 346 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 346 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4689,7 +4689,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 347 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 347 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4708,7 +4708,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 348 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 348 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4727,7 +4727,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 349 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 349 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4746,7 +4746,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 350 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 350 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4765,7 +4765,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 351 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 351 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4784,7 +4784,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 352 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 352 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4803,7 +4803,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 353 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 353 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4822,7 +4822,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 354 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 354 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4841,7 +4841,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 355 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 355 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4860,7 +4860,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 356 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 356 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4879,7 +4879,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 357 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 357 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4898,7 +4898,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 358 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 358 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4917,7 +4917,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 359 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 359 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4936,7 +4936,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 360 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 360 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4955,7 +4955,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 361 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 361 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4974,7 +4974,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 362 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 362 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -4993,7 +4993,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 363 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 363 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5012,7 +5012,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 364 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 364 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5031,7 +5031,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 365 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 365 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5050,7 +5050,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 366 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 366 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5069,7 +5069,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 367 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 367 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5088,7 +5088,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 368 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 368 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5107,7 +5107,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 369 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 369 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5126,7 +5126,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 370 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 370 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5145,7 +5145,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 371 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 371 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5164,7 +5164,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 372 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 372 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5183,7 +5183,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 373 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 373 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5202,7 +5202,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 374 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 374 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5221,7 +5221,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 375 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 375 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5240,7 +5240,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 376 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 376 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5259,7 +5259,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 377 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 377 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5278,7 +5278,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 378 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 378 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5297,7 +5297,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 379 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 379 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5316,7 +5316,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 380 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 380 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5335,7 +5335,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 381 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 381 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5354,7 +5354,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 382 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 382 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5373,7 +5373,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 383 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 383 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5392,7 +5392,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 384 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 384 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5411,7 +5411,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 385 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 385 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5430,7 +5430,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 386 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 386 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5449,7 +5449,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 387 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 387 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5468,7 +5468,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 388 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 388 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5487,7 +5487,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 389 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 389 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5506,7 +5506,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 390 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 390 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5525,7 +5525,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 391 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 391 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5544,7 +5544,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 392 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 392 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5563,7 +5563,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 393 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 393 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5582,7 +5582,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 394 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 394 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5601,7 +5601,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 395 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 395 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5620,7 +5620,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 396 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 396 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5639,7 +5639,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 397 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 397 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5658,7 +5658,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 398 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 398 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5677,7 +5677,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 399 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 399 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5696,7 +5696,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 500 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 500 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5715,7 +5715,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 501 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 501 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5734,7 +5734,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 502 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 502 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5753,7 +5753,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 503 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 503 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5772,7 +5772,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 504 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 504 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5791,7 +5791,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 505 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 505 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5810,7 +5810,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 506 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 506 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5829,7 +5829,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 507 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 507 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5848,7 +5848,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 508 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 508 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5867,7 +5867,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 509 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 509 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5886,7 +5886,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 510 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 510 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5905,7 +5905,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 511 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 511 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5924,7 +5924,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 512 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 512 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5943,7 +5943,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 513 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 513 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5962,7 +5962,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 514 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 514 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -5981,7 +5981,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 515 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 515 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6000,7 +6000,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 516 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 516 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6019,7 +6019,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 517 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 517 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6038,7 +6038,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 518 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 518 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6057,7 +6057,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 519 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 519 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6076,7 +6076,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 520 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 520 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6095,7 +6095,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 521 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 521 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6114,7 +6114,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 522 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 522 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6133,7 +6133,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 523 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 523 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6152,7 +6152,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 524 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 524 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6171,7 +6171,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 525 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 525 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6190,7 +6190,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 526 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 526 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6209,7 +6209,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 527 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 527 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6228,7 +6228,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 528 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 528 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6247,7 +6247,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 529 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 529 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6266,7 +6266,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 530 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 530 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6285,7 +6285,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 531 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 531 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6304,7 +6304,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 532 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 532 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6323,7 +6323,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 533 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 533 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6342,7 +6342,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 534 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 534 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6361,7 +6361,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 535 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 535 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6380,7 +6380,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 536 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 536 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6399,7 +6399,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 537 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 537 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6418,7 +6418,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 538 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 538 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6437,7 +6437,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 539 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 539 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6456,7 +6456,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 540 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 540 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6475,7 +6475,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 541 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 541 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6494,7 +6494,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 542 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 542 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6513,7 +6513,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 543 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 543 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6532,7 +6532,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 544 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 544 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6551,7 +6551,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 545 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 545 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6570,7 +6570,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 546 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 546 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6589,7 +6589,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 547 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 547 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6608,7 +6608,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 548 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 548 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6627,7 +6627,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 549 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 549 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6646,7 +6646,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 550 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 550 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6665,7 +6665,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 551 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 551 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6684,7 +6684,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 552 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 552 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6703,7 +6703,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 553 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 553 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6722,7 +6722,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 554 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 554 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6741,7 +6741,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 555 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 555 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6760,7 +6760,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 556 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 556 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6779,7 +6779,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 557 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 557 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6798,7 +6798,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 558 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 558 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6817,7 +6817,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 559 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 559 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6836,7 +6836,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 560 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 560 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6855,7 +6855,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 561 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 561 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6874,7 +6874,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 562 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 562 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6893,7 +6893,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 563 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 563 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6912,7 +6912,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 564 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 564 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6931,7 +6931,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 565 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 565 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6950,7 +6950,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 566 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 566 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6969,7 +6969,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 567 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 567 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -6988,7 +6988,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 568 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 568 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7007,7 +7007,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 569 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 569 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7026,7 +7026,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 570 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 570 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7045,7 +7045,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 571 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 571 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7064,7 +7064,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 572 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 572 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7083,7 +7083,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 573 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 573 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7102,7 +7102,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 574 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 574 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7121,7 +7121,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 575 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 575 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7140,7 +7140,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 576 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 576 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7159,7 +7159,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 577 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 577 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7178,7 +7178,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 578 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 578 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7197,7 +7197,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 579 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 579 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7216,7 +7216,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 580 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 580 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7235,7 +7235,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 581 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 581 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7254,7 +7254,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 582 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 582 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7273,7 +7273,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 583 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 583 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7292,7 +7292,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 584 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 584 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7311,7 +7311,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 585 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 585 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7330,7 +7330,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 586 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 586 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7349,7 +7349,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 587 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 587 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7368,7 +7368,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 588 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 588 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7387,7 +7387,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 589 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 589 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7406,7 +7406,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 590 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 590 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7425,7 +7425,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 591 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 591 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7444,7 +7444,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 592 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 592 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7463,7 +7463,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 593 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 593 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7482,7 +7482,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 594 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 594 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7501,7 +7501,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 595 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 595 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7520,7 +7520,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 596 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 596 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7539,7 +7539,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 597 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 597 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7558,7 +7558,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 598 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 598 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
@@ -7577,7 +7577,7 @@ axios response is:
 }
 `;
 
-exports[`matcher > .toHave3xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 599 1`] = `
+exports[`matcher > .toHave4xxStatus > status 200 to 399 and 500 to 599 > fails when response have status code 599 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHave3xxStatus()</intensity>
 
 Expected status code to be between 400 and 499 received:
