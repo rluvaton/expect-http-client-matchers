@@ -55,7 +55,7 @@ describe('(.not).toHaveStatus', () => {
       });
 
       describe('.not.toHaveStatus', () => {
-        test('passes when the actual status is different to the status code', async () => {
+        test('passes when the actual status is different than the expected status code', async () => {
           for (let status = 200; status <= 599; status++) {
             const response = await testClient.post(
               `${apiUrl}/status`,
@@ -71,7 +71,7 @@ describe('(.not).toHaveStatus', () => {
 
         describe('status 200 to 599', function allTests() {
           for (let status = 200; status <= 599; status++) {
-            test(`fails when response have status code ${status} and the actual response type is the same`, async (t) => {
+            test(`fails when response have status code ${status} and the actual response status are the same`, async (t) => {
               // Should have the assert snapshot assertion
               t.plan(1);
 

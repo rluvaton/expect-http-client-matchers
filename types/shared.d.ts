@@ -53,7 +53,7 @@ export interface SharedMatchers<R> {
   toHave5xxStatus(): R;
 
   /**
-   * Use .toHave5xxStatus when checking if HTTP response status code is between 500 and 599 included
+   * Use .toHaveStatus when checking if the response has specific status code.
    * @param {number} status the status code to match with
    **/
   toHaveStatus(status: number): R;
