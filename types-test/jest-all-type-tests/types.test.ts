@@ -21,6 +21,9 @@ async function run() {
   expect(res).toHave5xxStatus();
   expect(res).not.toHave5xxStatus();
 
+  expect(res).toHaveStatus(100);
+  expect(res).not.toHaveStatus(100);
+
   expect(res).toHaveSwitchingProtocolsStatus();
   expect(res).not.toHaveSwitchingProtocolsStatus();
 

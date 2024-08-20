@@ -24,18 +24,11 @@ export interface CustomMatchers<R> extends Record<string, any> {
    */
   toHave5xxStatus(): R;
 
-
-    /**
-     * Use .toHaveStatus when checking if the response has specific status code.
-     * @param {number} status the status code to match with
-     **/
-    toHaveStatus(status: number): R;
-
-
   /**
-   * Use .toHaveOkStatus when checking if http response status code is 200
-   */
-  toHaveOkStatus(): R;
+   * Use .toHaveStatus when checking if the response has specific status code.
+   * @param {number} status the status code to match with
+   **/
+  toHaveStatus(status: number): R;
 
   /**
    * Use .toHaveSwitchingProtocolsStatus when checking if HTTP response status code is 101
@@ -340,12 +333,11 @@ export interface SharedMatchers<R> {
    */
   toHave5xxStatus(): R;
 
-
-    /**
-     * Use .toHaveStatus when checking if the response has specific status code.
-     * @param {number} status the status code to match with
-     **/
-    toHaveStatus(status: number): R;
+  /**
+   * Use .toHaveStatus when checking if the response has specific status code.
+   * @param {number} status the status code to match with
+   **/
+  toHaveStatus(status: number): R;
 
   /**
    * Use .toHaveSwitchingProtocolsStatus when checking if HTTP response status code is 101
@@ -621,5 +613,4 @@ export interface SharedMatchers<R> {
    * Use .toHaveNetworkAuthenticationRequiredStatus when checking if HTTP response status code is 511
    */
   toHaveNetworkAuthenticationRequiredStatus(): R;
-
 }
