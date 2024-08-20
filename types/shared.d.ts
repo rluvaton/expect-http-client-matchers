@@ -51,4 +51,10 @@ export interface SharedMatchers<R> {
    * Use .toHave5xxStatus when checking if Axios response status code is between 500 and 599 included
    */
   toHave5xxStatus(): R;
+
+  /**
+   * Use .toHaveStatus when checking if the response has specific status code.
+   * @param {number} status the status code to match with
+   **/
+  toHaveStatus(status: number): R;
 }

@@ -24,6 +24,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
     - [.toHave3xxStatus()](#tohave3xxstatus) 
     - [.toHave4xxStatus()](#tohave4xxstatus)
     - [.toHave5xxStatus()](#tohave5xxstatus)
+    - [.toHaveStatus()](#tohavestatus)
 
 ## Installation
 
@@ -293,6 +294,23 @@ test('passes when using .not.toHave5xxStatus() for 200', async () => {
     expect(response).not.toHave5xxStatus();
 });
 ```
+
+#### .toHaveStatus()
+
+Use `.toHaveStatus` when checking if response has a specific status
+
+```js
+test('passes when response matches the expected status code', async () => {
+    const response = await axios.get('https://httpstat.us/500');
+    expect(response).toHaveStatus(500);
+});
+
+test('passes when using .not.toHaveStatus() for 200', async () => {
+    const response = await axios.get('http://example.com');
+    expect(response).not.toHaveStatus(400);
+});
+```
+
 
 ## LICENSE
 
