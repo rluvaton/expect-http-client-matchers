@@ -1,13 +1,13 @@
 const { toHave2xxStatus } = require('../../src/index');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../helpers/server-helper.js');
-const axios = require('axios');
 const { expect } = require('expect');
 const { getServerUrl } = require('../helpers/server-helper');
+const { testClients } = require('../helpers/supported-clients');
 
 expect.extend({ toHave2xxStatus });
 
-describe('matcher', () => {
+describe('(.not).toHave2xxStatus', () => {
   /**
    * @type {string}
    */
@@ -17,73 +17,77 @@ describe('matcher', () => {
     await buildServer();
   });
 
-  describe('.toHave2xxStatus', () => {
-    test('passes when given a 2xx status code', async () => {
-      for (let i = 200; i <= 299; i++) {
-        const response = await axios.post(
-          `${apiUrl}/status`,
-          {
-            status: i,
-          },
-          {},
-        );
+  for (const testClient of testClients) {
+    describe(`using ${testClient.name}`, () => {
+      describe('.toHave2xxStatus', () => {
+        test('passes when given a 2xx status code', async () => {
+          for (let i = 200; i <= 299; i++) {
+            const response = await testClient.post(
+              `${apiUrl}/status`,
+              {
+                status: i,
+              },
+              {},
+            );
 
-        expect(response).toHave2xxStatus();
-      }
-    });
-
-    describe('status 300 to 599', function allTests() {
-      for (let status = 300; status <= 599; status++) {
-        test(`fails when response have status code ${status}`, async (t) => {
-          // Should have the assert snapshot assertion
-          t.plan(1);
-
-          const response = await axios.post(`${apiUrl}/status`, {
-            status,
-          });
-
-          try {
             expect(response).toHave2xxStatus();
-          } catch (e) {
-            t.assert.snapshot(e);
           }
         });
-      }
-    });
-  });
 
-  describe('.not.toHave2xxStatus', () => {
-    test('passes when given status code not in range 200 to 299', async () => {
-      for (let i = 300; i <= 599; i++) {
-        const response = await axios.post(
-          `${apiUrl}/status`,
-          {
-            status: i,
-          },
-          {},
-        );
+        describe('status 300 to 599', function allTests() {
+          for (let status = 300; status <= 599; status++) {
+            test(`fails when response have status code ${status}`, async (t) => {
+              // Should have the assert snapshot assertion
+              t.plan(1);
 
-        expect(response).not.toHave2xxStatus();
-      }
-    });
+              const response = await testClient.post(`${apiUrl}/status`, {
+                status,
+              });
 
-    describe('status 200 to 299', function allTests() {
-      for (let status = 200; status <= 299; status++) {
-        test(`fails when response have status code ${status}`, async (t) => {
-          // Should have the assert snapshot assertion
-          t.plan(1);
+              try {
+                expect(response).toHave2xxStatus();
+              } catch (e) {
+                t.assert.snapshot(e);
+              }
+            });
+          }
+        });
+      });
 
-          const response = await axios.post(`${apiUrl}/status`, {
-            status,
-          });
+      describe('.not.toHave2xxStatus', () => {
+        test('passes when given status code not in range 200 to 299', async () => {
+          for (let i = 300; i <= 599; i++) {
+            const response = await testClient.post(
+              `${apiUrl}/status`,
+              {
+                status: i,
+              },
+              {},
+            );
 
-          try {
             expect(response).not.toHave2xxStatus();
-          } catch (e) {
-            t.assert.snapshot(e);
           }
         });
-      }
+
+        describe('status 200 to 299', function allTests() {
+          for (let status = 200; status <= 299; status++) {
+            test(`fails when response have status code ${status}`, async (t) => {
+              // Should have the assert snapshot assertion
+              t.plan(1);
+
+              const response = await testClient.post(`${apiUrl}/status`, {
+                status,
+              });
+
+              try {
+                expect(response).not.toHave2xxStatus();
+              } catch (e) {
+                t.assert.snapshot(e);
+              }
+            });
+          }
+        });
+      });
     });
-  });
+  }
 });
