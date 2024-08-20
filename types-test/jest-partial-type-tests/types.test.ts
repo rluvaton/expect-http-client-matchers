@@ -1,5 +1,4 @@
 import axios from 'axios';
-import expect from 'expect';
 
 async function run() {
   const res = await axios.get('http://example.com');
