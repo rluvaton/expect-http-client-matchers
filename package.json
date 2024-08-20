@@ -51,10 +51,5 @@
   "bugs": {
     "url": "https://github.com/rluvaton/expect-http-client-matchers/issues"
   },
-  "license": "MIT",
-  "dependencies": {
-    "change-case": "^5.4.4",
-    "enum-values": "^1.2.1",
-    "http-status-codes": "^2.3.0"
-  }
+  "license": "MIT"
 }
