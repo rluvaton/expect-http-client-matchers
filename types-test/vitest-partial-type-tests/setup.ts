@@ -1,6 +1,6 @@
-import 'expect-axios-matchers/vitest.d.ts';
+import 'expect-http-client-matchers/vitest.d.ts';
 
-import { toBeSuccessful } from 'expect-axios-matchers';
+import { toBeSuccessful } from 'expect-http-client-matchers';
 
 expect.extend({
   toBeSuccessful,

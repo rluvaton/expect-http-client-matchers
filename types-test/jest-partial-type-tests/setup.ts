@@ -1,6 +1,6 @@
-import 'expect-axios-matchers/jest.d.ts';
+import 'expect-http-client-matchers/jest.d.ts';
 
-import { toBeSuccessful } from 'expect-axios-matchers';
+import { toBeSuccessful } from 'expect-http-client-matchers';
 
 expect.extend({
   toBeSuccessful,

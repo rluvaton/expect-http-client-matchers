@@ -1,3 +1,3 @@
-import 'expect-axios-matchers/jest.d.ts';
+import 'expect-http-client-matchers/jest.d.ts';
 
-import 'expect-axios-matchers/all';
+import 'expect-http-client-matchers/all';
