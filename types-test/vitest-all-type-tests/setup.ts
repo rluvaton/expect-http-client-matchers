@@ -1,3 +1,3 @@
-import 'expect-axios-matchers/vitest.d.ts';
+import 'expect-http-client-matchers/vitest.d.ts';
 
-import 'expect-axios-matchers/all';
+import 'expect-http-client-matchers/all';
