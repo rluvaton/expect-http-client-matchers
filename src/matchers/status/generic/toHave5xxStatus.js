@@ -1,5 +1,5 @@
-const { printDebugInfo } = require('../utils/get-debug-info');
-const { getMatchingAdapter } = require('../http-clients');
+const { printDebugInfo } = require('../../../utils/get-debug-info');
+const { getMatchingAdapter } = require('../../../http-clients');
 
 /**
  * this matcher expects axios response to have 5xx status.
