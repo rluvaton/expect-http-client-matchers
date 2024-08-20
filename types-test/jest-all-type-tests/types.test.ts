@@ -7,7 +7,7 @@ async function run() {
 
   expect(res).toBeSuccessful();
   expect(res).not.toBeSuccessful();
-  expect(res).toEqual(expect.any(numbr));
+  expect(res).toEqual(expect.toBeSuccessful());
   expect(res).toEqual(expect.not.toBeSuccessful());
 
   expect(res).toHave2xxStatus();
