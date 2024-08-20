@@ -6,7 +6,7 @@ if (globalExpect !== undefined) {
 } else {
   throw new Error(
     'Unable to find global expect. ' +
-      'Please check you have added expect-axios-matchers correctly.' +
-      'See https://github.com/Tamir-M/expect-axios-matchers#setup for help.',
+      'Please check you have added expect-http-client-matchers correctly.' +
+      'See https://github.com/rluvaton/expect-axios-matchers#setup for help.',
   );
 }
