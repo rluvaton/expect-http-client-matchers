@@ -14,3 +14,6 @@ declare namespace jest {
   // noinspection JSUnusedGlobalSymbols
   interface InverseAsymmetricMatchers extends Expect {}
 }
+
+// Must have this so vitest asymmetric matchers types will work
+declare module 'vitest' {}
