@@ -1,5 +1,3 @@
-const { getMatchingAdapter } = require('../http-clients');
-
 /**
  *
  * @param {HttpClientAdapter} adapter
