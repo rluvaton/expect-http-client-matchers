@@ -1,13 +1,13 @@
-const { toHave3xxStatus } = require('../../src/index');
+const { toHave2xxStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
-const { buildServer } = require('../helpers/server-helper.js');
+const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect } = require('expect');
-const { getServerUrl } = require('../helpers/server-helper');
-const { testClients } = require('../helpers/supported-clients');
+const { getServerUrl } = require('../../../helpers/server-helper');
+const { testClients } = require('../../../helpers/supported-clients');
 
-expect.extend({ toHave3xxStatus });
+expect.extend({ toHave2xxStatus });
 
-describe('(.not).toHave3xxStatus', () => {
+describe('(.not).toHave2xxStatus', () => {
   /**
    * @type {string}
    */
@@ -19,9 +19,9 @@ describe('(.not).toHave3xxStatus', () => {
 
   for (const testClient of testClients) {
     describe(`using ${testClient.name}`, () => {
-      describe('.toHave3xxStatus', () => {
-        test('passes when given a 3xx status code', async () => {
-          for (let i = 300; i <= 399; i++) {
+      describe('.toHave2xxStatus', () => {
+        test('passes when given a 2xx status code', async () => {
+          for (let i = 200; i <= 299; i++) {
             const response = await testClient.post(
               `${apiUrl}/status`,
               {
@@ -30,14 +30,12 @@ describe('(.not).toHave3xxStatus', () => {
               {},
             );
 
-            expect(response).toHave3xxStatus();
+            expect(response).toHave2xxStatus();
           }
         });
 
-        describe('status 200 to 299 and 400 to 599', function allTests() {
-          for (let status = 200; status <= 599; status++) {
-            if (status === 300) status = 400;
-
+        describe('status 300 to 599', function allTests() {
+          for (let status = 300; status <= 599; status++) {
             test(`fails when response have status code ${status}`, async (t) => {
               // Should have the assert snapshot assertion
               t.plan(1);
@@ -47,7 +45,7 @@ describe('(.not).toHave3xxStatus', () => {
               });
 
               try {
-                expect(response).toHave3xxStatus();
+                expect(response).toHave2xxStatus();
               } catch (e) {
                 t.assert.snapshot(e);
               }
@@ -56,25 +54,23 @@ describe('(.not).toHave3xxStatus', () => {
         });
       });
 
-      describe('.not.toHave3xxStatus', () => {
-        test('passes when given status code not in range 300 to 399', async () => {
-          for (let status = 200; status <= 599; status++) {
-            if (status === 300) status = 400;
-
+      describe('.not.toHave2xxStatus', () => {
+        test('passes when given status code not in range 200 to 299', async () => {
+          for (let i = 300; i <= 599; i++) {
             const response = await testClient.post(
               `${apiUrl}/status`,
               {
-                status,
+                status: i,
               },
               {},
             );
 
-            expect(response).not.toHave3xxStatus();
+            expect(response).not.toHave2xxStatus();
           }
         });
 
-        describe('status 300 to 399', function allTests() {
-          for (let status = 300; status <= 399; status++) {
+        describe('status 200 to 299', function allTests() {
+          for (let status = 200; status <= 299; status++) {
             test(`fails when response have status code ${status}`, async (t) => {
               // Should have the assert snapshot assertion
               t.plan(1);
@@ -84,7 +80,7 @@ describe('(.not).toHave3xxStatus', () => {
               });
 
               try {
-                expect(response).not.toHave3xxStatus();
+                expect(response).not.toHave2xxStatus();
               } catch (e) {
                 t.assert.snapshot(e);
               }

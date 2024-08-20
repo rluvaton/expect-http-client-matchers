@@ -1,9 +1,9 @@
-const { toHave4xxStatus } = require('../../src/index');
+const { toHave4xxStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
-const { buildServer } = require('../helpers/server-helper.js');
+const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect } = require('expect');
-const { getServerUrl } = require('../helpers/server-helper');
-const { testClients } = require('../helpers/supported-clients');
+const { getServerUrl } = require('../../../helpers/server-helper');
+const { testClients } = require('../../../helpers/supported-clients');
 
 expect.extend({ toHave4xxStatus });
 
