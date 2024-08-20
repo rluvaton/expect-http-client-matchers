@@ -300,7 +300,7 @@ test('passes when using .not.toHave5xxStatus() for 200', async () => {
 Use `.toHaveStatus` when checking if response has a specific status
 
 ```js
-test('passes when response have status code 500', async () => {
+test('passes when response matches the expected status code', async () => {
     const response = await axios.get('https://httpstat.us/500');
     expect(response).toHaveStatus(500);
 });
