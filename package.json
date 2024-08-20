@@ -1,7 +1,7 @@
 {
-  "name": "expect-axios-matchers",
+  "name": "expect-http-client-matchers",
   "version": "0.0.0-development",
-  "description": "expect matchers for axios response",
+  "description": "expect matchers for http-client responses (e.g. axios)",
   "keywords": ["test", "unittest", "integration test", "mocha", "vitest", "expect"],
   "files": ["src", "types", "all.js", "jest.d.ts", "expect.d.ts", "vitest.d.ts"],
   "main": "src/index.js",
@@ -45,10 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tamir-M/expect-axios-matchers.git"
+    "url": "https://github.com/Tamir-M/expect-http-client-matchers.git"
   },
   "bugs": {
-    "url": "https://github.com/Tamir-M/expect-axios-matchers/issues"
+    "url": "https://github.com/Tamir-M/expect-http-client-matchers/issues"
   },
   "license": "MIT"
 }

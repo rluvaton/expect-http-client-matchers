@@ -1,13 +1,13 @@
 <div align="center">
-  <h1>Expect Axios Matchers</h1>
+  <h1>Expect HTTP Client Matchers</h1>
 
-Additional expect matchers for axios, supports `jest`, `vitest`, `expect`.
+Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vitest`, `expect`.
 
 </div>
 
 <hr />
 
-[![version](https://img.shields.io/npm/v/expect-axios-matchers.svg?style=flat-square)](https://www.npmjs.com/package/expect-axios-matchers)
+[![version](https://img.shields.io/npm/v/expect-http-client-matchers.svg?style=flat-square)](https://www.npmjs.com/package/expect-http-client-matchers)
 
 - [Installation](#installation)
 - [Setup](#setup)
@@ -30,13 +30,13 @@ Additional expect matchers for axios, supports `jest`, `vitest`, `expect`.
 With npm:
 
 ```sh
-npm install --save-dev expect-axios-matchers
+npm install --save-dev expect-http-client-matchers
 ```
 
 With yarn:
 
 ```sh
-yarn add -D expect-axios-matchers
+yarn add -D expect-http-client-matchers
 ```
 
 ## Setup
@@ -48,21 +48,21 @@ yarn add -D expect-axios-matchers
 
 import {expect} from 'expect';
 
-// add all expect-axios-matchers matchers
-import * as matchers from 'expect-axios-matchers';
+// add all expect-http-client-matchers matchers
+import * as matchers from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-axios-matchers';
+import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
 expect.extend({ toBeSuccessful, toHave2xxStatus });
 ```
 
 #### Typescript
 
-If your editor does not recognise the custom `expect-axios-matchers` matchers, add to the `setupTests.ts` file
+If your editor does not recognise the custom `expect-http-client-matchers` matchers, add to the `setupTests.ts` file
 
 ```ts
-import 'expect-axios-matchers/expect.d.ts';
+import 'expect-http-client-matchers/expect.d.ts';
 ```
 
 ### Vitest
@@ -70,12 +70,12 @@ import 'expect-axios-matchers/expect.d.ts';
 ```javascript
 // ./testSetup.js
 
-// add all expect-axios-matchers matchers
-import * as matchers from 'expect-axios-matchers';
+// add all expect-http-client-matchers matchers
+import * as matchers from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-axios-matchers';
+import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
 expect.extend({ toBeSuccessful, toHave2xxStatus });
 ```
 
@@ -100,17 +100,17 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
   test: {
       // rest of configuration...
-      setupFiles: ["expect-axios-matchers/all"]
+      setupFiles: ["expect-http-client-matchers/all"]
   }
 })
 ```
 
 #### Typescript
 
-If your editor does not recognise the custom `expect-axios-matchers` matchers, add to the `setupTests.ts` file
+If your editor does not recognise the custom `expect-http-client-matchers` matchers, add to the `setupTests.ts` file
 
 ```ts
-import 'expect-axios-matchers/vitest.d.ts';
+import 'expect-http-client-matchers/vitest.d.ts';
 ```
 
 ### Jest
@@ -118,12 +118,12 @@ import 'expect-axios-matchers/vitest.d.ts';
 ```javascript
 // ./testSetup.js
 
-// add all expect-axios-matchers matchers
-import * as matchers from 'expect-axios-matchers';
+// add all expect-http-client-matchers matchers
+import * as matchers from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-axios-matchers';
+import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
 expect.extend({ toBeSuccessful, toHave2xxStatus });
 ```
 
@@ -139,16 +139,16 @@ To automatically extend `expect` with all matchers, you can use
 
 ```json
 "jest": {
-  "setupFilesAfterEnv": ["expect-axios-matchers/all"]
+  "setupFilesAfterEnv": ["expect-http-client-matchers/all"]
 }
 ```
 
 #### Typescript
 
-If your editor does not recognise the custom `expect-axios-matchers` matchers, add to the `setupTests.ts` file
+If your editor does not recognise the custom `expect-http-client-matchers` matchers, add to the `setupTests.ts` file
 
 ```ts
-import 'expect-axios-matchers/jest.d.ts';
+import 'expect-http-client-matchers/jest.d.ts';
 ```
 
 ## Asymmetric matchers
