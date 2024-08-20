@@ -1,4 +1,5 @@
-const { printAxiosDebugInfo } = require('../utils/axios-debugging-info');
+const { printDebugInfo } = require('../utils/get-debug-info');
+const { getMatchingAdapter } = require('../http-clients');
 
 /**
  * this matcher expects axios response to have 5xx status.
@@ -8,7 +9,10 @@ const { printAxiosDebugInfo } = require('../utils/axios-debugging-info');
 function toHave5xxStatus(expected) {
   const { matcherHint, printReceived } = this.utils;
 
-  const pass = expected.status >= 500 && expected.status <= 599;
+  const adapter = getMatchingAdapter(expected);
+  const status = adapter.getStatusCode();
+
+  const pass = status >= 500 && status <= 599;
 
   return {
     pass,
@@ -17,13 +21,13 @@ function toHave5xxStatus(expected) {
         ? matcherHint('not.toHave3xxStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be between 500 and 599 received:\n' +
-          `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(expected)
+          `  ${printReceived(status)}\n\n` +
+          printDebugInfo(adapter)
         : matcherHint('.toHave3xxStatus', 'received', '') +
           '\n\n' +
           'Expected status code to be between 500 and 599 received:\n' +
-          `  ${printReceived(expected.status)}\n\n` +
-          printAxiosDebugInfo(expected),
+          `  ${printReceived(status)}\n\n` +
+          printDebugInfo(adapter),
   };
 }
 
