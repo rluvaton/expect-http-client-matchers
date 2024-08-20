@@ -2,8 +2,22 @@
   "name": "expect-http-client-matchers",
   "version": "0.0.0-development",
   "description": "expect matchers for http-client responses (e.g. axios)",
-  "keywords": ["test", "unittest", "integration test", "mocha", "vitest", "expect"],
-  "files": ["src", "types", "all.js", "jest.d.ts", "expect.d.ts", "vitest.d.ts"],
+  "keywords": [
+    "test",
+    "unittest",
+    "integration test",
+    "mocha",
+    "vitest",
+    "expect"
+  ],
+  "files": [
+    "src",
+    "types",
+    "all.js",
+    "jest.d.ts",
+    "expect.d.ts",
+    "vitest.d.ts"
+  ],
   "main": "src/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
@@ -41,7 +55,9 @@
     "access": "public"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   },
   "repository": {
     "type": "git",
@@ -50,5 +66,10 @@
   "bugs": {
     "url": "https://github.com/Tamir-M/expect-http-client-matchers/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^5.4.4",
+    "enum-values": "^1.2.1",
+    "http-status-codes": "^2.3.0"
+  }
 }

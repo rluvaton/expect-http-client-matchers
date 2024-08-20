@@ -1,11 +1,6 @@
 const { printDebugInfo } = require('../../../utils/get-debug-info');
 const { getMatchingAdapter } = require('../../../http-clients');
 
-/**
- * this matcher expects axios response to have 4xx status.
- * @param {import('axios').AxiosResponse} expected
- * @returns {{pass: boolean, message: (function(): string)}}
- */
 function toHave4xxStatus(expected) {
   const { matcherHint, printReceived } = this.utils;
 

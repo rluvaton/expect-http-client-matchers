@@ -214,7 +214,7 @@ axios.defaults.validateStatus = () => true;
 
 same as [`.toHave2xxStatus`](#tohave2xxstatus)
 
-Use `.toBeSuccessful` when checking if Axios response status code is between 200 and 299 (included)
+Use `.toBeSuccessful` when checking if response status code is between 200 and 299 (included)
 
 ```js
 test('passes when response have status code 200', async () => {
@@ -232,7 +232,7 @@ test('passes when using .not.toBeSuccessful() for 404', async () => {
 
 same as [`.toBeSuccessful`](#tobesuccessful)
 
-Use `.toHave2xxStatus` when checking if Axios response status code is between 200 and 299 (included)
+Use `.toHave2xxStatus` when checking if response status code is between 200 and 299 (included)
 
 ```js
 test('passes when response have status code 200', async () => {
@@ -248,7 +248,7 @@ test('passes when using .not.toHave2xxStatus() for 404', async () => {
 
 #### .toHave3xxStatus()
 
-Use `.toHave3xxStatus` when checking if Axios response status code is between 300 and 399 (included)
+Use `.toHave3xxStatus` when checking if response status code is between 300 and 399 (included)
 
 ```js
 test('passes when response have status code 300', async () => {
@@ -264,7 +264,7 @@ test('passes when using .not.toHave3xxStatus() for 200', async () => {
 
 #### .toHave4xxStatus()
 
-Use `.toHave4xxStatus` when checking if Axios response status code is between 400 and 499 (included)
+Use `.toHave4xxStatus` when checking if response status code is between 400 and 499 (included)
 
 ```js
 test('passes when response have status code 400', async () => {
@@ -280,7 +280,7 @@ test('passes when using .not.toHave4xxStatus() for 200', async () => {
 
 #### .toHave5xxStatus()
 
-Use `.toHave5xxStatus` when checking if Axios response status code is between 500 and 599 (included)
+Use `.toHave5xxStatus` when checking if response status code is between 500 and 599 (included)
 
 ```js
 test('passes when response have status code 500', async () => {
