@@ -1,7 +1,7 @@
 const { toHave3xxStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -31,6 +31,9 @@ describe('(.not).toHave3xxStatus', () => {
             );
 
             expect(response).toHave3xxStatus();
+            expect({ response }).toEqual({
+              response: expect.toHave3xxStatus(),
+            });
           }
         });
 
@@ -51,6 +54,11 @@ describe('(.not).toHave3xxStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+              expect(() =>
+                expect({ response }).toEqual({
+                  response: expect.toHave3xxStatus(),
+                }),
+              ).toThrowError(JestAssertionError);
             });
           }
         });
@@ -70,6 +78,9 @@ describe('(.not).toHave3xxStatus', () => {
             );
 
             expect(response).not.toHave3xxStatus();
+            expect({ response }).toEqual({
+              response: expect.not.toHave3xxStatus(),
+            });
           }
         });
 
@@ -88,6 +99,11 @@ describe('(.not).toHave3xxStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+              expect(() =>
+                expect({ response }).toEqual({
+                  response: expect.not.toHave3xxStatus(),
+                }),
+              ).toThrowError(JestAssertionError);
             });
           }
         });

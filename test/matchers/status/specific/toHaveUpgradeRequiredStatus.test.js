@@ -1,7 +1,7 @@
 const { toHaveUpgradeRequiredStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -26,6 +26,9 @@ describe('(.not).toHaveUpgradeRequiredStatus', () => {
           });
 
           expect(response).toHaveUpgradeRequiredStatus();
+          expect({ response }).toEqual({
+            response: expect.toHaveUpgradeRequiredStatus(),
+          });
         });
 
         describe('other statuses', function allTests() {
@@ -46,6 +49,14 @@ describe('(.not).toHaveUpgradeRequiredStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.toHaveUpgradeRequiredStatus(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +77,10 @@ describe('(.not).toHaveUpgradeRequiredStatus', () => {
             );
 
             expect(response).not.toHaveUpgradeRequiredStatus();
+
+            expect({ response }).toEqual({
+              response: expect.not.toHaveUpgradeRequiredStatus(),
+            });
           }
         });
 
@@ -82,6 +97,14 @@ describe('(.not).toHaveUpgradeRequiredStatus', () => {
           } catch (e) {
             t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.not.toHaveUpgradeRequiredStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
     });
