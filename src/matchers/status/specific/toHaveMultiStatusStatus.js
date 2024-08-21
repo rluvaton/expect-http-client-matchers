@@ -13,7 +13,7 @@ function toHaveMultiStatusStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMultiStatusStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMultiStatusStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 207 received:\n' +
           `  ${printReceived(status)}\n\n` +

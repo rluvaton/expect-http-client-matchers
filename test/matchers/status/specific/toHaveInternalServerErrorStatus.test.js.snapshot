@@ -1,5 +1,5 @@
 exports[`(.not).toHaveInternalServerErrorStatus > using axios > .not.toHaveInternalServerErrorStatus > fails when response have status code 500 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveInternalServerErrorStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveInternalServerErrorStatus()</intensity>
 
 Expected status code to not be 500 received:
   <red>500</color>

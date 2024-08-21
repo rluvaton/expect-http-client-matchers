@@ -1,5 +1,5 @@
 exports[`(.not).toHaveUnsupportedMediaTypeStatus > using axios > .not.toHaveUnsupportedMediaTypeStatus > fails when response have status code 415 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveUnsupportedMediaTypeStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveUnsupportedMediaTypeStatus()</intensity>
 
 Expected status code to not be 415 received:
   <red>415</color>

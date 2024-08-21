@@ -13,7 +13,7 @@ function toHaveUnsupportedMediaTypeStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUnsupportedMediaTypeStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUnsupportedMediaTypeStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 415 received:\n' +
           `  ${printReceived(status)}\n\n` +

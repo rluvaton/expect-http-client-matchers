@@ -1,5 +1,5 @@
 exports[`(.not).toHavePartialContentStatus > using axios > .not.toHavePartialContentStatus > fails when response have status code 206 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHavePartialContentStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHavePartialContentStatus()</intensity>
 
 Expected status code to not be 206 received:
   <red>206</color>

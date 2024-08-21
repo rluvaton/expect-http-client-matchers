@@ -13,7 +13,7 @@ function toHaveOkStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveOkStatus', 'received', '') +
+        ? matcherHint('.not.toHaveOkStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 200 received:\n' +
           `  ${printReceived(status)}\n\n` +

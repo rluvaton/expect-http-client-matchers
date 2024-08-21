@@ -13,7 +13,7 @@ function toHaveLockedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveLockedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveLockedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 423 received:\n' +
           `  ${printReceived(status)}\n\n` +

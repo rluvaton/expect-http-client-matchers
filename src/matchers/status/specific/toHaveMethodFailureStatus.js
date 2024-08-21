@@ -13,7 +13,7 @@ function toHaveMethodFailureStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMethodFailureStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMethodFailureStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 420 received:\n' +
           `  ${printReceived(status)}\n\n` +

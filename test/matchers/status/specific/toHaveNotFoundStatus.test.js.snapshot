@@ -1,5 +1,5 @@
 exports[`(.not).toHaveNotFoundStatus > using axios > .not.toHaveNotFoundStatus > fails when response have status code 404 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveNotFoundStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNotFoundStatus()</intensity>
 
 Expected status code to not be 404 received:
   <red>404</color>

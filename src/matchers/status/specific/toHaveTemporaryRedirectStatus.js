@@ -13,7 +13,7 @@ function toHaveTemporaryRedirectStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveTemporaryRedirectStatus', 'received', '') +
+        ? matcherHint('.not.toHaveTemporaryRedirectStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 307 received:\n' +
           `  ${printReceived(status)}\n\n` +

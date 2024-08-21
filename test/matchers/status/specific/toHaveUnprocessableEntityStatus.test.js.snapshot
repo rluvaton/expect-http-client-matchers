@@ -1,5 +1,5 @@
 exports[`(.not).toHaveUnprocessableEntityStatus > using axios > .not.toHaveUnprocessableEntityStatus > fails when response have status code 422 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveUnprocessableEntityStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveUnprocessableEntityStatus()</intensity>
 
 Expected status code to not be 422 received:
   <red>422</color>

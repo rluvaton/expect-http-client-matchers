@@ -1,5 +1,5 @@
 exports[`(.not).toHavePaymentRequiredStatus > using axios > .not.toHavePaymentRequiredStatus > fails when response have status code 402 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHavePaymentRequiredStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHavePaymentRequiredStatus()</intensity>
 
 Expected status code to not be 402 received:
   <red>402</color>

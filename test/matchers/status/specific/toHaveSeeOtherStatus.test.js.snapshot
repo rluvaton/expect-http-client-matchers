@@ -1,5 +1,5 @@
 exports[`(.not).toHaveSeeOtherStatus > using axios > .not.toHaveSeeOtherStatus > fails when response have status code 303 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveSeeOtherStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveSeeOtherStatus()</intensity>
 
 Expected status code to not be 303 received:
   <red>303</color>

@@ -13,7 +13,7 @@ function toHave3xxStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHave3xxStatus', 'received', '') +
+        ? matcherHint('.not.toHave3xxStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be between 300 and 399 received:\n' +
           `  ${printReceived(status)}\n\n` +

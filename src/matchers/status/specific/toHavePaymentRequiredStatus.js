@@ -13,7 +13,7 @@ function toHavePaymentRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHavePaymentRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHavePaymentRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 402 received:\n' +
           `  ${printReceived(status)}\n\n` +

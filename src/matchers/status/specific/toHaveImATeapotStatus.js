@@ -13,7 +13,7 @@ function toHaveImATeapotStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveImATeapotStatus', 'received', '') +
+        ? matcherHint('.not.toHaveImATeapotStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 418 received:\n' +
           `  ${printReceived(status)}\n\n` +

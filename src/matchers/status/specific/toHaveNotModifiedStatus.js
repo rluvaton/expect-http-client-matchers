@@ -13,7 +13,7 @@ function toHaveNotModifiedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveNotModifiedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveNotModifiedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 304 received:\n' +
           `  ${printReceived(status)}\n\n` +

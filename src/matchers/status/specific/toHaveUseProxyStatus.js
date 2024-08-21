@@ -13,7 +13,7 @@ function toHaveUseProxyStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUseProxyStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUseProxyStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 305 received:\n' +
           `  ${printReceived(status)}\n\n` +

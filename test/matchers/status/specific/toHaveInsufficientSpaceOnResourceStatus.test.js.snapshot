@@ -1,5 +1,5 @@
 exports[`(.not).toHaveInsufficientSpaceOnResourceStatus > using axios > .not.toHaveInsufficientSpaceOnResourceStatus > fails when response have status code 419 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveInsufficientSpaceOnResourceStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveInsufficientSpaceOnResourceStatus()</intensity>
 
 Expected status code to not be 419 received:
   <red>419</color>

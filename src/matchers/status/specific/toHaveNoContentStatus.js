@@ -13,7 +13,7 @@ function toHaveNoContentStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveNoContentStatus', 'received', '') +
+        ? matcherHint('.not.toHaveNoContentStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 204 received:\n' +
           `  ${printReceived(status)}\n\n` +

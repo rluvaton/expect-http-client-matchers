@@ -13,7 +13,7 @@ function toHaveMovedPermanentlyStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMovedPermanentlyStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMovedPermanentlyStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 301 received:\n' +
           `  ${printReceived(status)}\n\n` +

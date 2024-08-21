@@ -13,7 +13,7 @@ function toHaveGatewayTimeoutStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveGatewayTimeoutStatus', 'received', '') +
+        ? matcherHint('.not.toHaveGatewayTimeoutStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 504 received:\n' +
           `  ${printReceived(status)}\n\n` +

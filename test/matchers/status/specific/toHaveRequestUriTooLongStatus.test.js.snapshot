@@ -1,5 +1,5 @@
 exports[`(.not).toHaveRequestUriTooLongStatus > using axios > .not.toHaveRequestUriTooLongStatus > fails when response have status code 414 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveRequestUriTooLongStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveRequestUriTooLongStatus()</intensity>
 
 Expected status code to not be 414 received:
   <red>414</color>

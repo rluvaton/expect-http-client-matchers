@@ -1,5 +1,5 @@
 exports[`(.not).toHaveCreatedStatus > using axios > .not.toHaveCreatedStatus > fails when response have status code 201 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveCreatedStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveCreatedStatus()</intensity>
 
 Expected status code to not be 201 received:
   <red>201</color>

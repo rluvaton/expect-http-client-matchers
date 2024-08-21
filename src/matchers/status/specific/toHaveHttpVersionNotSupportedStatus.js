@@ -13,7 +13,7 @@ function toHaveHttpVersionNotSupportedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveHttpVersionNotSupportedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveHttpVersionNotSupportedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 505 received:\n' +
           `  ${printReceived(status)}\n\n` +

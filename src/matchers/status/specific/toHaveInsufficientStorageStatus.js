@@ -13,7 +13,7 @@ function toHaveInsufficientStorageStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveInsufficientStorageStatus', 'received', '') +
+        ? matcherHint('.not.toHaveInsufficientStorageStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 507 received:\n' +
           `  ${printReceived(status)}\n\n` +

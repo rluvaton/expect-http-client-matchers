@@ -1,5 +1,5 @@
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 200 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>200</color>
@@ -18,7 +18,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 201 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>201</color>
@@ -37,7 +37,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 202 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>202</color>
@@ -56,7 +56,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 203 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>203</color>
@@ -75,7 +75,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 204 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>204</color>
@@ -92,7 +92,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 205 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>205</color>
@@ -111,7 +111,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 206 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>206</color>
@@ -130,7 +130,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 207 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>207</color>
@@ -149,7 +149,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 208 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>208</color>
@@ -168,7 +168,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 209 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>209</color>
@@ -187,7 +187,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 210 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>210</color>
@@ -206,7 +206,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 211 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>211</color>
@@ -225,7 +225,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 212 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>212</color>
@@ -244,7 +244,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 213 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>213</color>
@@ -263,7 +263,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 214 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>214</color>
@@ -282,7 +282,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 215 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>215</color>
@@ -301,7 +301,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 216 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>216</color>
@@ -320,7 +320,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 217 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>217</color>
@@ -339,7 +339,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 218 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>218</color>
@@ -358,7 +358,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 219 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>219</color>
@@ -377,7 +377,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 220 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>220</color>
@@ -396,7 +396,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 221 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>221</color>
@@ -415,7 +415,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 222 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>222</color>
@@ -434,7 +434,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 223 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>223</color>
@@ -453,7 +453,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 224 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>224</color>
@@ -472,7 +472,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 225 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>225</color>
@@ -491,7 +491,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 226 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>226</color>
@@ -510,7 +510,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 227 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>227</color>
@@ -529,7 +529,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 228 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>228</color>
@@ -548,7 +548,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 229 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>229</color>
@@ -567,7 +567,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 230 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>230</color>
@@ -586,7 +586,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 231 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>231</color>
@@ -605,7 +605,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 232 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>232</color>
@@ -624,7 +624,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 233 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>233</color>
@@ -643,7 +643,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 234 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>234</color>
@@ -662,7 +662,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 235 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>235</color>
@@ -681,7 +681,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 236 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>236</color>
@@ -700,7 +700,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 237 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>237</color>
@@ -719,7 +719,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 238 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>238</color>
@@ -738,7 +738,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 239 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>239</color>
@@ -757,7 +757,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 240 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>240</color>
@@ -776,7 +776,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 241 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>241</color>
@@ -795,7 +795,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 242 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>242</color>
@@ -814,7 +814,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 243 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>243</color>
@@ -833,7 +833,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 244 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>244</color>
@@ -852,7 +852,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 245 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>245</color>
@@ -871,7 +871,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 246 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>246</color>
@@ -890,7 +890,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 247 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>247</color>
@@ -909,7 +909,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 248 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>248</color>
@@ -928,7 +928,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 249 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>249</color>
@@ -947,7 +947,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 250 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>250</color>
@@ -966,7 +966,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 251 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>251</color>
@@ -985,7 +985,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 252 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>252</color>
@@ -1004,7 +1004,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 253 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>253</color>
@@ -1023,7 +1023,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 254 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>254</color>
@@ -1042,7 +1042,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 255 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>255</color>
@@ -1061,7 +1061,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 256 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>256</color>
@@ -1080,7 +1080,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 257 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>257</color>
@@ -1099,7 +1099,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 258 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>258</color>
@@ -1118,7 +1118,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 259 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>259</color>
@@ -1137,7 +1137,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 260 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>260</color>
@@ -1156,7 +1156,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 261 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>261</color>
@@ -1175,7 +1175,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 262 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>262</color>
@@ -1194,7 +1194,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 263 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>263</color>
@@ -1213,7 +1213,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 264 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>264</color>
@@ -1232,7 +1232,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 265 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>265</color>
@@ -1251,7 +1251,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 266 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>266</color>
@@ -1270,7 +1270,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 267 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>267</color>
@@ -1289,7 +1289,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 268 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>268</color>
@@ -1308,7 +1308,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 269 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>269</color>
@@ -1327,7 +1327,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 270 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>270</color>
@@ -1346,7 +1346,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 271 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>271</color>
@@ -1365,7 +1365,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 272 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>272</color>
@@ -1384,7 +1384,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 273 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>273</color>
@@ -1403,7 +1403,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 274 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>274</color>
@@ -1422,7 +1422,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 275 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>275</color>
@@ -1441,7 +1441,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 276 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>276</color>
@@ -1460,7 +1460,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 277 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>277</color>
@@ -1479,7 +1479,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 278 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>278</color>
@@ -1498,7 +1498,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 279 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>279</color>
@@ -1517,7 +1517,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 280 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>280</color>
@@ -1536,7 +1536,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 281 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>281</color>
@@ -1555,7 +1555,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 282 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>282</color>
@@ -1574,7 +1574,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 283 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>283</color>
@@ -1593,7 +1593,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 284 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>284</color>
@@ -1612,7 +1612,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 285 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>285</color>
@@ -1631,7 +1631,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 286 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>286</color>
@@ -1650,7 +1650,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 287 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>287</color>
@@ -1669,7 +1669,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 288 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>288</color>
@@ -1688,7 +1688,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 289 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>289</color>
@@ -1707,7 +1707,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 290 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>290</color>
@@ -1726,7 +1726,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 291 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>291</color>
@@ -1745,7 +1745,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 292 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>292</color>
@@ -1764,7 +1764,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 293 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>293</color>
@@ -1783,7 +1783,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 294 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>294</color>
@@ -1802,7 +1802,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 295 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>295</color>
@@ -1821,7 +1821,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 296 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>296</color>
@@ -1840,7 +1840,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 297 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>297</color>
@@ -1859,7 +1859,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 298 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>298</color>
@@ -1878,7 +1878,7 @@ response is:
 `;
 
 exports[`(.not).toBeSuccessful > using axios > .not.toBeSuccessful > status 200 to 299 > fails when response have status code 299 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toBeSuccessful()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toBeSuccessful()</intensity>
 
 Expected status code to not be successful received:
   <red>299</color>
