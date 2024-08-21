@@ -1,7 +1,7 @@
 const { toHaveLockedStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -26,6 +26,9 @@ describe('(.not).toHaveLockedStatus', () => {
           });
 
           expect(response).toHaveLockedStatus();
+          expect({ response }).toEqual({
+            response: expect.toHaveLockedStatus(),
+          });
         });
 
         describe('other statuses', function allTests() {
@@ -46,6 +49,14 @@ describe('(.not).toHaveLockedStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.toHaveLockedStatus(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +77,10 @@ describe('(.not).toHaveLockedStatus', () => {
             );
 
             expect(response).not.toHaveLockedStatus();
+
+            expect({ response }).toEqual({
+              response: expect.not.toHaveLockedStatus(),
+            });
           }
         });
 
@@ -82,6 +97,14 @@ describe('(.not).toHaveLockedStatus', () => {
           } catch (e) {
             t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.not.toHaveLockedStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
     });

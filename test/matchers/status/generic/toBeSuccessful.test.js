@@ -1,7 +1,7 @@
 const { toBeSuccessful } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -31,6 +31,9 @@ describe('(.not).toBeSuccessful', () => {
             );
 
             expect(response).toBeSuccessful();
+            expect({ response }).toEqual({
+              response: expect.toBeSuccessful(),
+            });
           }
         });
 
@@ -49,6 +52,14 @@ describe('(.not).toBeSuccessful', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.toBeSuccessful(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +77,9 @@ describe('(.not).toBeSuccessful', () => {
             );
 
             expect(response).not.toBeSuccessful();
+            expect({ response }).toEqual({
+              response: expect.not.toBeSuccessful(),
+            });
           }
         });
 
@@ -84,6 +98,14 @@ describe('(.not).toBeSuccessful', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.not.toBeSuccessful(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });

@@ -1,7 +1,7 @@
 const { toHave2xxStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -31,6 +31,9 @@ describe('(.not).toHave2xxStatus', () => {
             );
 
             expect(response).toHave2xxStatus();
+            expect({ response }).toEqual({
+              response: expect.toHave2xxStatus(),
+            });
           }
         });
 
@@ -49,6 +52,13 @@ describe('(.not).toHave2xxStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.toHave2xxStatus(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +76,9 @@ describe('(.not).toHave2xxStatus', () => {
             );
 
             expect(response).not.toHave2xxStatus();
+            expect({ response }).toEqual({
+              response: expect.toHave2xxStatus(),
+            });
           }
         });
 
@@ -84,6 +97,13 @@ describe('(.not).toHave2xxStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.not.toHave2xxStatus(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });

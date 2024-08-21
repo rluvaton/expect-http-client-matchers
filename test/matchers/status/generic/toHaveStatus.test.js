@@ -1,7 +1,7 @@
 const { toHaveStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -31,6 +31,9 @@ describe('(.not).toHaveStatus', () => {
             );
 
             expect(response).toHaveStatus(status);
+            expect({ response }).toEqual({
+              response: expect.toHaveStatus(status),
+            });
           }
         });
 
@@ -49,6 +52,12 @@ describe('(.not).toHaveStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              expect(() =>
+                expect({ response }).toEqual({
+                  response: expect.toHaveStatus(status - 1),
+                }),
+              ).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +75,9 @@ describe('(.not).toHaveStatus', () => {
             );
 
             expect(response).not.toHaveStatus(status - 1);
+            expect({ response }).toEqual({
+              response: expect.not.toHaveStatus(status - 1),
+            });
           }
         });
 
@@ -84,6 +96,12 @@ describe('(.not).toHaveStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              expect(() =>
+                expect({ response }).toEqual({
+                  response: expect.not.toHaveStatus(status),
+                }),
+              ).toThrowError(JestAssertionError);
             });
           }
         });

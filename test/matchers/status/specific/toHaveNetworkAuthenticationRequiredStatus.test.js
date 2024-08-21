@@ -1,7 +1,7 @@
 const { toHaveNetworkAuthenticationRequiredStatus } = require('../../../../src');
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
-const { expect } = require('expect');
+const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
 
@@ -26,6 +26,9 @@ describe('(.not).toHaveNetworkAuthenticationRequiredStatus', () => {
           });
 
           expect(response).toHaveNetworkAuthenticationRequiredStatus();
+          expect({ response }).toEqual({
+            response: expect.toHaveNetworkAuthenticationRequiredStatus(),
+          });
         });
 
         describe('other statuses', function allTests() {
@@ -46,6 +49,14 @@ describe('(.not).toHaveNetworkAuthenticationRequiredStatus', () => {
               } catch (e) {
                 t.assert.snapshot(e);
               }
+
+              // Not using snapshot in the test as the error will contain the entire response
+              // plus dynamic values
+              expect(() => {
+                expect({ response }).toEqual({
+                  response: expect.toHaveNetworkAuthenticationRequiredStatus(),
+                });
+              }).toThrowError(JestAssertionError);
             });
           }
         });
@@ -66,6 +77,10 @@ describe('(.not).toHaveNetworkAuthenticationRequiredStatus', () => {
             );
 
             expect(response).not.toHaveNetworkAuthenticationRequiredStatus();
+
+            expect({ response }).toEqual({
+              response: expect.not.toHaveNetworkAuthenticationRequiredStatus(),
+            });
           }
         });
 
@@ -82,6 +97,14 @@ describe('(.not).toHaveNetworkAuthenticationRequiredStatus', () => {
           } catch (e) {
             t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.not.toHaveNetworkAuthenticationRequiredStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
     });
