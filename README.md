@@ -271,6 +271,8 @@ axios.defaults.validateStatus = () => true;
 
 ### Generic Matchers
 
+These matchers are more generic, they apply to a group of options rather than a specific thing.
+
 #### .toBeSuccessful()
 
 same as [`.toHave2xxStatus`](#tohave2xxstatus)
@@ -372,6 +374,8 @@ test('passes when using .not.toHaveStatus() for 200', async () => {
 ```
 
 ### Specific Matchers
+
+These matchers are more specific, they apply to one option rather than a group of them.
 
 #### .toHaveSwitchingProtocolsStatus()
 
