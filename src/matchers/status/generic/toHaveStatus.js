@@ -2,25 +2,25 @@ const { printDebugInfo } = require('../../../utils/get-debug-info');
 const { getMatchingAdapter } = require('../../../http-clients');
 
 function toHaveStatus(actual, expected) {
-  const { matcherHint, printReceived } = this.utils;
+  const { matcherHint, printReceived, stringify } = this.utils;
 
   const adapter = getMatchingAdapter(actual);
   const status = adapter.getStatusCode();
 
-  const pass = status === expected;
+  const pass = this.equals(status, expected);
 
   return {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveStatus', 'received', '') +
+        ? matcherHint('.not.toHaveStatus', 'received', stringify(expected)) +
           '\n\n' +
-          `Expected status code to not be ${expected} received:` +
+          `Expected status code to not be ${stringify(expected)} received:` +
           `  ${printReceived(status)}\n\n` +
           printDebugInfo(adapter)
-        : matcherHint('.toHaveStatus', 'received', '') +
+        : matcherHint('.toHaveStatus', 'received', stringify(expected)) +
           '\n\n' +
-          `Expected status code to be ${expected} received:` +
+          `Expected status code to be ${stringify(expected)} received:` +
           `  ${printReceived(status)}\n\n` +
           printDebugInfo(adapter),
   };
