@@ -1,10 +1,10 @@
 const { printDebugInfo } = require('../../../utils/get-debug-info');
 const { getMatchingAdapter } = require('../../../http-clients');
 
-function toHaveGatewayTimeoutStatus(expected) {
+function toHaveGatewayTimeoutStatus(actual) {
   const { matcherHint, printReceived } = this.utils;
 
-  const adapter = getMatchingAdapter(expected);
+  const adapter = getMatchingAdapter(actual);
   const status = adapter.getStatusCode();
 
   const pass = status === 504;

@@ -1,10 +1,10 @@
 const { printDebugInfo } = require('../../../utils/get-debug-info');
 const { getMatchingAdapter } = require('../../../http-clients');
 
-function toHave5xxStatus(expected) {
+function toHave5xxStatus(actual) {
   const { matcherHint, printReceived } = this.utils;
 
-  const adapter = getMatchingAdapter(expected);
+  const adapter = getMatchingAdapter(actual);
   const status = adapter.getStatusCode();
 
   const pass = status >= 500 && status <= 599;
