@@ -13,7 +13,7 @@ function toHaveSeeOtherStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveSeeOtherStatus', 'received', '') +
+        ? matcherHint('.not.toHaveSeeOtherStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 303 received:\n' +
           `  ${printReceived(status)}\n\n` +

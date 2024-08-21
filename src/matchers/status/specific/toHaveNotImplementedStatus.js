@@ -13,7 +13,7 @@ function toHaveNotImplementedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveNotImplementedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveNotImplementedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 501 received:\n' +
           `  ${printReceived(status)}\n\n` +

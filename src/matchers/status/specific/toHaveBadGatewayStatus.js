@@ -13,7 +13,7 @@ function toHaveBadGatewayStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveBadGatewayStatus', 'received', '') +
+        ? matcherHint('.not.toHaveBadGatewayStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 502 received:\n' +
           `  ${printReceived(status)}\n\n` +

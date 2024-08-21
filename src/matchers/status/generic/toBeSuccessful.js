@@ -13,7 +13,7 @@ function toBeSuccessful(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toBeSuccessful', 'received', '') +
+        ? matcherHint('.not.toBeSuccessful', 'received', '') +
           '\n\n' +
           'Expected status code to not be successful received:\n' +
           `  ${printReceived(status)}\n\n` +

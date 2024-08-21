@@ -1,5 +1,5 @@
 exports[`(.not).toHaveNoContentStatus > using axios > .not.toHaveNoContentStatus > fails when response have status code 204 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveNoContentStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNoContentStatus()</intensity>
 
 Expected status code to not be 204 received:
   <red>204</color>

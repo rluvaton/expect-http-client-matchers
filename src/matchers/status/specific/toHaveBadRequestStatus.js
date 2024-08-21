@@ -13,7 +13,7 @@ function toHaveBadRequestStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveBadRequestStatus', 'received', '') +
+        ? matcherHint('.not.toHaveBadRequestStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 400 received:\n' +
           `  ${printReceived(status)}\n\n` +

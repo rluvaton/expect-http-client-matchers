@@ -1,5 +1,5 @@
 exports[`(.not).toHaveNetworkAuthenticationRequiredStatus > using axios > .not.toHaveNetworkAuthenticationRequiredStatus > fails when response have status code 511 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveNetworkAuthenticationRequiredStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNetworkAuthenticationRequiredStatus()</intensity>
 
 Expected status code to not be 511 received:
   <red>511</color>

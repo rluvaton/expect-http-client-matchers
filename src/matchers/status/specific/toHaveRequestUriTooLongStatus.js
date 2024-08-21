@@ -13,7 +13,7 @@ function toHaveRequestUriTooLongStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveRequestUriTooLongStatus', 'received', '') +
+        ? matcherHint('.not.toHaveRequestUriTooLongStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 414 received:\n' +
           `  ${printReceived(status)}\n\n` +

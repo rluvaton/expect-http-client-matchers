@@ -13,7 +13,7 @@ function toHaveConflictStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveConflictStatus', 'received', '') +
+        ? matcherHint('.not.toHaveConflictStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 409 received:\n' +
           `  ${printReceived(status)}\n\n` +

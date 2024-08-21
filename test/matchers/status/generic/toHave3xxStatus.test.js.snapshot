@@ -1,5 +1,5 @@
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 300 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>300</color>
@@ -18,7 +18,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 301 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>301</color>
@@ -37,7 +37,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 302 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>302</color>
@@ -56,7 +56,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 303 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>303</color>
@@ -75,7 +75,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 304 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>304</color>
@@ -94,7 +94,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 305 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>305</color>
@@ -113,7 +113,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 306 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>306</color>
@@ -132,7 +132,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 307 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>307</color>
@@ -151,7 +151,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 308 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>308</color>
@@ -170,7 +170,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 309 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>309</color>
@@ -189,7 +189,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 310 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>310</color>
@@ -208,7 +208,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 311 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>311</color>
@@ -227,7 +227,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 312 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>312</color>
@@ -246,7 +246,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 313 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>313</color>
@@ -265,7 +265,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 314 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>314</color>
@@ -284,7 +284,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 315 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>315</color>
@@ -303,7 +303,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 316 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>316</color>
@@ -322,7 +322,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 317 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>317</color>
@@ -341,7 +341,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 318 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>318</color>
@@ -360,7 +360,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 319 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>319</color>
@@ -379,7 +379,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 320 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>320</color>
@@ -398,7 +398,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 321 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>321</color>
@@ -417,7 +417,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 322 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>322</color>
@@ -436,7 +436,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 323 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>323</color>
@@ -455,7 +455,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 324 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>324</color>
@@ -474,7 +474,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 325 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>325</color>
@@ -493,7 +493,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 326 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>326</color>
@@ -512,7 +512,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 327 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>327</color>
@@ -531,7 +531,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 328 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>328</color>
@@ -550,7 +550,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 329 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>329</color>
@@ -569,7 +569,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 330 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>330</color>
@@ -588,7 +588,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 331 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>331</color>
@@ -607,7 +607,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 332 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>332</color>
@@ -626,7 +626,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 333 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>333</color>
@@ -645,7 +645,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 334 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>334</color>
@@ -664,7 +664,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 335 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>335</color>
@@ -683,7 +683,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 336 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>336</color>
@@ -702,7 +702,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 337 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>337</color>
@@ -721,7 +721,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 338 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>338</color>
@@ -740,7 +740,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 339 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>339</color>
@@ -759,7 +759,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 340 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>340</color>
@@ -778,7 +778,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 341 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>341</color>
@@ -797,7 +797,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 342 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>342</color>
@@ -816,7 +816,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 343 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>343</color>
@@ -835,7 +835,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 344 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>344</color>
@@ -854,7 +854,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 345 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>345</color>
@@ -873,7 +873,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 346 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>346</color>
@@ -892,7 +892,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 347 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>347</color>
@@ -911,7 +911,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 348 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>348</color>
@@ -930,7 +930,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 349 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>349</color>
@@ -949,7 +949,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 350 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>350</color>
@@ -968,7 +968,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 351 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>351</color>
@@ -987,7 +987,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 352 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>352</color>
@@ -1006,7 +1006,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 353 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>353</color>
@@ -1025,7 +1025,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 354 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>354</color>
@@ -1044,7 +1044,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 355 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>355</color>
@@ -1063,7 +1063,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 356 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>356</color>
@@ -1082,7 +1082,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 357 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>357</color>
@@ -1101,7 +1101,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 358 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>358</color>
@@ -1120,7 +1120,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 359 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>359</color>
@@ -1139,7 +1139,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 360 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>360</color>
@@ -1158,7 +1158,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 361 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>361</color>
@@ -1177,7 +1177,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 362 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>362</color>
@@ -1196,7 +1196,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 363 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>363</color>
@@ -1215,7 +1215,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 364 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>364</color>
@@ -1234,7 +1234,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 365 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>365</color>
@@ -1253,7 +1253,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 366 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>366</color>
@@ -1272,7 +1272,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 367 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>367</color>
@@ -1291,7 +1291,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 368 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>368</color>
@@ -1310,7 +1310,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 369 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>369</color>
@@ -1329,7 +1329,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 370 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>370</color>
@@ -1348,7 +1348,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 371 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>371</color>
@@ -1367,7 +1367,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 372 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>372</color>
@@ -1386,7 +1386,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 373 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>373</color>
@@ -1405,7 +1405,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 374 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>374</color>
@@ -1424,7 +1424,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 375 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>375</color>
@@ -1443,7 +1443,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 376 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>376</color>
@@ -1462,7 +1462,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 377 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>377</color>
@@ -1481,7 +1481,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 378 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>378</color>
@@ -1500,7 +1500,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 379 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>379</color>
@@ -1519,7 +1519,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 380 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>380</color>
@@ -1538,7 +1538,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 381 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>381</color>
@@ -1557,7 +1557,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 382 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>382</color>
@@ -1576,7 +1576,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 383 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>383</color>
@@ -1595,7 +1595,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 384 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>384</color>
@@ -1614,7 +1614,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 385 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>385</color>
@@ -1633,7 +1633,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 386 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>386</color>
@@ -1652,7 +1652,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 387 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>387</color>
@@ -1671,7 +1671,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 388 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>388</color>
@@ -1690,7 +1690,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 389 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>389</color>
@@ -1709,7 +1709,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 390 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>390</color>
@@ -1728,7 +1728,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 391 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>391</color>
@@ -1747,7 +1747,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 392 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>392</color>
@@ -1766,7 +1766,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 393 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>393</color>
@@ -1785,7 +1785,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 394 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>394</color>
@@ -1804,7 +1804,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 395 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>395</color>
@@ -1823,7 +1823,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 396 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>396</color>
@@ -1842,7 +1842,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 397 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>397</color>
@@ -1861,7 +1861,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 398 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>398</color>
@@ -1880,7 +1880,7 @@ response is:
 `;
 
 exports[`(.not).toHave3xxStatus > using axios > .not.toHave3xxStatus > status 300 to 399 > fails when response have status code 399 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHave3xxStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHave3xxStatus()</intensity>
 
 Expected status code to not be between 300 and 399 received:
   <red>399</color>

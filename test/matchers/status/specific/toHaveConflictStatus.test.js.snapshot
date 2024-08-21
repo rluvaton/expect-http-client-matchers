@@ -1,5 +1,5 @@
 exports[`(.not).toHaveConflictStatus > using axios > .not.toHaveConflictStatus > fails when response have status code 409 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveConflictStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveConflictStatus()</intensity>
 
 Expected status code to not be 409 received:
   <red>409</color>

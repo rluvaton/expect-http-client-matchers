@@ -13,7 +13,7 @@ function toHaveUpgradeRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUpgradeRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUpgradeRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 426 received:\n' +
           `  ${printReceived(status)}\n\n` +

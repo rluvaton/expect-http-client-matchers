@@ -13,7 +13,7 @@ function toHaveRequestHeaderFieldsTooLargeStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveRequestHeaderFieldsTooLargeStatus', 'received', '') +
+        ? matcherHint('.not.toHaveRequestHeaderFieldsTooLargeStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 431 received:\n' +
           `  ${printReceived(status)}\n\n` +

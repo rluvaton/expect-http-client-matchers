@@ -1,5 +1,5 @@
 exports[`(.not).toHaveTooManyRequestsStatus > using axios > .not.toHaveTooManyRequestsStatus > fails when response have status code 429 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveTooManyRequestsStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveTooManyRequestsStatus()</intensity>
 
 Expected status code to not be 429 received:
   <red>429</color>

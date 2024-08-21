@@ -1,5 +1,5 @@
 exports[`(.not).toHaveUnavailableForLegalReasonsStatus > using axios > .not.toHaveUnavailableForLegalReasonsStatus > fails when response have status code 451 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveUnavailableForLegalReasonsStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveUnavailableForLegalReasonsStatus()</intensity>
 
 Expected status code to not be 451 received:
   <red>451</color>

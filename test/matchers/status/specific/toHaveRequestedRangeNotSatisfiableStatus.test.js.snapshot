@@ -1,5 +1,5 @@
 exports[`(.not).toHaveRequestedRangeNotSatisfiableStatus > using axios > .not.toHaveRequestedRangeNotSatisfiableStatus > fails when response have status code 416 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveRequestedRangeNotSatisfiableStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveRequestedRangeNotSatisfiableStatus()</intensity>
 
 Expected status code to not be 416 received:
   <red>416</color>

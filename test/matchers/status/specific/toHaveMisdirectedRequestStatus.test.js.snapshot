@@ -1,5 +1,5 @@
 exports[`(.not).toHaveMisdirectedRequestStatus > using axios > .not.toHaveMisdirectedRequestStatus > fails when response have status code 421 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveMisdirectedRequestStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveMisdirectedRequestStatus()</intensity>
 
 Expected status code to not be 421 received:
   <red>421</color>

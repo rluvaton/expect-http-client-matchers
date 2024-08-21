@@ -1,5 +1,5 @@
 exports[`(.not).toHaveMovedPermanentlyStatus > using axios > .not.toHaveMovedPermanentlyStatus > fails when response have status code 301 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveMovedPermanentlyStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveMovedPermanentlyStatus()</intensity>
 
 Expected status code to not be 301 received:
   <red>301</color>

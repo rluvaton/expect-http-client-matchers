@@ -13,7 +13,7 @@ function toHavePartialContentStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHavePartialContentStatus', 'received', '') +
+        ? matcherHint('.not.toHavePartialContentStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 206 received:\n' +
           `  ${printReceived(status)}\n\n` +

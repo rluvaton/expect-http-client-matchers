@@ -13,7 +13,7 @@ function toHaveNonAuthoritativeInformationStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveNonAuthoritativeInformationStatus', 'received', '') +
+        ? matcherHint('.not.toHaveNonAuthoritativeInformationStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 203 received:\n' +
           `  ${printReceived(status)}\n\n` +

@@ -13,7 +13,7 @@ function toHaveMultipleChoicesStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMultipleChoicesStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMultipleChoicesStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 300 received:\n' +
           `  ${printReceived(status)}\n\n` +

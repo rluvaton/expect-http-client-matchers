@@ -13,7 +13,7 @@ function toHaveRequestTimeoutStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveRequestTimeoutStatus', 'received', '') +
+        ? matcherHint('.not.toHaveRequestTimeoutStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 408 received:\n' +
           `  ${printReceived(status)}\n\n` +

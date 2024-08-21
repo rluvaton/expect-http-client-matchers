@@ -13,7 +13,7 @@ function toHaveMisdirectedRequestStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMisdirectedRequestStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMisdirectedRequestStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 421 received:\n' +
           `  ${printReceived(status)}\n\n` +

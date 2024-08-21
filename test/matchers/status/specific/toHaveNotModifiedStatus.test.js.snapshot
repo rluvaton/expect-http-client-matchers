@@ -1,5 +1,5 @@
 exports[`(.not).toHaveNotModifiedStatus > using axios > .not.toHaveNotModifiedStatus > fails when response have status code 304 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveNotModifiedStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNotModifiedStatus()</intensity>
 
 Expected status code to not be 304 received:
   <red>304</color>

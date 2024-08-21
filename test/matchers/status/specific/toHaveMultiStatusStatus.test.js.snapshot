@@ -1,5 +1,5 @@
 exports[`(.not).toHaveMultiStatusStatus > using axios > .not.toHaveMultiStatusStatus > fails when response have status code 207 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveMultiStatusStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveMultiStatusStatus()</intensity>
 
 Expected status code to not be 207 received:
   <red>207</color>

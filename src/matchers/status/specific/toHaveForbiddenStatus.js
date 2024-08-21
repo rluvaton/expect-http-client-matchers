@@ -13,7 +13,7 @@ function toHaveForbiddenStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveForbiddenStatus', 'received', '') +
+        ? matcherHint('.not.toHaveForbiddenStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 403 received:\n' +
           `  ${printReceived(status)}\n\n` +

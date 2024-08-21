@@ -13,7 +13,7 @@ function toHaveUnavailableForLegalReasonsStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUnavailableForLegalReasonsStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUnavailableForLegalReasonsStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 451 received:\n' +
           `  ${printReceived(status)}\n\n` +

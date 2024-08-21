@@ -13,7 +13,7 @@ function toHaveInsufficientSpaceOnResourceStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveInsufficientSpaceOnResourceStatus', 'received', '') +
+        ? matcherHint('.not.toHaveInsufficientSpaceOnResourceStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 419 received:\n' +
           `  ${printReceived(status)}\n\n` +

@@ -13,7 +13,7 @@ function toHaveResetContentStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveResetContentStatus', 'received', '') +
+        ? matcherHint('.not.toHaveResetContentStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 205 received:\n' +
           `  ${printReceived(status)}\n\n` +

@@ -13,7 +13,7 @@ function toHaveGoneStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveGoneStatus', 'received', '') +
+        ? matcherHint('.not.toHaveGoneStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 410 received:\n' +
           `  ${printReceived(status)}\n\n` +

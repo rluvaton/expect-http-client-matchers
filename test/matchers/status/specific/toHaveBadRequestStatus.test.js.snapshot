@@ -1,5 +1,5 @@
 exports[`(.not).toHaveBadRequestStatus > using axios > .not.toHaveBadRequestStatus > fails when response have status code 400 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveBadRequestStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveBadRequestStatus()</intensity>
 
 Expected status code to not be 400 received:
   <red>400</color>
