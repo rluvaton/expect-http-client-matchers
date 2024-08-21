@@ -37,6 +37,46 @@ describe('(.not).toHaveStatus', () => {
           }
         });
 
+        test('passes when given correct asymmetric matcher as status', async () => {
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
+
+          expect(response).toHaveStatus(expect.any(Number));
+          expect({ response }).toEqual({
+            response: expect.toHaveStatus(expect.any(Number)),
+          });
+        });
+
+        test('fails when given incorrect asymmetric matcher as status', async (t) => {
+          // Should have the assert snapshot assertion
+          t.plan(1);
+
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
+
+          try {
+            expect(response).toHaveStatus(expect.any(String));
+          } catch (e) {
+            t.assert.snapshot(e);
+          }
+
+          expect(() =>
+            expect({ response }).toEqual({
+              response: expect.toHaveStatus(expect.any(String)),
+            }),
+          ).toThrowError(JestAssertionError);
+        });
+
         describe('status 200 to 599', function allTests() {
           for (let status = 200; status <= 599; status++) {
             test(`fails when response have status code ${status}`, async (t) => {
@@ -79,6 +119,46 @@ describe('(.not).toHaveStatus', () => {
               response: expect.not.toHaveStatus(status - 1),
             });
           }
+        });
+
+        test('passes when given correct asymmetric matcher as status', async () => {
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
+
+          expect(response).not.toHaveStatus(expect.any(String));
+          expect({ response }).toEqual({
+            response: expect.not.toHaveStatus(expect.any(String)),
+          });
+        });
+
+        test('fails when given incorrect asymmetric matcher as status', async (t) => {
+          // Should have the assert snapshot assertion
+          t.plan(1);
+
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
+
+          try {
+            expect(response).not.toHaveStatus(expect.any(Number));
+          } catch (e) {
+            t.assert.snapshot(e);
+          }
+
+          expect(() =>
+            expect({ response }).toEqual({
+              response: expect.not.toHaveStatus(expect.any(Number)),
+            }),
+          ).toThrowError(JestAssertionError);
         });
 
         describe('status 200 to 599', function allTests() {
