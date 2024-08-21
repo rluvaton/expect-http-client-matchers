@@ -77,7 +77,7 @@ describe('(.not).toHave2xxStatus', () => {
 
             expect(response).not.toHave2xxStatus();
             expect({ response }).toEqual({
-              response: expect.toHave2xxStatus(),
+              response: expect.not.toHave2xxStatus(),
             });
           }
         });
