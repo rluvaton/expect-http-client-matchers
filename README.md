@@ -1325,12 +1325,12 @@ header names are case-insensitive
 ```js
 test('passes when response header match the expected header', async () => {
     const response = await axios.get('https://httpstat.us/200');
-    expect(response).toHaveHeader('X-Request-ID');
+    expect(response).toHaveHeader('content-type');
 });
 
 test('passes when using .toHaveHeader() with expected value', async () => {
     const response = await axios.get('http://example.com');
-    expect(response).toHaveHeader('Accept', 'application/json');
+    expect(response).toHaveHeader('Accept', 'text/html; UTF-8');
 });
 ```
 
