@@ -36,6 +36,11 @@ async function run() {
   expect(res).toEqual(expect.toHaveStatus(100));
   expect(res).toEqual(expect.not.toHaveStatus(100));
 
+  expect(res).toHaveStatus(expect.any(Number));
+  expect(res).not.toHaveStatus(expect.any(Number));
+  expect(res).toEqual(expect.toHaveStatus(expect.any(Number)));
+  expect(res).toEqual(expect.not.toHaveStatus(expect.any(Number)));
+
   expect(res).toHaveSwitchingProtocolsStatus();
   expect(res).not.toHaveSwitchingProtocolsStatus();
   expect(res).toEqual(expect.toHaveSwitchingProtocolsStatus());
