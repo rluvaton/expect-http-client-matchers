@@ -13,7 +13,7 @@ function toHaveNetworkAuthenticationRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveNetworkAuthenticationRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHaveNetworkAuthenticationRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 511 received:\n' +
           `  ${printReceived(status)}\n\n` +

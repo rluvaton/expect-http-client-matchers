@@ -13,7 +13,7 @@ function toHavePreconditionRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHavePreconditionRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHavePreconditionRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 428 received:\n' +
           `  ${printReceived(status)}\n\n` +

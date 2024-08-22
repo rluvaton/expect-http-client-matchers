@@ -1,5 +1,5 @@
 exports[`(.not).toHavePermanentRedirectStatus > using axios > .not.toHavePermanentRedirectStatus > fails when response have status code 308 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHavePermanentRedirectStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHavePermanentRedirectStatus()</intensity>
 
 Expected status code to not be 308 received:
   <red>308</color>

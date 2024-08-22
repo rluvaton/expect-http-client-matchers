@@ -13,7 +13,7 @@ function toHaveExpectationFailedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveExpectationFailedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveExpectationFailedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 417 received:\n' +
           `  ${printReceived(status)}\n\n` +

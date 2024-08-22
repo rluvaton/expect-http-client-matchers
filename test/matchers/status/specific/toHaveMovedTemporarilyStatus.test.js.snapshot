@@ -1,5 +1,5 @@
 exports[`(.not).toHaveMovedTemporarilyStatus > using axios > .not.toHaveMovedTemporarilyStatus > fails when response have status code 302 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveMovedTemporarilyStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveMovedTemporarilyStatus()</intensity>
 
 Expected status code to not be 302 received:
   <red>302</color>

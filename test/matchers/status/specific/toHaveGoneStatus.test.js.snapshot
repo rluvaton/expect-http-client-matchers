@@ -1,5 +1,5 @@
 exports[`(.not).toHaveGoneStatus > using axios > .not.toHaveGoneStatus > fails when response have status code 410 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveGoneStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveGoneStatus()</intensity>
 
 Expected status code to not be 410 received:
   <red>410</color>

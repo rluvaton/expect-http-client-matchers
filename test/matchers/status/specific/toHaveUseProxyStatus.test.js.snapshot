@@ -1,5 +1,5 @@
 exports[`(.not).toHaveUseProxyStatus > using axios > .not.toHaveUseProxyStatus > fails when response have status code 305 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveUseProxyStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveUseProxyStatus()</intensity>
 
 Expected status code to not be 305 received:
   <red>305</color>

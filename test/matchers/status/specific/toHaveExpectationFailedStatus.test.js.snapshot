@@ -1,5 +1,5 @@
 exports[`(.not).toHaveExpectationFailedStatus > using axios > .not.toHaveExpectationFailedStatus > fails when response have status code 417 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveExpectationFailedStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveExpectationFailedStatus()</intensity>
 
 Expected status code to not be 417 received:
   <red>417</color>

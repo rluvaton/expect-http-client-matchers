@@ -13,7 +13,7 @@ function toHaveInternalServerErrorStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveInternalServerErrorStatus', 'received', '') +
+        ? matcherHint('.not.toHaveInternalServerErrorStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 500 received:\n' +
           `  ${printReceived(status)}\n\n` +

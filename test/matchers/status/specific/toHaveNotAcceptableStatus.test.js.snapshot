@@ -1,5 +1,5 @@
 exports[`(.not).toHaveNotAcceptableStatus > using axios > .not.toHaveNotAcceptableStatus > fails when response have status code 406 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveNotAcceptableStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNotAcceptableStatus()</intensity>
 
 Expected status code to not be 406 received:
   <red>406</color>

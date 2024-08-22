@@ -1,5 +1,5 @@
 exports[`(.not).toHaveImATeapotStatus > using axios > .not.toHaveImATeapotStatus > fails when response have status code 418 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveImATeapotStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveImATeapotStatus()</intensity>
 
 Expected status code to not be 418 received:
   <red>418</color>

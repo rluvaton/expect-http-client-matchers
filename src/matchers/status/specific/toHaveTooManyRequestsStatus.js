@@ -13,7 +13,7 @@ function toHaveTooManyRequestsStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveTooManyRequestsStatus', 'received', '') +
+        ? matcherHint('.not.toHaveTooManyRequestsStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 429 received:\n' +
           `  ${printReceived(status)}\n\n` +

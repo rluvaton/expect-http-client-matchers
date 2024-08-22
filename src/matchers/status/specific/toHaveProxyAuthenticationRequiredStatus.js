@@ -13,7 +13,7 @@ function toHaveProxyAuthenticationRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveProxyAuthenticationRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHaveProxyAuthenticationRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 407 received:\n' +
           `  ${printReceived(status)}\n\n` +

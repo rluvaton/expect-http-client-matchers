@@ -1,5 +1,5 @@
 exports[`(.not).toHaveTemporaryRedirectStatus > using axios > .not.toHaveTemporaryRedirectStatus > fails when response have status code 307 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveTemporaryRedirectStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveTemporaryRedirectStatus()</intensity>
 
 Expected status code to not be 307 received:
   <red>307</color>

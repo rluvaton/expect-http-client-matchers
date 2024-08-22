@@ -1,5 +1,5 @@
 exports[`(.not).toHaveMultipleChoicesStatus > using axios > .not.toHaveMultipleChoicesStatus > fails when response have status code 300 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveMultipleChoicesStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveMultipleChoicesStatus()</intensity>
 
 Expected status code to not be 300 received:
   <red>300</color>

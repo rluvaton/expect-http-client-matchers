@@ -13,7 +13,7 @@ function toHaveMethodNotAllowedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMethodNotAllowedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMethodNotAllowedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 405 received:\n' +
           `  ${printReceived(status)}\n\n` +

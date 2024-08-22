@@ -13,7 +13,7 @@ function toHaveLengthRequiredStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveLengthRequiredStatus', 'received', '') +
+        ? matcherHint('.not.toHaveLengthRequiredStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 411 received:\n' +
           `  ${printReceived(status)}\n\n` +

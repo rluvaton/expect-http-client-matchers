@@ -13,7 +13,7 @@ function toHaveUnauthorizedStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUnauthorizedStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUnauthorizedStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 401 received:\n' +
           `  ${printReceived(status)}\n\n` +

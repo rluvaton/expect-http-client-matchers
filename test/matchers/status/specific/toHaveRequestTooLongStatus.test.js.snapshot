@@ -1,5 +1,5 @@
 exports[`(.not).toHaveRequestTooLongStatus > using axios > .not.toHaveRequestTooLongStatus > fails when response have status code 413 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveRequestTooLongStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveRequestTooLongStatus()</intensity>
 
 Expected status code to not be 413 received:
   <red>413</color>

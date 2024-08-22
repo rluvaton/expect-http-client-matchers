@@ -1,5 +1,5 @@
 exports[`(.not).toHaveRequestHeaderFieldsTooLargeStatus > using axios > .not.toHaveRequestHeaderFieldsTooLargeStatus > fails when response have status code 431 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveRequestHeaderFieldsTooLargeStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveRequestHeaderFieldsTooLargeStatus()</intensity>
 
 Expected status code to not be 431 received:
   <red>431</color>

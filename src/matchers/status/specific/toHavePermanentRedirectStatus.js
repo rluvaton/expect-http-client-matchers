@@ -13,7 +13,7 @@ function toHavePermanentRedirectStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHavePermanentRedirectStatus', 'received', '') +
+        ? matcherHint('.not.toHavePermanentRedirectStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 308 received:\n' +
           `  ${printReceived(status)}\n\n` +

@@ -13,7 +13,7 @@ function toHaveMovedTemporarilyStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveMovedTemporarilyStatus', 'received', '') +
+        ? matcherHint('.not.toHaveMovedTemporarilyStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 302 received:\n' +
           `  ${printReceived(status)}\n\n` +

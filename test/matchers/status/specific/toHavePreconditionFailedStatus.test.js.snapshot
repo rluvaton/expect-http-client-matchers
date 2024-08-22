@@ -1,5 +1,5 @@
 exports[`(.not).toHavePreconditionFailedStatus > using axios > .not.toHavePreconditionFailedStatus > fails when response have status code 412 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHavePreconditionFailedStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHavePreconditionFailedStatus()</intensity>
 
 Expected status code to not be 412 received:
   <red>412</color>

@@ -13,7 +13,7 @@ function toHaveUnprocessableEntityStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveUnprocessableEntityStatus', 'received', '') +
+        ? matcherHint('.not.toHaveUnprocessableEntityStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 422 received:\n' +
           `  ${printReceived(status)}\n\n` +

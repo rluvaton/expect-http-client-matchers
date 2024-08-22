@@ -13,7 +13,7 @@ function toHaveFailedDependencyStatus(actual) {
     pass,
     message: () =>
       pass
-        ? matcherHint('not.toHaveFailedDependencyStatus', 'received', '') +
+        ? matcherHint('.not.toHaveFailedDependencyStatus', 'received', '') +
           '\n\n' +
           'Expected status code to not be 424 received:\n' +
           `  ${printReceived(status)}\n\n` +

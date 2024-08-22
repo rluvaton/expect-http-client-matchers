@@ -1,5 +1,5 @@
 exports[`(.not).toHaveLengthRequiredStatus > using axios > .not.toHaveLengthRequiredStatus > fails when response have status code 411 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveLengthRequiredStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveLengthRequiredStatus()</intensity>
 
 Expected status code to not be 411 received:
   <red>411</color>

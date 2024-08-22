@@ -1,5 +1,5 @@
 exports[`(.not).toHaveForbiddenStatus > using axios > .not.toHaveForbiddenStatus > fails when response have status code 403 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveForbiddenStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveForbiddenStatus()</intensity>
 
 Expected status code to not be 403 received:
   <red>403</color>

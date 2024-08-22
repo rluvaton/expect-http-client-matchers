@@ -1,5 +1,5 @@
 exports[`(.not).toHaveLockedStatus > using axios > .not.toHaveLockedStatus > fails when response have status code 423 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveLockedStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveLockedStatus()</intensity>
 
 Expected status code to not be 423 received:
   <red>423</color>

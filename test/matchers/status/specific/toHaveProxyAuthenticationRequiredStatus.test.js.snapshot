@@ -1,5 +1,5 @@
 exports[`(.not).toHaveProxyAuthenticationRequiredStatus > using axios > .not.toHaveProxyAuthenticationRequiredStatus > fails when response have status code 407 1`] = `
-<dim>expect(</intensity><red>received</color><dim>)not.toHaveProxyAuthenticationRequiredStatus()</intensity>
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveProxyAuthenticationRequiredStatus()</intensity>
 
 Expected status code to not be 407 received:
   <red>407</color>
