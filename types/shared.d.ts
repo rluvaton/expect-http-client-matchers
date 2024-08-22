@@ -26,9 +26,9 @@ export interface CustomMatchers<R> extends Record<string, any> {
 
   /**
    * Use .toHaveStatus when checking if the response has specific status code.
-   * @param {unknown} status the status code to match with
+    * @param {number} status the status code to match with
    **/
-  toHaveStatus(status: unknown): R;
+  toHaveStatus(status: number): R;
 
   /**
    * Use .toHaveSwitchingProtocolsStatus when checking if HTTP response status code is 101
@@ -342,9 +342,9 @@ export interface SharedMatchers<R> {
 
   /**
    * Use .toHaveStatus when checking if the response has specific status code.
-   * @param {unknown} status the status code to match with
+   * @param {number} status the status code to match with
    **/
-  toHaveStatus(status: unknown): R;
+  toHaveStatus(status: number): R;
 
   /**
    * Use .toHaveSwitchingProtocolsStatus when checking if HTTP response status code is 101
