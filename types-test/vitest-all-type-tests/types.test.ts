@@ -331,23 +331,23 @@ async function run() {
     expect(res).toEqual(expect.toHaveHeader('content-type', expect.any(String)));
     expect(res).toEqual(expect.not.toHaveHeader('content-type', expect.any(String)));
 
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toHaveHeader(expect.any(String));
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).not.toHaveHeader(expect.any(String));
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toEqual(expect.toHaveHeader(expect.any(String)));
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toEqual(expect.not.toHaveHeader(expect.any(String)));
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toHaveHeader({});
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).not.toHaveHeader({});
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toEqual(expect.toHaveHeader({}));
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toEqual(expect.not.toHaveHeader({}));
 
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toHaveHeader(expect.any(String), 'hello');
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).not.toHaveHeader(expect.any(String), 'hello');
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toEqual(expect.toHaveHeader(expect.any(String), 'hello'));
-    // @ts-expect-error - we should not allow asymmetrical matchers as header name
-    expect(res).toEqual(expect.not.toHaveHeader(expect.any(String), 'hello'));
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toHaveHeader({});
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).not.toHaveHeader({});
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toEqual(expect.toHaveHeader({}, 'hello'));
+    // @ts-expect-error - we should not allow non-string matchers as header name
+    expect(res).toEqual(expect.not.toHaveHeader({}, 'hello'));
   }
 }
 
