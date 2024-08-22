@@ -1,0 +1,436 @@
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and not providing expected header value 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>x-custom-header</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and not providing expected header value 2`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>Accept</color><dim>)</intensity>
+
+Expected header <green>"Accept"</color> to not exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the expected value is matching asymmetric matcher 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"x-custom-header", Any<String></color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not have value <green>Any<String></color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the expected value is matching asymmetric matcher 2`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"x-custom-header", StringContaining "some"</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not have value <green>StringContaining "some"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the expected value is matching asymmetric matcher 3`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"accept", Any<String></color><dim>)</intensity>
+
+Expected header <green>"accept"</color> to not have value <green>Any<String></color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the expected value is matching asymmetric matcher 4`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"accept", StringContaining "application"</color><dim>)</intensity>
+
+Expected header <green>"accept"</color> to not have value <green>StringContaining "application"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the value is provided and match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"x-custom-header", "some value"</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not have value <green>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present and the value is provided and match 2`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"Accept", "application/json"</color><dim>)</intensity>
+
+Expected header <green>"Accept"</color> to not have value <green>"application/json"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>x-CuStOm-heAdEr</color><dim>)</intensity>
+
+Expected header <green>"x-CuStOm-heAdEr"</color> to not exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) 2`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>X-CUSTOM-HEADER</color><dim>)</intensity>
+
+Expected header <green>"X-CUSTOM-HEADER"</color> to not exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) 3`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>x-custom-header</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) and expected value is provided 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"x-CuStOm-heAdEr", "some value"</color><dim>)</intensity>
+
+Expected header <green>"x-CuStOm-heAdEr"</color> to not have value <green>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) and expected value is provided 2`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"X-CUSTOM-HEADER", "some value"</color><dim>)</intensity>
+
+Expected header <green>"X-CUSTOM-HEADER"</color> to not have value <green>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail when the expected header is present even when the header case is not the same (case insensitive) and expected value is provided 3`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveHeader(</intensity><green>"x-custom-header", "some value"</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to not have value <green>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header exist and passing asymmetric matcher as the expected value that does not match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>"x-custom-header", Any<Number></color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to have value <green>Any<Number></color>
+But instead received: <red>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header exist but the expected value does not match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>"x-custom-header", "hello"</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to have value <green>"hello"</color>
+But instead received: <red>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header exist but the expected value does not match but the value match another header value 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>"x-custom-header", "application/json"</color><dim>)</intensity>
+
+Expected header <green>"x-custom-header"</color> to have value <green>"application/json"</color>
+But instead received: <red>"some value"</color>
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header is missing 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>Authorization</color><dim>)</intensity>
+
+Expected header <green>"Authorization"</color> to exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header is missing and there is another header that contain the expected header 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>X-Custom</color><dim>)</intensity>
+
+Expected header <green>"X-Custom"</color> to exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header is missing and there is another header that is substring of the expected header 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>X-Custom-Header</color><dim>)</intensity>
+
+Expected header <green>"X-Custom-Header"</color> to exists
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom": "some value",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
+
+exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when the expected header is missing when expected header value is provided 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveHeader(</intensity><green>"Authorization", "hello"</color><dim>)</intensity>
+
+Expected header <green>"Authorization"</color> to have value <green>"hello"</color>
+But no header with that name found
+
+
+response is:
+{
+  "url": "http://127.0.0.1:54607/headers",
+  "status": 200,
+  "headers": {
+    "x-custom-header": "some value",
+    "accept": "application/json",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": {}
+}
+`;
