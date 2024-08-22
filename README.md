@@ -25,7 +25,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
   - [.toHave4xxStatus()](#tohave4xxstatus)
   - [.toHave5xxStatus()](#tohave5xxstatus)
   - [.toHaveStatus()](#tohavestatus)
-  - [Specific Matchers](#specific-matchers)
+  - [Specific Status](#specific-status)
     - [.toHaveSwitchingProtocolsStatus()](#tohaveswitchingprotocolsstatus)
     - [.toHaveOkStatus()](#tohaveokstatus)
     - [.toHaveCreatedStatus()](#tohavecreatedstatus)
@@ -368,9 +368,14 @@ test('passes when using .not.toHaveStatus() for 200', async () => {
 });
 ```
 
-### Specific Matchers
+<details>
+  <summary>
+    <h3 style="display: inline">
+      Specific Status
+    </h3>
+  </summary>
 
-These matchers are more specific, they apply to one option rather than a group of them.
+These matchers are specific for HTTP status codes.
 
 #### .toHaveSwitchingProtocolsStatus()
 
@@ -1305,7 +1310,7 @@ test('passes when using .not.toHaveNetworkAuthenticationRequiredStatus() for 200
     expect(response).not.toHaveNetworkAuthenticationRequiredStatus();
 });
 ```
-
+</details>
 
 ## LICENSE
 
