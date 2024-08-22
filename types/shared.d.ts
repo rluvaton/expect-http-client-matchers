@@ -26,7 +26,7 @@ export interface CustomMatchers<R> extends Record<string, any> {
 
   /**
    * Use .toHaveStatus when checking if the response has specific status code.
-    * @param {number} status the status code to match with
+   * @param {number} status the status code to match with
    **/
   toHaveStatus(status: number): R;
 

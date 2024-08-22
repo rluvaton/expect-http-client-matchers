@@ -1,5 +1,5 @@
 const { toHaveHeader } = require('../../../src');
-const { describe, test, before, it } = require('node:test');
+const { describe, before, it } = require('node:test');
 const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../helpers/server-helper');
