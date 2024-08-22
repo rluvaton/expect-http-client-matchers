@@ -100,6 +100,8 @@ yarn add -D expect-http-client-matchers
 
 ## Setup
 
+> For all typescript setup you can look at the `types-test` folder to see working examples
+
 ### Vanilla `expect`
 
 ```javascript
@@ -166,10 +168,26 @@ export default defineConfig({
 
 #### Typescript
 
-If your editor does not recognise the custom `expect-http-client-matchers` matchers, add to the `setupTests.ts` file
+If your editor does not recognise the custom `expect-http-client-matchers` matchers, create a `vitest.d.ts` file and add
 
 ```ts
-import 'expect-http-client-matchers/vitest.d.ts';
+import {SharedMatchers} from "expect-http-client-matchers/types/shared";
+
+import 'vitest';
+
+declare module 'vitest' {
+    interface Assertion<T = any> extends SharedMatchers<T> {}
+    interface AsymmetricMatchersContaining<T = any>
+        extends SharedMatchers<T> {}
+}
+```
+
+and add that file to the `"files"` list inside your `tsconfig.json`
+
+```json
+{
+  "files": ["vitest.d.ts"]
+}
 ```
 
 ### Jest

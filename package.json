@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "expect matchers for http-client responses (e.g. axios)",
   "keywords": ["test", "unittest", "integration test", "mocha", "vitest", "expect"],
-  "files": ["src", "types", "all.js", "jest.d.ts", "expect.d.ts", "vitest.d.ts"],
+  "files": ["src", "types", "all.js", "jest.d.ts", "expect.d.ts"],
   "main": "src/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
