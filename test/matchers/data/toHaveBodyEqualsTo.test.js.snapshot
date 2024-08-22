@@ -1,0 +1,112 @@
+exports[`(.not).toHaveBodyEqualsTo > using axios > .not.toHaveBodyEqualsTo > should fail when the expected data match and body is json when using asymmetric matchers in the data 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to not have data:
+<green>ObjectContaining {"b": Any<Number>, "c": true}</color>
+But received:
+<red>{"a": "1", "b": 2, "c": true, "d": false, "e": null, "f": [], "g": {}}</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "57",
+    "connection": "keep-alive"
+  }
+}
+`;
+
+exports[`(.not).toHaveBodyEqualsTo > using axios > .not.toHaveBodyEqualsTo > should fail when the expected data match and body is text 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to not have data:
+<green>"Hello World"</color>
+But received:
+<red>"Hello World"</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain",
+    "content-length": "11",
+    "connection": "keep-alive"
+  }
+}
+`;
+
+exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the json data does not match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to have data:
+<green>- Expected  - 7</color>
+<red>+ Received  + 1</color>
+
+<dim>  Object {</intensity>
+<green>-   "a": "1",</color>
+<green>-   "b": 2,</color>
+<green>-   "c": true,</color>
+<green>-   "d": false,</color>
+<green>-   "e": null,</color>
+<green>-   "f": Array [],</color>
+<green>-   "g": Object {},</color>
+<red>+   "f": 6,</color>
+<dim>  }</intensity>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "7",
+    "connection": "keep-alive"
+  }
+}
+`;
+
+exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the response body type does not match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to have data:
+Expected: <green>"Hello World"</color>
+Received: <red>{"f": 6}</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "7",
+    "connection": "keep-alive"
+  }
+}
+`;
+
+exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the text data does not match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to have data:
+Expected: <green>"Someone"</color>
+Received: <red>"Hello World"</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain",
+    "content-length": "11",
+    "connection": "keep-alive"
+  }
+}
+`;

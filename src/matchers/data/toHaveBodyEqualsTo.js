@@ -1,0 +1,81 @@
+const { getMatchingAdapter } = require('../../http-clients');
+const { printDebugInfo } = require('../../utils/get-debug-info');
+
+/**
+ *
+ * @param {HttpClientAdapter} adapter
+ */
+function getJSONBody(adapter) {
+  const body = adapter.getBody();
+
+  if (typeof body === 'string') {
+    try {
+      return JSON.parse(body);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  if (Buffer.isBuffer(body)) {
+    try {
+      return JSON.parse(body.toString());
+    } catch (e) {
+      return null;
+    }
+  }
+
+  return typeof body === 'object' ? body : null;
+}
+
+/**
+ * @this {import('expect').MatcherUtils}
+ */
+function toHaveBodyEqualsTo(actual, expectedValue) {
+  const { matcherHint, printExpected, printDiffOrStringify, printReceived } = this.utils;
+
+  const adapter = getMatchingAdapter(actual);
+  const headers = adapter.getHeaders();
+
+  // Headers are case-insensitive
+  const contentTypeHeaderValue = Object.entries(headers).find(([name]) => name.toLowerCase() === 'content-type')?.[1];
+  const isJson = contentTypeHeaderValue.toLowerCase().includes('application/json');
+
+  let body = adapter.getBody();
+
+  let pass = false;
+  if (isJson) {
+    body = getJSONBody(adapter);
+  }
+
+  pass = this.equals(body, expectedValue);
+
+  return {
+    pass,
+    message: () => {
+      // .not
+      if (pass) {
+        return [
+          matcherHint('.not.toHaveDataEqualsTo', 'received', 'expected'),
+          '',
+          `Expected request to not have data:`,
+          printExpected(expectedValue),
+          `But received:`,
+          printReceived(body),
+          '',
+          printDebugInfo(adapter, { omitBody: true }),
+        ].join('\n');
+      }
+
+      return [
+        matcherHint('.toHaveDataEqualsTo', 'received', 'expected'),
+        '',
+        `Expected request to have data:`,
+        printDiffOrStringify(expectedValue, body, 'Expected', 'Received', true),
+        '',
+        printDebugInfo(adapter, { omitBody: true }),
+      ].join('\n');
+    },
+  };
+}
+
+module.exports = { toHaveBodyEqualsTo };
