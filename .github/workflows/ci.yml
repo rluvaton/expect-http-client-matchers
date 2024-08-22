@@ -2,7 +2,7 @@ name: Node CI
 on: [ push, pull_request ]
 
 jobs:
-  test:
+  static-tests:
     runs-on: ubuntu-22.04
     steps:
       - name: checkout
@@ -14,14 +14,11 @@ jobs:
           node-version: 22
           registry-url: https://registry.npmjs.org
 
-      - name: Log Environment
-        run: |
-          echo "Node version $(node --version)"
-          echo "NPM version $(npm --version)"
-          echo "System Info $(uname -a)"
-
       - name: Install Dependencies
         run: npm i
+
+      - name: Format & Lint
+        run: npm run check
 
       - name: Install types-tests dependencies
         run: |
@@ -31,15 +28,32 @@ jobs:
           ( cd types-test/vitest-all-type-tests ; npm i )
           ( cd types-test/vitest-partial-type-tests ; npm i )
 
-      - name: Format & Lint
-        run: npm run check
+      - name: Test types
+        run: npm run types:test
+
+  unittest:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+
+      - name: Install Dependencies
+        run: npm i
 
       - name: Test
-        run: npm run test
+        run: npm run test:unit
 
   deploy:
     runs-on: ubuntu-22.04
-    needs: test
+    needs:
+      - static-tests
+      - unittest
 
     # Run only on pushing to master
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
@@ -53,12 +67,6 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
-
-      - name: Log Environment
-        run: |
-          echo "Node version $(node --version)"
-          echo "NPM version $(npm --version)"
-          echo "System Info $(uname -a)"
 
       - name: Install Dependencies
         run: npm i
