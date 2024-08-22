@@ -6,6 +6,10 @@ async function run() {
 
   expect(res).toBeTruthy();
 
+  // Checking missing matcher to make sure we did not break the types completely
+  // @ts-expect-error - missing property
+  expect(res).toBeMyCoolMatcherThatIsMissing();
+
   expect(res).toBeSuccessful();
   expect(res).not.toBeSuccessful();
   expect(res).toEqual(expect.toBeSuccessful());

@@ -9,5 +9,5 @@
     "skipLibCheck": true,
     "types": ["vitest/globals", "vitest"]
   },
-  "files": ["setup.ts", "types.test.ts"]
+  "files": ["setup.ts", "types.test.ts", "vitest.d.ts"]
 }
