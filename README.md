@@ -1311,7 +1311,10 @@ test('passes when using .not.toHaveNetworkAuthenticationRequiredStatus() for 200
     expect(response).not.toHaveNetworkAuthenticationRequiredStatus();
 });
 ```
+
 </details>
+
+<br/>
 
 #### .toHaveHeader(`<header name>`[, `<header value>`])
 
