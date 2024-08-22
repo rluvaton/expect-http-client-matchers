@@ -24,7 +24,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
     - [.toHave3xxStatus()](#tohave3xxstatus) 
     - [.toHave4xxStatus()](#tohave4xxstatus)
     - [.toHave5xxStatus()](#tohave5xxstatus)
-    - [.toHaveStatus()](#tohavestatus)
+    - [.toHaveStatus(`<status code>`)](#tohavestatusstatus-code)
     - [.toHaveSwitchingProtocolsStatus()](#tohaveswitchingprotocolsstatus)
     - [.toHaveOkStatus()](#tohaveokstatus)
     - [.toHaveCreatedStatus()](#tohavecreatedstatus)
@@ -80,6 +80,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
     - [.toHaveHttpVersionNotSupportedStatus()](#tohavehttpversionnotsupportedstatus)
     - [.toHaveInsufficientStorageStatus()](#tohaveinsufficientstoragestatus)
     - [.toHaveNetworkAuthenticationRequiredStatus()](#tohavenetworkauthenticationrequiredstatus)
+    - [.toHaveHeader(`<header name>`[, `<header value>`])](#tohaveheaderheader-name-header-value)
 
 
 ## Installation
@@ -351,7 +352,7 @@ test('passes when using .not.toHave5xxStatus() for 200', async () => {
 });
 ```
 
-#### .toHaveStatus()
+#### .toHaveStatus(`<status code>`)
 
 Use `.toHaveStatus` when checking if response has a specific status
 
@@ -1299,6 +1300,25 @@ test('passes when response have status code 511', async () => {
 test('passes when using .not.toHaveNetworkAuthenticationRequiredStatus() for 200', async () => {
     const response = await axios.get('https://httpstat.us/200');
     expect(response).not.toHaveNetworkAuthenticationRequiredStatus();
+});
+```
+
+
+#### .toHaveHeader(`<header name>`[, `<header value>`])
+
+Use `.toHaveHeader` when checking if response has a specific header, optionally with a specific value
+
+header names are case-insensitive
+
+```js
+test('passes when response header match the expected header', async () => {
+    const response = await axios.get('https://httpstat.us/200');
+    expect(response).toHaveHeader('X-Request-ID');
+});
+
+test('passes when using .toHaveHeader() with expected value', async () => {
+    const response = await axios.get('http://example.com');
+    expect(response).toHaveHeader('Accept', 'application/json');
 });
 ```
 

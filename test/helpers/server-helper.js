@@ -16,6 +16,10 @@ async function buildServer() {
     return reply.status(request.body.status).send({});
   });
 
+  fastify.post('/headers', async (request, reply) => {
+    return reply.headers(request.body).send({});
+  });
+
   await fastify.listen({
     host: '127.0.0.1',
 

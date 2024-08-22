@@ -310,6 +310,41 @@ async function run() {
   expect(res).not.toHaveNetworkAuthenticationRequiredStatus();
   expect(res).toEqual(expect.toHaveNetworkAuthenticationRequiredStatus());
   expect(res).toEqual(expect.not.toHaveNetworkAuthenticationRequiredStatus());
+
+  {
+    expect(res).toHaveHeader('content-type');
+    expect(res).not.toHaveHeader('content-type');
+    expect(res).toEqual(expect.toHaveHeader('content-type'));
+    expect(res).toEqual(expect.not.toHaveHeader('content-type'));
+
+    expect(res).toHaveHeader('content-type', 'some value');
+    expect(res).not.toHaveHeader('content-type', 'some value');
+    expect(res).toEqual(expect.toHaveHeader('content-type', 'some value'));
+    expect(res).toEqual(expect.not.toHaveHeader('content-type', 'some value'));
+
+    expect(res).toHaveHeader('content-type', expect.any(String));
+    expect(res).not.toHaveHeader('content-type', expect.any(String));
+    expect(res).toEqual(expect.toHaveHeader('content-type', expect.any(String)));
+    expect(res).toEqual(expect.not.toHaveHeader('content-type', expect.any(String)));
+
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toHaveHeader(expect.any(String));
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).not.toHaveHeader(expect.any(String));
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toEqual(expect.toHaveHeader(expect.any(String)));
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toEqual(expect.not.toHaveHeader(expect.any(String)));
+
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toHaveHeader(expect.any(String), 'hello');
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).not.toHaveHeader(expect.any(String), 'hello');
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toEqual(expect.toHaveHeader(expect.any(String), 'hello'));
+    // @ts-expect-error - we should not allow asymmetrical matchers as header name
+    expect(res).toEqual(expect.not.toHaveHeader(expect.any(String), 'hello'));
+  }
 }
 
 run();
