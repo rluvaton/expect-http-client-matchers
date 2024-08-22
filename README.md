@@ -19,12 +19,13 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
       - [Typescript](#typescript-2)
 - [Asymmetric matchers](#asymmetric-matchers)
 - [API](#api)
-    - [.toBeSuccessful()](#tobesuccessful)
-    - [.toHave2xxStatus()](#tohave2xxstatus)
-    - [.toHave3xxStatus()](#tohave3xxstatus) 
-    - [.toHave4xxStatus()](#tohave4xxstatus)
-    - [.toHave5xxStatus()](#tohave5xxstatus)
-    - [.toHaveStatus()](#tohavestatus)
+  - [.toBeSuccessful()](#tobesuccessful)
+  - [.toHave2xxStatus()](#tohave2xxstatus)
+  - [.toHave3xxStatus()](#tohave3xxstatus) 
+  - [.toHave4xxStatus()](#tohave4xxstatus)
+  - [.toHave5xxStatus()](#tohave5xxstatus)
+  - [.toHaveStatus()](#tohavestatus)
+  - [Specific Status](#specific-status)
     - [.toHaveSwitchingProtocolsStatus()](#tohaveswitchingprotocolsstatus)
     - [.toHaveOkStatus()](#tohaveokstatus)
     - [.toHaveCreatedStatus()](#tohavecreatedstatus)
@@ -367,6 +368,14 @@ test('passes when using .not.toHaveStatus() for 200', async () => {
 });
 ```
 
+<details>
+  <summary>
+    <h3 style="display: inline">
+      Specific Status
+    </h3>
+  </summary>
+
+These matchers are specific for HTTP status codes.
 
 #### .toHaveSwitchingProtocolsStatus()
 
@@ -1301,7 +1310,7 @@ test('passes when using .not.toHaveNetworkAuthenticationRequiredStatus() for 200
     expect(response).not.toHaveNetworkAuthenticationRequiredStatus();
 });
 ```
-
+</details>
 
 ## LICENSE
 
