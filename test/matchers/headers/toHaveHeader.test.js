@@ -28,7 +28,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader(expect.any(String)),
+              response: expect.toHaveHeader(expect.any(String)),
             }),
           ).toThrowError('toHaveHeader expects a string as the expected header name');
         });
@@ -44,7 +44,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader(expect.any(String), 'some value'),
+              response: expect.toHaveHeader(expect.any(String), 'some value'),
             }),
           ).toThrowError('toHaveHeader expects a string as the expected header name');
         });
@@ -163,7 +163,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('Authorization'),
+              response: expect.toHaveHeader('Authorization'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -184,7 +184,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('X-Custom'),
+              response: expect.toHaveHeader('X-Custom'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -205,7 +205,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('X-Custom-Header'),
+              response: expect.toHaveHeader('X-Custom-Header'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -227,7 +227,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('Authorization', 'hello'),
+              response: expect.toHaveHeader('Authorization', 'hello'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -249,7 +249,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('x-custom-header', 'hello'),
+              response: expect.toHaveHeader('x-custom-header', 'hello'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -271,7 +271,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('x-custom-header', 'application/json'),
+              response: expect.toHaveHeader('x-custom-header', 'application/json'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -293,7 +293,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).toHaveHeader('x-custom-header', expect.any(Number)),
+              response: expect.toHaveHeader('x-custom-header', expect.any(Number)),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -311,7 +311,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader(expect.any(String)),
+              response: expect.not.toHaveHeader(expect.any(String)),
             }),
           ).toThrowError('toHaveHeader expects a string as the expected header name');
         });
@@ -327,7 +327,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader(expect.any(String), 'some value'),
+              response: expect.not.toHaveHeader(expect.any(String), 'some value'),
             }),
           ).toThrowError('toHaveHeader expects a string as the expected header name');
         });
@@ -341,7 +341,7 @@ describe('(.not).toHaveHeader', () => {
           expect(response).not.toHaveHeader('Authorization');
 
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('Authorization'),
+            response: expect.not.toHaveHeader('Authorization'),
           });
         });
 
@@ -353,7 +353,7 @@ describe('(.not).toHaveHeader', () => {
           expect(response).not.toHaveHeader('X-Custom');
 
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('X-Custom'),
+            response: expect.not.toHaveHeader('X-Custom'),
           });
         });
 
@@ -365,7 +365,7 @@ describe('(.not).toHaveHeader', () => {
           expect(response).not.toHaveHeader('X-Custom-Header');
 
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('X-Custom-Header'),
+            response: expect.not.toHaveHeader('X-Custom-Header'),
           });
         });
 
@@ -377,7 +377,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(response).not.toHaveHeader('Authorization', 'hello');
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('Authorization', 'hello'),
+            response: expect.not.toHaveHeader('Authorization', 'hello'),
           });
         });
 
@@ -389,7 +389,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(response).not.toHaveHeader('x-custom-header', 'hello');
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('x-custom-header', 'hello'),
+            response: expect.not.toHaveHeader('x-custom-header', 'hello'),
           });
         });
 
@@ -401,7 +401,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(response).not.toHaveHeader('x-custom-header', 'application/json');
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('x-custom-header', 'application/json'),
+            response: expect.not.toHaveHeader('x-custom-header', 'application/json'),
           });
         });
 
@@ -413,7 +413,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(response).not.toHaveHeader('x-custom-header', expect.any(Number));
           expect({ response }).toEqual({
-            response: expect(response).not.toHaveHeader('x-custom-header', expect.any(Number)),
+            response: expect.not.toHaveHeader('x-custom-header', expect.any(Number)),
           });
         });
 
@@ -434,7 +434,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader('x-custom-header'),
+              response: expect.not.toHaveHeader('x-custom-header'),
             }),
           ).toThrowError(JestAssertionError);
 
@@ -446,7 +446,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader('Accept'),
+              response: expect.not.toHaveHeader('Accept'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -468,7 +468,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader('x-custom-header', 'some value'),
+              response: expect.not.toHaveHeader('x-custom-header', 'some value'),
             }),
           ).toThrowError(JestAssertionError);
 
@@ -480,7 +480,7 @@ describe('(.not).toHaveHeader', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect(response).not.toHaveHeader('Accept', 'application/json'),
+              response: expect.not.toHaveHeader('Accept', 'application/json'),
             }),
           ).toThrowError(JestAssertionError);
         });
