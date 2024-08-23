@@ -8,6 +8,7 @@
   "typings": "types/index.d.ts",
   "scripts": {
     "prepare": "husky install",
+    "setup:types:test": "node ./types-test/generate.mjs",
     "test": "concurrently -n w: npm:test:*",
     "test:unit": "FORCE_COLOR=true node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test",
     "unit:test:update-snapshot": "FORCE_COLOR=true node -r ./test/setup.js --test-concurrency 1 --experimental-test-snapshots --test-update-snapshots --test",
