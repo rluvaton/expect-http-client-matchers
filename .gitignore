@@ -6,6 +6,8 @@ logs/
 lib/
 coverage/
 
+# auto generated on CI, and can be generated using `npm run setup:types:test`
+types-test/**/types.test.ts
 
 # Lock file should be ignored in npm packages
 package-lock.json
