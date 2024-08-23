@@ -1,6 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-
 const generatedTest = `import axios from 'axios';
 
 async function run() {
@@ -360,6 +357,9 @@ async function run() {
 
 run();
 `;
+
+import fs from 'fs';
+import path from 'path';
 
 const generatedTestWithExpectImport = "import expect from 'expect'\n" + generatedTest;
 
