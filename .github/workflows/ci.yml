@@ -28,6 +28,9 @@ jobs:
           ( cd types-test/vitest-all-type-tests ; npm i )
           ( cd types-test/vitest-partial-type-tests ; npm i )
 
+      - name: Generate types-test test files
+        run: npm run setup:types:test
+
       - name: Test types
         run: npm run types:test
 
