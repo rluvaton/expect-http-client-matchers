@@ -1,5 +1,4 @@
-const generatedTest = `import axios from 'axios';
-
+const generatedTest = `
 async function run() {
   const res = await axios.get('http://example.com');
 
@@ -361,12 +360,16 @@ run();
 import fs from 'fs';
 import path from 'path';
 
-const generatedTestWithExpectImport = "import expect from 'expect'\n" + generatedTest;
+const importAxiosStatement = "import axios from 'axios';\n";
+
+const generatedTestWithImports = importAxiosStatement + generatedTest;
+
+const generatedTestWithExpectImport = importAxiosStatement + "import expect from 'expect';\n" + generatedTest;
 
 const ROOT_DIR = import.meta.dirname;
 
 fs.writeFileSync(path.join(ROOT_DIR, 'expect-type-tests', 'types.test.ts'), generatedTestWithExpectImport);
-fs.writeFileSync(path.join(ROOT_DIR, 'jest-all-type-tests', 'types.test.ts'), generatedTest);
-fs.writeFileSync(path.join(ROOT_DIR, 'jest-partial-type-tests', 'types.test.ts'), generatedTest);
-fs.writeFileSync(path.join(ROOT_DIR, 'vitest-all-type-tests', 'types.test.ts'), generatedTest);
-fs.writeFileSync(path.join(ROOT_DIR, 'vitest-partial-type-tests', 'types.test.ts'), generatedTest);
+fs.writeFileSync(path.join(ROOT_DIR, 'jest-all-type-tests', 'types.test.ts'), generatedTestWithImports);
+fs.writeFileSync(path.join(ROOT_DIR, 'jest-partial-type-tests', 'types.test.ts'), generatedTestWithImports);
+fs.writeFileSync(path.join(ROOT_DIR, 'vitest-all-type-tests', 'types.test.ts'), generatedTestWithImports);
+fs.writeFileSync(path.join(ROOT_DIR, 'vitest-partial-type-tests', 'types.test.ts'), generatedTestWithImports);
