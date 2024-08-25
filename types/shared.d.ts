@@ -324,6 +324,8 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
    * except only valid JSON values or asymmetric matchers are supported in the expected body
    *
+   * Undefined values in the expected body means that the response body should not contain the key at all (not even with null value)
+   *
    * @param {unknown} expectedBody the expected body to match with
    **/
   toHaveBodyMatchObject(expectedBody: unknown): R;
@@ -655,6 +657,8 @@ export interface SharedMatchers<R> {
    *
    * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
    * except only valid JSON values or asymmetric matchers are supported in the expected body
+   *
+   * Undefined values in the expected body means that the response body should not contain the key at all (not even with null value)
    *
    * @param {unknown} expectedBody the expected body to match with
    **/

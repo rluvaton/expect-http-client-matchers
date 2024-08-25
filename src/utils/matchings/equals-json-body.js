@@ -122,34 +122,34 @@ function eq(jsonBody, expected, visitedJsonBody, visitedExpected, customTesters,
   }
 
   // Deep compare objects.
-  const aKeys = keys(jsonBody, hasKey);
+  const jsonBodyKeys = keys(jsonBody, hasKey);
   let key;
 
-  const bKeys = keys(expected, hasKey);
+  const expectedKeys = keys(expected, hasKey);
   // Add keys corresponding to asymmetric matchers if they miss in non strict check mode
   if (!strictCheck) {
-    for (let index = 0; index !== bKeys.length; ++index) {
-      key = bKeys[index];
+    for (let index = 0; index !== expectedKeys.length; ++index) {
+      key = expectedKeys[index];
       if ((isAsymmetric(expected[key]) || expected[key] === undefined) && !hasKey(jsonBody, key)) {
-        aKeys.push(key);
+        jsonBodyKeys.push(key);
       }
     }
-    for (let index = 0; index !== aKeys.length; ++index) {
-      key = aKeys[index];
+    for (let index = 0; index !== jsonBodyKeys.length; ++index) {
+      key = jsonBodyKeys[index];
       if ((isAsymmetric(jsonBody[key]) || jsonBody[key] === undefined) && !hasKey(expected, key)) {
-        bKeys.push(key);
+        expectedKeys.push(key);
       }
     }
   }
 
   // Ensure that both objects contain the same number of properties before comparing deep equality.
-  let size = aKeys.length;
-  if (bKeys.length !== size) {
+  let size = jsonBodyKeys.length;
+  if (expectedKeys.length !== size) {
     return false;
   }
 
   while (size--) {
-    key = aKeys[size];
+    key = jsonBodyKeys[size];
 
     // Deep compare each member
     if (strictCheck)

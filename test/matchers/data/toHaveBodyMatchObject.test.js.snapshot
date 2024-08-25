@@ -36,6 +36,27 @@ response is:
 }
 `;
 
+exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Matching > response object does not have property and expected body has property undefined should match 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
+
+Expected request to not have data:
+<green>{"a": undefined}</color>
+
+Received: <red>{}</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  }
+}
+`;
+
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Matching > should pass when the response body is [0] and expected value is [-0] as -0 and 0 are the same value in JSON 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).not.toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
@@ -396,16 +417,14 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is [1, 2, 3] and expected value is [1, 2, 2] 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 3</color>
-<red>+ Received value  + 3</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Array [</intensity>
-<green>-   1,</color>
+<dim>    1,</intensity>
+<dim>    2,</intensity>
 <green>-   2,</color>
-<green>-   2,</color>
-<red>+   Array [],</color>
-<red>+   Array [],</color>
-<red>+   Array [],</color>
+<red>+   3,</color>
 <dim>  ]</intensity>
 
 ------------
@@ -424,16 +443,14 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is [1, 2, 3] and expected value is [2, 3, 1] 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 3</color>
-<red>+ Received value  + 3</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Array [</intensity>
-<green>-   2,</color>
-<green>-   3,</color>
+<red>+   1,</color>
+<dim>    2,</intensity>
+<dim>    3,</intensity>
 <green>-   1,</color>
-<red>+   Array [],</color>
-<red>+   Array [],</color>
-<red>+   Array [],</color>
 <dim>  ]</intensity>
 
 ------------
@@ -452,14 +469,13 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is [1, 2] and expected value is [1, 3] 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 2</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Array [</intensity>
-<green>-   1,</color>
+<dim>    1,</intensity>
 <green>-   3,</color>
-<red>+   Array [],</color>
-<red>+   Array [],</color>
+<red>+   2,</color>
 <dim>  ]</intensity>
 
 ------------
@@ -478,13 +494,12 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is { a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers').toString()]: 'expect-http-client-matchers' } and expected value is {a: 'b', [Symbol.for('expect-http-client-matchers')]: 'expect-http-client-matchers'} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 2</color>
-<red>+ Received value  + 1</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 0</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": "b",</color>
+<dim>    "a": "b",</intensity>
 <green>-   Symbol(expect-http-client-matchers): "expect-http-client-matchers",</color>
-<red>+   "a": Array [],</color>
 <dim>  }</intensity>
 
 ------------
@@ -509,7 +524,7 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 <dim>  Object {</intensity>
 <green>-   "a": "c",</color>
 <green>-   Symbol(expect-http-client-matchers): Any<String>,</color>
-<red>+   "a": Array [],</color>
+<red>+   "a": "b",</color>
 <dim>  }</intensity>
 
 ------------
@@ -533,7 +548,7 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 
 <dim>  Object {</intensity>
 <green>-   "a": Any<Number>,</color>
-<red>+   "a": Array [],</color>
+<red>+   "a": "a",</color>
 <dim>  }</intensity>
 
 ------------
@@ -552,15 +567,13 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers').toString()]: 'expect-http-client-matchers'} and expected value is {a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers')]: 'expect-http-client-matchers'} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 3</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 0</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": "b",</color>
-<green>-   "c": "d",</color>
+<dim>    "a": "b",</intensity>
+<dim>    "c": "d",</intensity>
 <green>-   Symbol(expect-http-client-matchers): "expect-http-client-matchers",</color>
-<red>+   "a": Array [],</color>
-<red>+   "c": Array [],</color>
 <dim>  }</intensity>
 
 ------------
@@ -579,14 +592,13 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: 'b', c: 'd'} and expected value is {a: 'b!', c: 'd'} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 2</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
 <green>-   "a": "b!",</color>
-<green>-   "c": "d",</color>
-<red>+   "a": Array [],</color>
-<red>+   "c": Array [],</color>
+<red>+   "a": "b",</color>
+<dim>    "c": "d",</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -630,18 +642,17 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {a: 'b', t: {z: [3]}} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 6</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 3</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": "b",</color>
-<green>-   "t": Object {</color>
+<dim>    "a": "b",</intensity>
+<dim>    "t": Object {</intensity>
 <green>-     "z": Array [</color>
 <green>-       3,</color>
 <green>-     ],</color>
-<green>-   },</color>
-<red>+   "a": Array [],</color>
-<red>+   "t": Array [],</color>
+<red>+     "z": "z",</color>
+<dim>    },</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -660,16 +671,17 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {t: {l: {r: 'r'}}} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 5</color>
-<red>+ Received value  + 1</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 2</color>
 
 <dim>  Object {</intensity>
-<green>-   "t": Object {</color>
+<dim>    "t": Object {</intensity>
 <green>-     "l": Object {</color>
-<green>-       "r": "r",</color>
-<green>-     },</color>
-<green>-   },</color>
-<red>+   "t": Array [],</color>
+<red>+     "x": Object {</color>
+<dim>        "r": "r",</intensity>
+<dim>      },</intensity>
+<red>+     "z": "z",</color>
+<dim>    },</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -688,16 +700,16 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: 1, b: 1, c: 1, d: {e: {f: 555}}} and expected value is {d: {e: {f: 222}}} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 5</color>
+<green>- Expected value  - 1</color>
 <red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "d": Object {</color>
-<green>-     "e": Object {</color>
+<dim>    "d": Object {</intensity>
+<dim>      "e": Object {</intensity>
 <green>-       "f": 222,</color>
-<green>-     },</color>
-<green>-   },</color>
-<red>+   "d": Array [],</color>
+<red>+       "f": 555,</color>
+<dim>      },</intensity>
+<dim>    },</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -713,41 +725,18 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: JSON.stringify(new Date('2015-11-30')), b: 'b'} and expected value is {a: new Date('2015-10-10')} 1`] = `
-<dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
-
-<green>- Expected value  - 1</color>
-<red>+ Received value  + 1</color>
-
-<dim>  Object {</intensity>
-<green>-   "a": 2015-10-10T00:00:00.000Z,</color>
-<red>+   "a": Array [],</color>
-<dim>  }</intensity>
-
-------------
-response is:
-{
-  "url": "http://127.0.0.1:54607/body",
-  "status": 200,
-  "headers": {
-    "content-type": "application/json; charset=utf-8",
-    "content-length": "44",
-    "connection": "keep-alive"
-  }
-}
-`;
-
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: [3, 4, 'v'], b: 'b'} and expected value is {a: ['v']} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 3</color>
-<red>+ Received value  + 1</color>
+<green>- Expected value  - 0</color>
+<red>+ Received value  + 2</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": Array [</color>
-<green>-     "v",</color>
-<green>-   ],</color>
-<red>+   "a": Array [],</color>
+<dim>    "a": Array [</intensity>
+<red>+     3,</color>
+<red>+     4,</color>
+<dim>      "v",</intensity>
+<dim>    ],</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -766,17 +755,16 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: [3, 4, 5, 6]} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 6</color>
-<red>+ Received value  + 1</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 0</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": Array [</color>
-<green>-     3,</color>
-<green>-     4,</color>
-<green>-     5,</color>
+<dim>    "a": Array [</intensity>
+<dim>      3,</intensity>
+<dim>      4,</intensity>
+<dim>      5,</intensity>
 <green>-     6,</color>
-<green>-   ],</color>
-<red>+   "a": Array [],</color>
+<dim>    ],</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -795,15 +783,15 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: [3, 4]} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 4</color>
+<green>- Expected value  - 0</color>
 <red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": Array [</color>
-<green>-     3,</color>
-<green>-     4,</color>
-<green>-   ],</color>
-<red>+   "a": Array [],</color>
+<dim>    "a": Array [</intensity>
+<dim>      3,</intensity>
+<dim>      4,</intensity>
+<red>+     5,</color>
+<dim>    ],</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -823,13 +811,17 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
 <green>- Expected value  - 3</color>
-<red>+ Received value  + 1</color>
+<red>+ Received value  + 5</color>
 
 <dim>  Object {</intensity>
 <green>-   "a": Object {</color>
 <green>-     "b": 4,</color>
 <green>-   },</color>
-<red>+   "a": Array [],</color>
+<red>+   "a": Array [</color>
+<red>+     3,</color>
+<red>+     4,</color>
+<red>+     5,</color>
+<red>+   ],</color>
 <dim>  }</intensity>
 
 ------------
@@ -849,13 +841,17 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
 <green>- Expected value  - 3</color>
-<red>+ Received value  + 1</color>
+<red>+ Received value  + 5</color>
 
 <dim>  Object {</intensity>
 <green>-   "a": Object {</color>
 <green>-     "b": Any<String>,</color>
 <green>-   },</color>
-<red>+   "a": Array [],</color>
+<red>+   "a": Array [</color>
+<red>+     3,</color>
+<red>+     4,</color>
+<red>+     5,</color>
+<red>+   ],</color>
 <dim>  }</intensity>
 
 ------------
@@ -874,16 +870,16 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: [{a: 'a', b: 'b'}]} and expected value is {a: [{a: 'c'}]} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 5</color>
+<green>- Expected value  - 1</color>
 <red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": Array [</color>
-<green>-     Object {</color>
+<dim>    "a": Array [</intensity>
+<dim>      Object {</intensity>
 <green>-       "a": "c",</color>
-<green>-     },</color>
-<green>-   ],</color>
-<red>+   "a": Array [],</color>
+<red>+       "a": "a",</color>
+<dim>      },</intensity>
+<dim>    ],</intensity>
 <dim>  }</intensity>
 
 ------------
@@ -899,6 +895,30 @@ response is:
 }
 `;
 
+exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: new Date('2015-11-30').toISOString(), b: 'b'} and expected value is {a: new Date('2015-10-10')} 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
+
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
+
+<dim>  Object {</intensity>
+<green>-   "a": 2015-10-10T00:00:00.000Z,</color>
+<red>+   "a": "2015-11-30T00:00:00.000Z",</color>
+<dim>  }</intensity>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/body",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "40",
+    "connection": "keep-alive"
+  }
+}
+`;
+
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: null, b: 'b'} and expected value is {a: '4'} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
@@ -907,7 +927,7 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 
 <dim>  Object {</intensity>
 <green>-   "a": "4",</color>
-<red>+   "a": Array [],</color>
+<red>+   "a": null,</color>
 <dim>  }</intensity>
 
 ------------
@@ -931,8 +951,8 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 
 <green>- Sub {}</color>
 <red>+ Object {</color>
-<red>+   "b": Array [],</color>
-<red>+   "c": Array [],</color>
+<red>+   "b": "b",</color>
+<red>+   "c": "c",</color>
 <red>+ }</color>
 
 ------------
@@ -956,7 +976,7 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 
 <green>- Foo {}</color>
 <red>+ Object {</color>
-<red>+   "b": Array [],</color>
+<red>+   "b": "b",</color>
 <red>+ }</color>
 
 ------------
@@ -975,8 +995,13 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not matching > should not match when the response body is {a: {}} and expected value is {a: new Set([])} 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-Expected value: <green>{"a": Set {}}</color>
-Received value: serializes to the same string
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
+
+<dim>  Object {</intensity>
+<green>-   "a": Set {},</color>
+<red>+   "a": Object {},</color>
+<dim>  }</intensity>
 
 ------------
 response is:
@@ -1023,7 +1048,7 @@ exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > Not 
 
 <green>- Sub {}</color>
 <red>+ Object {</color>
-<red>+   "d": Array [],</color>
+<red>+   "d": 4,</color>
 <red>+ }</color>
 
 ------------
@@ -1066,14 +1091,13 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > circular references > should not pass when expected object contain circular references as its not possible in response object 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 2</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": "hello",</color>
+<dim>    "a": "hello",</intensity>
 <green>-   "ref": [Circular],</color>
-<red>+   "a": Array [],</color>
-<red>+   "ref": Array [],</color>
+<red>+   "ref": Object {},</color>
 <dim>  }</intensity>
 
 ------------
@@ -1092,16 +1116,15 @@ response is:
 exports[`(.not).toHaveBodyMatchObject > using axios > toMatchObject tests > circular references > should not pass when expected object contain transitive circular references as its not possible in response object 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveBodyMatchObject(</intensity><green>expected</color><dim>)</intensity>
 
-<green>- Expected value  - 4</color>
-<red>+ Received value  + 2</color>
+<green>- Expected value  - 1</color>
+<red>+ Received value  + 1</color>
 
 <dim>  Object {</intensity>
-<green>-   "a": "hello",</color>
-<green>-   "nestedObj": Object {</color>
+<dim>    "a": "hello",</intensity>
+<dim>    "nestedObj": Object {</intensity>
 <green>-     "parentObj": [Circular],</color>
-<green>-   },</color>
-<red>+   "a": Array [],</color>
-<red>+   "nestedObj": Array [],</color>
+<red>+     "parentObj": Object {},</color>
+<dim>    },</intensity>
 <dim>  }</intensity>
 
 ------------

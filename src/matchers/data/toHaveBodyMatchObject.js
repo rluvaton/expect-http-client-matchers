@@ -2,7 +2,7 @@ const { getMatchingAdapter } = require('../../http-clients');
 const { printDebugInfo } = require('../../utils/get-debug-info');
 const { getJSONBody } = require('../../utils/json-body');
 const { jsonEquals } = require('../../utils/matchings/equals-json-body');
-const { getObjectSubset, jsonIterableEquality, jsonSubsetEquality } = require('../../utils/matchings/equality-testers');
+const { jsonSubsetEquality, getJsonObjectSubset } = require('../../utils/matchings/equality-testers');
 
 /**
  * @this {import('expect').MatcherUtils}
@@ -28,12 +28,14 @@ function toHaveBodyMatchObject(actual, expectedValue) {
   if (isJson) {
     body = getJSONBody(adapter);
 
-    // We have a limitation that if expected value has some property with value `undefined`
-    // we can't match it with the actual value because `undefined` is not a valid JSON value
-
     // This implementation taken from the `expect`, the code for the `toMatchObject` matcher
     // https://github.com/jestjs/jest/blob/bd1c6db7c15c23788ca3e09c919138e48dd3b28a/packages/expect/src/matchers.ts#L895C1-L951C5
-    pass = jsonEquals(body, expectedValue, [...this.customTesters, jsonIterableEquality, jsonSubsetEquality]);
+
+    // Does not add iterator equality check as it JSON only support array and not custom iterable
+    // Custom implementation of equals and subset equality is added
+    // as we need to not allow non-json values in the expected object
+    // and undefined keys in the expected object mean that the key should not be present in the response body
+    pass = jsonEquals(body, expectedValue, [...this.customTesters, jsonSubsetEquality]);
   }
 
   return {
@@ -71,7 +73,7 @@ function toHaveBodyMatchObject(actual, expectedValue) {
         '',
         printDiffOrStringify(
           expectedValue,
-          getObjectSubset(this, jsonEquals, body, expectedValue, this.customTesters),
+          getJsonObjectSubset(body, expectedValue, this.customTesters),
           'Expected value',
           'Received value',
           this.expand !== false,

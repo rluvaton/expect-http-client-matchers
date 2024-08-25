@@ -47,33 +47,24 @@ function hasPropertyInObject(object, key) {
  * Strip properties from object that are not present in the subset. Useful for
  * printing the diff for toMatchObject() without adding unrelated noise.
  *
+ * @param isJson
  * @param {import('expect').MatcherUtils} matcherUtils
- * @param equals
  * @param object
  * @param subset
  * @param customTesters
  * @param seenReferences
  */
-function getObjectSubset(
-  matcherUtils,
-  equals = matcherUtils.equals,
-  object,
-  subset,
-  customTesters = [],
-  seenReferences = new WeakMap(),
-) {
+function getJsonObjectSubset(object, subset, customTesters = [], seenReferences = new WeakMap()) {
   /* eslint-enable @typescript-eslint/explicit-module-boundary-types */
   if (Array.isArray(object)) {
     if (Array.isArray(subset) && subset.length === object.length) {
       // The map method returns correct subclass of subset.
-      return subset.map((sub, i) => getObjectSubset(object[i], sub, customTesters));
+      return subset.map((sub, i) => getJsonObjectSubset(object[i], sub, customTesters));
     }
   } else if (object instanceof Date) {
     return object;
   } else if (isObject(object) && isObject(subset)) {
-    if (
-      equals(object, subset, [...customTesters, matcherUtils.utils.iterableEquality, matcherUtils.utils.subsetEquality])
-    ) {
+    if (jsonEquals(object, subset, [...customTesters, jsonSubsetEquality])) {
       // Avoid unnecessary copy which might return Object instead of subclass.
       return subset;
     }
@@ -84,7 +75,7 @@ function getObjectSubset(
     for (const key of getObjectKeys(object).filter((key) => hasPropertyInObject(subset, key))) {
       trimmed[key] = seenReferences.has(object[key])
         ? seenReferences.get(object[key])
-        : getObjectSubset(object[key], subset[key], customTesters, seenReferences);
+        : getJsonObjectSubset(object[key], subset[key], customTesters, seenReferences);
     }
 
     if (getObjectKeys(trimmed).length > 0) {
@@ -92,144 +83,6 @@ function getObjectSubset(
     }
   }
   return object;
-}
-
-const IteratorSymbol = Symbol.iterator;
-
-const hasIterator = (object) => !!(object != null && object[IteratorSymbol]);
-
-/**
- *
- * @param {any} a
- * @param {any} b
- * @param {import('expect').Tester[]} customTesters
- * @param {any[]} aStack
- * @param {any[]} bStack
- * @returns {undefined|boolean}
- */
-function jsonIterableEquality(a, b, customTesters = [], aStack = [], bStack = []) {
-  if (
-    typeof a !== 'object' ||
-    typeof b !== 'object' ||
-    Array.isArray(a) ||
-    Array.isArray(b) ||
-    ArrayBuffer.isView(a) ||
-    ArrayBuffer.isView(b) ||
-    !hasIterator(a) ||
-    !hasIterator(b)
-  ) {
-    return undefined;
-  }
-  if (a.constructor !== b.constructor) {
-    return false;
-  }
-  let length = aStack.length;
-  while (length--) {
-    // Linear search. Performance is inversely proportional to the number of
-    // unique nested structures.
-    // circular references at same depth are equal
-    // circular reference is not equal to non-circular one
-    if (aStack[length] === a) {
-      return bStack[length] === b;
-    }
-  }
-  aStack.push(a);
-  bStack.push(b);
-
-  const iterableEqualityWithStack = (a, b) =>
-    iterableEquality(a, b, [...filteredCustomTesters], [...aStack], [...bStack]);
-
-  // Replace any instance of iterableEquality with the new
-  // iterableEqualityWithStack so we can do circular detection
-  const filteredCustomTesters = [...customTesters.filter((t) => t !== iterableEquality), iterableEqualityWithStack];
-
-  if (a.size !== undefined) {
-    if (a.size !== b.size) {
-      return false;
-    } else if (isA < Set < unknown >> ('Set', a) || isImmutableUnorderedSet(a)) {
-      let allFound = true;
-      for (const aValue of a) {
-        if (!b.has(aValue)) {
-          let has = false;
-          for (const bValue of b) {
-            const isEqual = jsonEquals(aValue, bValue, filteredCustomTesters);
-            if (isEqual === true) {
-              has = true;
-            }
-          }
-
-          if (has === false) {
-            allFound = false;
-            break;
-          }
-        }
-      }
-      // Remove the first value from the stack of traversed values.
-      aStack.pop();
-      bStack.pop();
-      return allFound;
-    } else if ((isA < Map < unknown, unknown >> ('Map', a) || isImmutableUnorderedKeyed(a))) {
-      let allFound = true;
-      for (const aEntry of a) {
-        if (!b.has(aEntry[0]) || !jsonEquals(aEntry[1], b.get(aEntry[0]), filteredCustomTesters)) {
-          let has = false;
-          for (const bEntry of b) {
-            const matchedKey = jsonEquals(aEntry[0], bEntry[0], filteredCustomTesters);
-
-            let matchedValue = false;
-            if (matchedKey === true) {
-              matchedValue = jsonEquals(aEntry[1], bEntry[1], filteredCustomTesters);
-            }
-            if (matchedValue === true) {
-              has = true;
-            }
-          }
-
-          if (has === false) {
-            allFound = false;
-            break;
-          }
-        }
-      }
-      // Remove the first value from the stack of traversed values.
-      aStack.pop();
-      bStack.pop();
-      return allFound;
-    }
-  }
-
-  const bIterator = b[IteratorSymbol]();
-
-  for (const aValue of a) {
-    const nextB = bIterator.next();
-    if (nextB.done || !jsonEquals(aValue, nextB.value, filteredCustomTesters)) {
-      return false;
-    }
-  }
-  if (!bIterator.next().done) {
-    return false;
-  }
-
-  const aEntries = entries(a);
-  const bEntries = entries(b);
-  if (!jsonEquals(aEntries, bEntries)) {
-    return false;
-  }
-
-  // Remove the first value from the stack of traversed values.
-  aStack.pop();
-  bStack.pop();
-  return true;
-}
-
-function entries(obj) {
-  if (!isObject(obj)) return [];
-
-  const symbolProperties = Object.getOwnPropertySymbols(obj)
-    .filter((key) => key !== Symbol.iterator)
-    .map((key) => [key, obj[key]]);
-
-  return [...symbolProperties, ...Object.entries(obj)];
 }
 
 function isObjectWithKeys(a) {
@@ -257,34 +110,57 @@ function jsonSubsetEquality(object, subset, customTesters = []) {
   // it has already visited to avoid infinite loops in case
   // there are circular references in the subset passed to it.
 
-  function subsetEqualityWithContext(seenReferences = new WeakMap()) {
+  function subsetEqualityWithContext(seenReferencesObject = new WeakSet(), seenReferencesSubset = new WeakSet()) {
     function tester(object, subset) {
       if (!isObjectWithKeys(subset)) {
         return undefined;
       }
-
-      if (seenReferences.has(subset)) return undefined;
-      seenReferences.set(subset, true);
+      if (typeof object === 'object' && object !== null) {
+        if (seenReferencesObject.has(object)) {
+          return false;
+        }
+        seenReferencesObject.add(object);
+      }
+      if (typeof subset === 'object' && subset !== null) {
+        if (seenReferencesSubset.has(subset)) {
+          return false;
+        }
+        seenReferencesSubset.add(subset);
+      }
 
       const matchResult = getObjectKeys(subset).every((key) => {
-        if (isObjectWithKeys(subset[key])) {
-          if (seenReferences.has(subset[key])) {
-            return jsonEquals(object[key], subset[key], filteredCustomTesters);
-          }
+        let result;
+
+        if (object == null) {
+          return false;
         }
-        const result =
-          object != null &&
+
+        // If subset[key] is undefined, than the object should not have the key
+        if (subset[key] === undefined) {
+          return !hasPropertyInObject(object, key);
+        }
+
+        result =
           hasPropertyInObject(object, key) &&
-          jsonEquals(object[key], subset[key], [...filteredCustomTesters, subsetEqualityWithContext(seenReferences)]);
-        // The main goal of using seenReference is to avoid circular node on tree.
-        // It will only happen within a parent and its child, not a node and nodes next to it (same level)
-        // We should keep the reference for a parent and its child only
-        // Thus we should delete the reference immediately so that it doesn't interfere
-        // other nodes within the same level on tree.
-        seenReferences.delete(subset[key]);
+          jsonEquals(object[key], subset[key], [
+            ...filteredCustomTesters,
+            subsetEqualityWithContext(seenReferencesObject, seenReferencesSubset),
+          ]);
+
         return result;
       });
-      seenReferences.delete(subset);
+
+      // The main goal of using seenReference is to avoid circular node on tree.
+      // It will only happen within a parent and its child, not a node and nodes next to it (same level)
+      // We should keep the reference for a parent and its child only
+      // Thus we should delete the reference immediately so that it doesn't interfere
+      // other nodes within the same level on tree.
+      if (typeof object === 'object' && object !== null) {
+        seenReferencesObject.delete(object);
+      }
+      if (typeof subset === 'object' && subset !== null) {
+        seenReferencesSubset.delete(subset);
+      }
       return matchResult;
     }
 
@@ -294,4 +170,4 @@ function jsonSubsetEquality(object, subset, customTesters = []) {
   return subsetEqualityWithContext()(object, subset);
 }
 
-module.exports = { getObjectSubset, jsonIterableEquality, jsonSubsetEquality };
+module.exports = { getJsonObjectSubset, jsonSubsetEquality };

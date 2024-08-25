@@ -1375,7 +1375,9 @@ test('passes when using .not.toHaveBodyEquals() with different body', async () =
 Use `.toHaveBodyMatchObject` when checking if response body match to the expected body
 
 The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
-except only valid JSON values or asymmetric matchers are supported in the expected body
+except only valid JSON values or asymmetric matchers are supported in the expected body.
+
+`undefined` values in the expected body means that the response body should not contain the key at all (not even with null value)
 
 ```js
 test('passes when response body match the expected body', async () => {

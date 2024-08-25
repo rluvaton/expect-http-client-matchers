@@ -188,8 +188,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
         });
 
         describe('Matching', () => {
-          // Current limitation of the matcher
-          it.skip(`response object does not have property and expected body has property undefined should match`, async (t) => {
+          it(`response object does not have property and expected body has property undefined should match`, async (t) => {
             // Should have the assert snapshot assertion
             t.plan(1);
 
