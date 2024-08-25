@@ -82,7 +82,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
     - [.toHaveInsufficientStorageStatus()](#tohaveinsufficientstoragestatus)
     - [.toHaveNetworkAuthenticationRequiredStatus()](#tohavenetworkauthenticationrequiredstatus)
   - [.toHaveHeader(`<header name>`[, `<header value>`])](#tohaveheaderheader-name-header-value)
-  - [.toHaveBodyEqualsTo(`<body>`)](#tohavebodyequalstobody)
+  - [.toHaveBodyEquals(`<body>`)](#tohavebodyequalsbody)
 
 
 ## Installation
@@ -1353,19 +1353,19 @@ test('passes when using .toHaveHeader() with expected value', async () => {
 });
 ```
 
-#### .toHaveBodyEqualsTo(`<body>`)
+#### .toHaveBodyEquals(`<body>`)
 
-Use `.toHaveBodyEqualsTo` when checking if response body is equal to the expected body
+Use `.toHaveBodyEquals` when checking if response body is equal to the expected body
 
 ```js
 test('passes when response body match the expected body', async () => {
     const response = await axios.get('https://httpstat.us/200');
-    expect(response).toHaveBodyEqualsTo('200 OK');
+    expect(response).toHaveBodyEquals('200 OK');
 });
 
-test('passes when using .not.toHaveBodyEqualsTo() with different body', async () => {
+test('passes when using .not.toHaveBodyEquals() with different body', async () => {
   const response = await axios.get('https://httpstat.us/200');
-  expect(response).not.toHaveBodyEqualsTo('404 NOT FOUND');
+  expect(response).not.toHaveBodyEquals('404 NOT FOUND');
 });
 ```
 
