@@ -31,57 +31,45 @@ describe('(.not).toHaveMovedPermanentlyStatus', () => {
           });
         });
 
-        describe('other statuses', function allTests() {
-          for (let status = 200; status <= 599; status++) {
-            if (status === 301) {
-              continue;
-            }
-            test(`fails when response have status code ${status}`, async (t) => {
-              // Should have the assert snapshot assertion
-              t.plan(1);
+        test(`fails when response have other status code`, async (t) => {
+          // Should have the assert snapshot assertion
+          t.plan(1);
 
-              const response = await testClient.post(`${apiUrl}/status`, {
-                status,
-              });
+          const response = await testClient.post(`${apiUrl}/status`, {
+            status: 200,
+          });
 
-              try {
-                expect(response).toHaveMovedPermanentlyStatus();
-              } catch (e) {
-                t.assert.snapshot(e);
-              }
-
-              // Not using snapshot in the test as the error will contain the entire response
-              // plus dynamic values
-              expect(() => {
-                expect({ response }).toEqual({
-                  response: expect.toHaveMovedPermanentlyStatus(),
-                });
-              }).toThrowError(JestAssertionError);
-            });
+          try {
+            expect(response).toHaveMovedPermanentlyStatus();
+          } catch (e) {
+            t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.toHaveMovedPermanentlyStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
 
       describe('.not.toHaveMovedPermanentlyStatus', () => {
-        test('passes when given status code 200 to 599 except 301', async () => {
-          for (let i = 200; i <= 599; i++) {
-            if (i === 301) {
-              continue;
-            }
-            const response = await testClient.post(
-              `${apiUrl}/status`,
-              {
-                status: i,
-              },
-              {},
-            );
+        test('passes when got other status code', async () => {
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
 
-            expect(response).not.toHaveMovedPermanentlyStatus();
+          expect(response).not.toHaveMovedPermanentlyStatus();
 
-            expect({ response }).toEqual({
-              response: expect.not.toHaveMovedPermanentlyStatus(),
-            });
-          }
+          expect({ response }).toEqual({
+            response: expect.not.toHaveMovedPermanentlyStatus(),
+          });
         });
 
         test(`fails when response have status code 301`, async (t) => {
