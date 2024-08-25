@@ -1,6 +1,6 @@
 const { printDebugInfo } = require('../../utils/get-debug-info');
 const { getJSONBody } = require('../../utils/json-body');
-const {getMatchingAdapter} = require("../../http-clients");
+const { getMatchingAdapter } = require('../../http-clients');
 
 /**
  * @this {import('expect').MatcherUtils}
