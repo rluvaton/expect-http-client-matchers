@@ -2,8 +2,8 @@
 // Taken from https://github.com/jestjs/jest/blob/bd1c6db7c15c23788ca3e09c919138e48dd3b28a/packages/expect-utils/src/jasmineUtils.ts
 
 const jsonEquals = (a, b, customTesters, strictCheck) => {
-    customTesters = customTesters || [];
-    return eq(a, b, new WeakSet(), new WeakSet(), customTesters, strictCheck);
+  customTesters = customTesters || [];
+  return eq(a, b, new WeakSet(), new WeakSet(), customTesters, strictCheck);
 };
 
 /**
@@ -12,7 +12,7 @@ const jsonEquals = (a, b, customTesters, strictCheck) => {
  * @returns {false|value}
  */
 function isAsymmetric(obj) {
-    return !!obj && isA('Function', obj.asymmetricMatch);
+  return !!obj && isA('Function', obj.asymmetricMatch);
 }
 
 /**
@@ -22,20 +22,20 @@ function isAsymmetric(obj) {
  * @returns {undefined|boolean}
  */
 function asymmetricMatch(a, b) {
-    const asymmetricA = isAsymmetric(a);
-    const asymmetricB = isAsymmetric(b);
+  const asymmetricA = isAsymmetric(a);
+  const asymmetricB = isAsymmetric(b);
 
-    if (asymmetricA && asymmetricB) {
-        return undefined;
-    }
+  if (asymmetricA && asymmetricB) {
+    return undefined;
+  }
 
-    if (asymmetricA) {
-        return a.asymmetricMatch(b);
-    }
+  if (asymmetricA) {
+    return a.asymmetricMatch(b);
+  }
 
-    if (asymmetricB) {
-        return b.asymmetricMatch(a);
-    }
+  if (asymmetricB) {
+    return b.asymmetricMatch(a);
+  }
 }
 
 /**
@@ -48,133 +48,125 @@ function asymmetricMatch(a, b) {
  * @param {boolean | undefined} strictCheck
  * @returns {boolean}
  */
-function eq(
-    jsonBody,
-    expected,
-    visitedJsonBody,
-    visitedExpected,
-    customTesters,
-    strictCheck,
-) {
-    let result = true;
+function eq(jsonBody, expected, visitedJsonBody, visitedExpected, customTesters, strictCheck) {
+  let result = true;
 
-    // 2. Asymmetric matchers checks
-    const asymmetricResult = asymmetricMatch(jsonBody, expected);
-    if (asymmetricResult !== undefined) {
-        return asymmetricResult;
+  // 2. Asymmetric matchers checks
+  const asymmetricResult = asymmetricMatch(jsonBody, expected);
+  if (asymmetricResult !== undefined) {
+    return asymmetricResult;
+  }
+
+  // If none of the values are asymmetric matchers, we test for equality
+  if (jsonBody === expected) {
+    return true;
+  }
+
+  // If one of them is not valid JSON value than they are not equal
+  if (!isValidJSONValue(jsonBody) || !isValidJSONValue(expected)) {
+    return false;
+  }
+
+  // If one of them is not a valid shallow JSON object than they are not equal
+  if (!isValidShallowJsonObject(jsonBody) || !isValidShallowJsonObject(expected)) {
+    return false;
+  }
+
+  if (jsonBody !== null) {
+    // If has circular reference, return false as it's not possible in JSON
+    if (visitedJsonBody.has(jsonBody)) {
+      return false;
     }
 
-    // If none of the values are asymmetric matchers, we test for equality
-    if(jsonBody === expected) {
-        return true;
+    visitedJsonBody.add(jsonBody);
+  }
+
+  if (expected !== null) {
+    // If has circular reference, return false as it's not possible in JSON
+    if (visitedExpected.has(expected)) {
+      return false;
     }
 
-    // If one of them is not valid JSON value than they are not equal
-    if(!isValidJSONValue(jsonBody) || !isValidJSONValue(expected)) {
-        return false;
+    visitedExpected.add(expected);
+  }
+
+  const isJsonBodyArray = Array.isArray(jsonBody);
+  const isExpectedArray = Array.isArray(expected);
+
+  // If one of them is an array and the other is not, they are not equal
+  if (isJsonBodyArray !== isExpectedArray) {
+    return false;
+  }
+
+  // If one of them is null (we already checked if both are equal) than they are not equal
+  if (jsonBody === null || expected === null) {
+    return false;
+  }
+
+  /**
+   *
+   * @type {import('expect').TesterContext}
+   */
+  const testerContext = { equals: jsonEquals };
+  for (const item of customTesters) {
+    const customTesterResult = item.call(testerContext, jsonBody, expected, customTesters);
+    if (customTesterResult !== undefined) {
+      return customTesterResult;
     }
+  }
 
-    // If one of them is not a valid shallow JSON object than they are not equal
-    if(!isValidShallowJsonObject(jsonBody) || !isValidShallowJsonObject(expected)) {
-        return false;
+  // Recursively compare objects and arrays.
+  // Compare array lengths to determine if jsonBody deep comparison is necessary.
+  if (strictCheck && isJsonBodyArray && jsonBody.length !== expected.length) {
+    return false;
+  }
+
+  // Deep compare objects.
+  const aKeys = keys(jsonBody, hasKey);
+  let key;
+
+  const bKeys = keys(expected, hasKey);
+  // Add keys corresponding to asymmetric matchers if they miss in non strict check mode
+  if (!strictCheck) {
+    for (let index = 0; index !== bKeys.length; ++index) {
+      key = bKeys[index];
+      if ((isAsymmetric(expected[key]) || expected[key] === undefined) && !hasKey(jsonBody, key)) {
+        aKeys.push(key);
+      }
     }
-
-    if(jsonBody !== null) {
-        // If has circular reference, return false as it's not possible in JSON
-        if (visitedJsonBody.has(jsonBody)) {
-            return false;
-        }
-
-        visitedJsonBody.add(jsonBody);
+    for (let index = 0; index !== aKeys.length; ++index) {
+      key = aKeys[index];
+      if ((isAsymmetric(jsonBody[key]) || jsonBody[key] === undefined) && !hasKey(expected, key)) {
+        bKeys.push(key);
+      }
     }
+  }
 
-    if(expected !== null) {
-        // If has circular reference, return false as it's not possible in JSON
-        if (visitedExpected.has(expected)) {
-            return false;
-        }
+  // Ensure that both objects contain the same number of properties before comparing deep equality.
+  let size = aKeys.length;
+  if (bKeys.length !== size) {
+    return false;
+  }
 
-        visitedExpected.add(expected);
+  while (size--) {
+    key = aKeys[size];
+
+    // Deep compare each member
+    if (strictCheck)
+      result =
+        hasKey(expected, key) &&
+        eq(jsonBody[key], expected[key], visitedJsonBody, visitedExpected, customTesters, strictCheck);
+    else
+      result =
+        (hasKey(expected, key) || isAsymmetric(jsonBody[key]) || jsonBody[key] === undefined) &&
+        eq(jsonBody[key], expected[key], visitedJsonBody, visitedExpected, customTesters, strictCheck);
+
+    if (!result) {
+      return false;
     }
+  }
 
-    const isJsonBodyArray = Array.isArray(jsonBody);
-    const isExpectedArray = Array.isArray(expected);
-
-    // If one of them is an array and the other is not, they are not equal
-    if(isJsonBodyArray !== isExpectedArray) {
-        return false;
-    }
-
-
-    // If one of them is null (we already checked if both are equal) than they are not equal
-    if(jsonBody === null || expected === null) {
-        return false;
-    }
-
-    /**
-     *
-     * @type {import('expect').TesterContext}
-     */
-    const testerContext = {equals: jsonEquals};
-    for (const item of customTesters) {
-        const customTesterResult = item.call(testerContext, jsonBody, expected, customTesters);
-        if (customTesterResult !== undefined) {
-            return customTesterResult;
-        }
-    }
-
-    // Recursively compare objects and arrays.
-    // Compare array lengths to determine if jsonBody deep comparison is necessary.
-    if (strictCheck && isJsonBodyArray && jsonBody.length !== expected.length) {
-        return false;
-    }
-
-    // Deep compare objects.
-    const aKeys = keys(jsonBody, hasKey);
-    let key;
-
-    const bKeys = keys(expected, hasKey);
-    // Add keys corresponding to asymmetric matchers if they miss in non strict check mode
-    if (!strictCheck) {
-        for (let index = 0; index !== bKeys.length; ++index) {
-            key = bKeys[index];
-            if ((isAsymmetric(expected[key]) || expected[key] === undefined) && !hasKey(jsonBody, key)) {
-                aKeys.push(key);
-            }
-        }
-        for (let index = 0; index !== aKeys.length; ++index) {
-            key = aKeys[index];
-            if ((isAsymmetric(jsonBody[key]) || jsonBody[key] === undefined) && !hasKey(expected, key)) {
-                bKeys.push(key);
-            }
-        }
-    }
-
-    // Ensure that both objects contain the same number of properties before comparing deep equality.
-    let size = aKeys.length;
-    if (bKeys.length !== size) {
-        return false;
-    }
-
-    while (size--) {
-        key = aKeys[size];
-
-        // Deep compare each member
-        if (strictCheck)
-            result =
-                hasKey(expected, key) &&
-                eq(jsonBody[key], expected[key], visitedJsonBody, visitedExpected, customTesters, strictCheck);
-        else
-            result =
-                (hasKey(expected, key) || isAsymmetric(jsonBody[key]) || jsonBody[key] === undefined) &&
-                eq(jsonBody[key], expected[key], visitedJsonBody, visitedExpected, customTesters, strictCheck);
-
-        if (!result) {
-            return false;
-        }
-    }
-
-    return result;
+  return result;
 }
 
 /**
@@ -184,18 +176,16 @@ function eq(
  * @returns {*}
  */
 function keys(obj, hasKey) {
-    const keys = [];
-    for (const key in obj) {
-        if (hasKey(obj, key)) {
-            keys.push(key);
-        }
+  const keys = [];
+  for (const key in obj) {
+    if (hasKey(obj, key)) {
+      keys.push(key);
     }
-    return [
-        ...keys,
-        ...Object.getOwnPropertySymbols(obj).filter(
-            symbol => Object.getOwnPropertyDescriptor(obj, symbol).enumerable,
-        ),
-    ];
+  }
+  return [
+    ...keys,
+    ...Object.getOwnPropertySymbols(obj).filter((symbol) => Object.getOwnPropertyDescriptor(obj, symbol).enumerable),
+  ];
 }
 
 /**
@@ -205,7 +195,7 @@ function keys(obj, hasKey) {
  * @returns {boolean}
  */
 function hasKey(obj, key) {
-    return Object.prototype.hasOwnProperty.call(obj, key);
+  return Object.prototype.hasOwnProperty.call(obj, key);
 }
 
 /**
@@ -216,37 +206,36 @@ function hasKey(obj, key) {
  * @template T
  */
 function isA(typeName, value) {
-    return Object.prototype.toString.apply(value) === `[object ${typeName}]`;
+  return Object.prototype.toString.apply(value) === `[object ${typeName}]`;
 }
 
 function isValidJSONValue(value) {
-    // valid JSON values:
-    // - string
-    // - number
-    // - object
-    // - array
-    // - boolean
-    // - null
+  // valid JSON values:
+  // - string
+  // - number
+  // - object
+  // - array
+  // - boolean
+  // - null
 
-    return (
-        typeof value === 'string' ||
-        typeof value === 'number' ||
-        // Match object, `null` and arrays
-        typeof value === 'object' ||
-        typeof value === 'boolean'
-    )
+  return (
+    typeof value === 'string' ||
+    typeof value === 'number' ||
+    // Match object, `null` and arrays
+    typeof value === 'object' ||
+    typeof value === 'boolean'
+  );
 }
 
 // Validate that the object itself is valid (without going into its keys)
 // we assume that the object has typeof obj === 'object'
 function isValidShallowJsonObject(obj) {
-    if (Array.isArray(obj) || obj === null) {
-        return true;
-    }
+  if (Array.isArray(obj) || obj === null) {
+    return true;
+  }
 
-    const proto = Object.getPrototypeOf(obj);
-    return proto === Object.prototype || proto === null;
+  const proto = Object.getPrototypeOf(obj);
+  return proto === Object.prototype || proto === null;
 }
 
-
-module.exports = {jsonEquals};
+module.exports = { jsonEquals };

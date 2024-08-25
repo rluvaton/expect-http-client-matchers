@@ -1,5 +1,5 @@
 const { printDebugInfo } = require('../../utils/get-debug-info');
-const {getJSONBody} = require("../../utils/json-body");
+const { getJSONBody } = require('../../utils/json-body');
 
 /**
  * @this {import('expect').MatcherUtils}
