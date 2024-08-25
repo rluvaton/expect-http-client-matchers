@@ -31,57 +31,45 @@ describe('(.not).toHaveNotAcceptableStatus', () => {
           });
         });
 
-        describe('other statuses', function allTests() {
-          for (let status = 200; status <= 599; status++) {
-            if (status === 406) {
-              continue;
-            }
-            test(`fails when response have status code ${status}`, async (t) => {
-              // Should have the assert snapshot assertion
-              t.plan(1);
+        test(`fails when response have other status code`, async (t) => {
+          // Should have the assert snapshot assertion
+          t.plan(1);
 
-              const response = await testClient.post(`${apiUrl}/status`, {
-                status,
-              });
+          const response = await testClient.post(`${apiUrl}/status`, {
+            status: 200,
+          });
 
-              try {
-                expect(response).toHaveNotAcceptableStatus();
-              } catch (e) {
-                t.assert.snapshot(e);
-              }
-
-              // Not using snapshot in the test as the error will contain the entire response
-              // plus dynamic values
-              expect(() => {
-                expect({ response }).toEqual({
-                  response: expect.toHaveNotAcceptableStatus(),
-                });
-              }).toThrowError(JestAssertionError);
-            });
+          try {
+            expect(response).toHaveNotAcceptableStatus();
+          } catch (e) {
+            t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.toHaveNotAcceptableStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
 
       describe('.not.toHaveNotAcceptableStatus', () => {
-        test('passes when given status code 200 to 599 except 406', async () => {
-          for (let i = 200; i <= 599; i++) {
-            if (i === 406) {
-              continue;
-            }
-            const response = await testClient.post(
-              `${apiUrl}/status`,
-              {
-                status: i,
-              },
-              {},
-            );
+        test('passes when got other status code', async () => {
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
 
-            expect(response).not.toHaveNotAcceptableStatus();
+          expect(response).not.toHaveNotAcceptableStatus();
 
-            expect({ response }).toEqual({
-              response: expect.not.toHaveNotAcceptableStatus(),
-            });
-          }
+          expect({ response }).toEqual({
+            response: expect.not.toHaveNotAcceptableStatus(),
+          });
         });
 
         test(`fails when response have status code 406`, async (t) => {

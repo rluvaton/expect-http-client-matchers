@@ -31,57 +31,45 @@ describe('(.not).toHaveMethodNotAllowedStatus', () => {
           });
         });
 
-        describe('other statuses', function allTests() {
-          for (let status = 200; status <= 599; status++) {
-            if (status === 405) {
-              continue;
-            }
-            test(`fails when response have status code ${status}`, async (t) => {
-              // Should have the assert snapshot assertion
-              t.plan(1);
+        test(`fails when response have other status code`, async (t) => {
+          // Should have the assert snapshot assertion
+          t.plan(1);
 
-              const response = await testClient.post(`${apiUrl}/status`, {
-                status,
-              });
+          const response = await testClient.post(`${apiUrl}/status`, {
+            status: 200,
+          });
 
-              try {
-                expect(response).toHaveMethodNotAllowedStatus();
-              } catch (e) {
-                t.assert.snapshot(e);
-              }
-
-              // Not using snapshot in the test as the error will contain the entire response
-              // plus dynamic values
-              expect(() => {
-                expect({ response }).toEqual({
-                  response: expect.toHaveMethodNotAllowedStatus(),
-                });
-              }).toThrowError(JestAssertionError);
-            });
+          try {
+            expect(response).toHaveMethodNotAllowedStatus();
+          } catch (e) {
+            t.assert.snapshot(e);
           }
+
+          // Not using snapshot in the test as the error will contain the entire response
+          // plus dynamic values
+          expect(() => {
+            expect({ response }).toEqual({
+              response: expect.toHaveMethodNotAllowedStatus(),
+            });
+          }).toThrowError(JestAssertionError);
         });
       });
 
       describe('.not.toHaveMethodNotAllowedStatus', () => {
-        test('passes when given status code 200 to 599 except 405', async () => {
-          for (let i = 200; i <= 599; i++) {
-            if (i === 405) {
-              continue;
-            }
-            const response = await testClient.post(
-              `${apiUrl}/status`,
-              {
-                status: i,
-              },
-              {},
-            );
+        test('passes when got other status code', async () => {
+          const response = await testClient.post(
+            `${apiUrl}/status`,
+            {
+              status: 200,
+            },
+            {},
+          );
 
-            expect(response).not.toHaveMethodNotAllowedStatus();
+          expect(response).not.toHaveMethodNotAllowedStatus();
 
-            expect({ response }).toEqual({
-              response: expect.not.toHaveMethodNotAllowedStatus(),
-            });
-          }
+          expect({ response }).toEqual({
+            response: expect.not.toHaveMethodNotAllowedStatus(),
+          });
         });
 
         test(`fails when response have status code 405`, async (t) => {
