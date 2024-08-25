@@ -317,6 +317,16 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * @param {unknown} expectedBody the expected body to match with
    **/
   toHaveBodyEquals(expectedBody: unknown): R;
+
+  /**
+   * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
+   *
+   * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
+   * except only valid JSON values or asymmetric matchers are supported in the expected body
+   *
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyMatchObject(expectedBody: unknown): R;
 }
 
 // noinspection JSUnusedGlobalSymbols
@@ -639,4 +649,14 @@ export interface SharedMatchers<R> {
    * @param {unknown} expectedBody the expected body to match with
    **/
   toHaveBodyEquals(expectedBody: unknown): R;
+
+  /**
+   * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
+   *
+   * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
+   * except only valid JSON values or asymmetric matchers are supported in the expected body
+   *
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyMatchObject(expectedBody: unknown): R;
 }
