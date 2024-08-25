@@ -160,7 +160,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           ).toThrowError(JestAssertionError);
         });
 
-        it('should fail when the json data does not match when using asymmetric matchers in the data', async () => {
+        it('should fail when the json data does not match when using asymmetric matchers in the data', async (t) => {
           // Should have the assert snapshot assertion
           t.plan(1);
 
@@ -329,7 +329,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).toHaveBodyEqualsTo({
+            expect(response).not.toHaveBodyEqualsTo({
               a: '1',
               b: 2,
               c: true,
@@ -344,7 +344,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.toHaveBodyEqualsTo({
+              response: expect.not.toHaveBodyEqualsTo({
                 a: '1',
                 b: 2,
                 c: true,
