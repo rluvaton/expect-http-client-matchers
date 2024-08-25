@@ -419,6 +419,21 @@ describe('(.not).toHaveBodyEquals', () => {
           ).toThrowError(JestAssertionError);
         });
       });
+
+      it(`content-type application/problem+json`, async () => {
+        const response = await testClient.post(`${apiUrl}/body`, {
+          contentType: 'application/problem+json',
+          data: {
+            type: 'https://example.net/validation-error',
+            title: "Your request parameters didn't validate.",
+          },
+        });
+
+        expect(response).toHaveBodyEquals({
+          type: 'https://example.net/validation-error',
+          title: "Your request parameters didn't validate.",
+        });
+      });
     });
   }
 });
