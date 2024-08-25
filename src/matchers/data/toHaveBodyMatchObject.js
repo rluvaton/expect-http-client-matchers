@@ -3,12 +3,13 @@ const { printDebugInfo } = require('../../utils/get-debug-info');
 const { getJSONBody, isJSONBody } = require('../../utils/json-body');
 const { jsonEquals } = require('../../utils/matchings/equals-json-body');
 const { jsonSubsetEquality, getJsonObjectSubset } = require('../../utils/matchings/equality-testers');
+const { printDiffOrStringify } = require('jest-matcher-utils');
 
 /**
  * @this {import('expect').MatcherUtils}
  */
 function toHaveBodyMatchObject(actual, expectedValue) {
-  const { matcherHint, printExpected, printDiffOrStringify, printReceived } = this.utils;
+  const { matcherHint, printExpected, printReceived } = this.utils;
 
   if (typeof expectedValue !== 'object' || expectedValue === null) {
     throw new Error('toHaveBodyMatchObject expects non-null object as the expected');
