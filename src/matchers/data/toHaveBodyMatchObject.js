@@ -35,7 +35,7 @@ function toHaveBodyMatchObject(actual, expectedValue) {
     // Custom implementation of equals and subset equality is added
     // as we need to not allow non-json values in the expected object
     // and undefined keys in the expected object mean that the key should not be present in the response body
-    pass = jsonEquals(body, expectedValue, [...this.customTesters, jsonSubsetEquality]);
+    pass = jsonEquals(body, expectedValue, (this.customTesters || []).concat([jsonSubsetEquality]));
   }
 
   return {
@@ -73,7 +73,7 @@ function toHaveBodyMatchObject(actual, expectedValue) {
         '',
         printDiffOrStringify(
           expectedValue,
-          getJsonObjectSubset(body, expectedValue, this.customTesters),
+          getJsonObjectSubset(body, expectedValue, this.customTesters || []),
           'Expected value',
           'Received value',
           this.expand !== false,
