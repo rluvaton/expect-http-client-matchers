@@ -83,6 +83,7 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
     - [.toHaveNetworkAuthenticationRequiredStatus()](#tohavenetworkauthenticationrequiredstatus)
   - [.toHaveHeader(`<header name>`[, `<header value>`])](#tohaveheaderheader-name-header-value)
   - [.toHaveBodyEquals(`<body>`)](#tohavebodyequalsbody)
+  - [.toHaveBodyMatchObject(`<body>`)](#tohavebodymatchobjectbody)
 
 
 ## Installation
@@ -1359,13 +1360,38 @@ Use `.toHaveBodyEquals` when checking if response body is equal to the expected 
 
 ```js
 test('passes when response body match the expected body', async () => {
-    const response = await axios.get('https://httpstat.us/200');
-    expect(response).toHaveBodyEquals('200 OK');
+  const response = await axios.get('https://httpstat.us/200');
+  expect(response).toHaveBodyEquals('200 OK');
 });
 
 test('passes when using .not.toHaveBodyEquals() with different body', async () => {
   const response = await axios.get('https://httpstat.us/200');
   expect(response).not.toHaveBodyEquals('404 NOT FOUND');
+});
+```
+
+#### .toHaveBodyMatchObject(`<body>`)
+
+Use `.toHaveBodyMatchObject` when checking if response body match to the expected body
+
+The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
+except only valid JSON values or asymmetric matchers are supported in the expected body.
+
+`undefined` values in the expected body means that the response body should not contain the key at all (not even with null value)
+
+```js
+test('passes when response body match the expected body', async () => {
+    const response = await axios.get('https://some-api.com');
+    expect(response).toHaveBodyMatchObject({
+        name: 'John Doe',
+    });
+});
+
+test('passes when using .not.toHaveBodyMatchObject() with different body', async () => {
+  const response = await axios.get('https://some-api.com');
+  expect(response).not.toHaveBodyMatchObject({
+    name: 'hello',
+  });
 });
 ```
 

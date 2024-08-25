@@ -1,31 +1,6 @@
-const { getMatchingAdapter } = require('../../http-clients');
 const { printDebugInfo } = require('../../utils/get-debug-info');
-
-/**
- *
- * @param {HttpClientAdapter} adapter
- */
-function getJSONBody(adapter) {
-  const body = adapter.getBody();
-
-  if (typeof body === 'string') {
-    try {
-      return JSON.parse(body);
-    } catch (e) {
-      return null;
-    }
-  }
-
-  if (Buffer.isBuffer(body)) {
-    try {
-      return JSON.parse(body.toString());
-    } catch (e) {
-      return null;
-    }
-  }
-
-  return typeof body === 'object' ? body : null;
-}
+const { getJSONBody } = require('../../utils/json-body');
+const { getMatchingAdapter } = require('../../http-clients');
 
 /**
  * @this {import('expect').MatcherUtils}
@@ -38,7 +13,7 @@ function toHaveBodyEquals(actual, expectedValue) {
 
   // Headers are case-insensitive
   const contentTypeHeaderValue = Object.entries(headers).find(([name]) => name.toLowerCase() === 'content-type')?.[1];
-  const isJson = contentTypeHeaderValue.toLowerCase().includes('application/json');
+  const isJson = contentTypeHeaderValue?.toLowerCase().includes('application/json');
 
   let body = adapter.getBody();
 

@@ -369,6 +369,16 @@ async function run() {
   expect(res).not.toHaveBodyEquals(expect.anything());
   expect(res).toEqual(expect.toHaveBodyEquals(expect.anything()));
   expect(res).toEqual(expect.not.toHaveBodyEquals(expect.anything()));
+
+  expect(res).toHaveBodyMatchObject({ foo: 'bar' });
+  expect(res).not.toHaveBodyMatchObject({ foo: 'bar' });
+  expect(res).toEqual(expect.toHaveBodyMatchObject({ foo: 'bar' }));
+  expect(res).toEqual(expect.not.toHaveBodyMatchObject({ foo: 'bar' }));
+
+  expect(res).toHaveBodyMatchObject(expect.anything());
+  expect(res).not.toHaveBodyMatchObject(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyMatchObject(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyMatchObject(expect.anything()));
 }
 
 run();
