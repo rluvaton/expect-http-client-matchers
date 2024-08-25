@@ -4,6 +4,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .not.toHaveSwitch
 Expected status code to not be 101 received:
   <red>101</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -21,6 +22,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>200</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -40,6 +42,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>201</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -59,6 +62,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>202</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -78,6 +82,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>203</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -97,6 +102,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>204</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -114,6 +120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>205</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -133,6 +140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>206</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -152,6 +160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>207</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -171,6 +180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>208</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -190,6 +200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>209</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -209,6 +220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>210</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -228,6 +240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>211</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -247,6 +260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>212</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -266,6 +280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>213</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -285,6 +300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>214</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -304,6 +320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>215</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -323,6 +340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>216</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -342,6 +360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>217</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -361,6 +380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>218</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -380,6 +400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>219</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -399,6 +420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>220</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -418,6 +440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>221</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -437,6 +460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>222</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -456,6 +480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>223</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -475,6 +500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>224</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -494,6 +520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>225</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -513,6 +540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>226</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -532,6 +560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>227</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -551,6 +580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>228</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -570,6 +600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>229</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -589,6 +620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>230</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -608,6 +640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>231</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -627,6 +660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>232</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -646,6 +680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>233</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -665,6 +700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>234</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -684,6 +720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>235</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -703,6 +740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>236</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -722,6 +760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>237</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -741,6 +780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>238</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -760,6 +800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>239</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -779,6 +820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>240</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -798,6 +840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>241</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -817,6 +860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>242</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -836,6 +880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>243</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -855,6 +900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>244</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -874,6 +920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>245</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -893,6 +940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>246</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -912,6 +960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>247</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -931,6 +980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>248</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -950,6 +1000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>249</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -969,6 +1020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>250</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -988,6 +1040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>251</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1007,6 +1060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>252</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1026,6 +1080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>253</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1045,6 +1100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>254</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1064,6 +1120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>255</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1083,6 +1140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>256</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1102,6 +1160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>257</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1121,6 +1180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>258</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1140,6 +1200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>259</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1159,6 +1220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>260</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1178,6 +1240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>261</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1197,6 +1260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>262</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1216,6 +1280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>263</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1235,6 +1300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>264</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1254,6 +1320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>265</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1273,6 +1340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>266</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1292,6 +1360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>267</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1311,6 +1380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>268</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1330,6 +1400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>269</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1349,6 +1420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>270</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1368,6 +1440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>271</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1387,6 +1460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>272</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1406,6 +1480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>273</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1425,6 +1500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>274</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1444,6 +1520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>275</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1463,6 +1540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>276</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1482,6 +1560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>277</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1501,6 +1580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>278</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1520,6 +1600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>279</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1539,6 +1620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>280</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1558,6 +1640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>281</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1577,6 +1660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>282</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1596,6 +1680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>283</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1615,6 +1700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>284</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1634,6 +1720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>285</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1653,6 +1740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>286</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1672,6 +1760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>287</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1691,6 +1780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>288</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1710,6 +1800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>289</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1729,6 +1820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>290</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1748,6 +1840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>291</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1767,6 +1860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>292</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1786,6 +1880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>293</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1805,6 +1900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>294</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1824,6 +1920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>295</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1843,6 +1940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>296</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1862,6 +1960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>297</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1881,6 +1980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>298</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1900,6 +2000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>299</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1919,6 +2020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>300</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1938,6 +2040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>301</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1957,6 +2060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>302</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1976,6 +2080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>303</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -1995,6 +2100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>304</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2014,6 +2120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>305</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2033,6 +2140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>306</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2052,6 +2160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>307</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2071,6 +2180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>308</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2090,6 +2200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>309</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2109,6 +2220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>310</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2128,6 +2240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>311</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2147,6 +2260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>312</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2166,6 +2280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>313</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2185,6 +2300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>314</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2204,6 +2320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>315</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2223,6 +2340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>316</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2242,6 +2360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>317</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2261,6 +2380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>318</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2280,6 +2400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>319</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2299,6 +2420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>320</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2318,6 +2440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>321</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2337,6 +2460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>322</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2356,6 +2480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>323</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2375,6 +2500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>324</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2394,6 +2520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>325</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2413,6 +2540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>326</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2432,6 +2560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>327</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2451,6 +2580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>328</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2470,6 +2600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>329</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2489,6 +2620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>330</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2508,6 +2640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>331</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2527,6 +2660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>332</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2546,6 +2680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>333</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2565,6 +2700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>334</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2584,6 +2720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>335</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2603,6 +2740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>336</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2622,6 +2760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>337</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2641,6 +2780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>338</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2660,6 +2800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>339</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2679,6 +2820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>340</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2698,6 +2840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>341</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2717,6 +2860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>342</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2736,6 +2880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>343</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2755,6 +2900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>344</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2774,6 +2920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>345</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2793,6 +2940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>346</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2812,6 +2960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>347</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2831,6 +2980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>348</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2850,6 +3000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>349</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2869,6 +3020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>350</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2888,6 +3040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>351</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2907,6 +3060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>352</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2926,6 +3080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>353</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2945,6 +3100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>354</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2964,6 +3120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>355</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -2983,6 +3140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>356</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3002,6 +3160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>357</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3021,6 +3180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>358</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3040,6 +3200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>359</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3059,6 +3220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>360</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3078,6 +3240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>361</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3097,6 +3260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>362</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3116,6 +3280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>363</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3135,6 +3300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>364</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3154,6 +3320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>365</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3173,6 +3340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>366</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3192,6 +3360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>367</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3211,6 +3380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>368</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3230,6 +3400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>369</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3249,6 +3420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>370</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3268,6 +3440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>371</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3287,6 +3460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>372</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3306,6 +3480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>373</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3325,6 +3500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>374</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3344,6 +3520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>375</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3363,6 +3540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>376</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3382,6 +3560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>377</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3401,6 +3580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>378</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3420,6 +3600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>379</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3439,6 +3620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>380</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3458,6 +3640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>381</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3477,6 +3660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>382</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3496,6 +3680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>383</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3515,6 +3700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>384</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3534,6 +3720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>385</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3553,6 +3740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>386</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3572,6 +3760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>387</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3591,6 +3780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>388</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3610,6 +3800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>389</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3629,6 +3820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>390</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3648,6 +3840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>391</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3667,6 +3860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>392</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3686,6 +3880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>393</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3705,6 +3900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>394</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3724,6 +3920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>395</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3743,6 +3940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>396</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3762,6 +3960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>397</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3781,6 +3980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>398</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3800,6 +4000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>399</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3819,6 +4020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>400</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3838,6 +4040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>401</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3857,6 +4060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>402</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3876,6 +4080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>403</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3895,6 +4100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>404</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3914,6 +4120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>405</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3933,6 +4140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>406</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3952,6 +4160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>407</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3971,6 +4180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>408</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -3990,6 +4200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>409</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4009,6 +4220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>410</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4028,6 +4240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>411</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4047,6 +4260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>412</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4066,6 +4280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>413</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4085,6 +4300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>414</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4104,6 +4320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>415</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4123,6 +4340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>416</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4142,6 +4360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>417</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4161,6 +4380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>418</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4180,6 +4400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>419</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4199,6 +4420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>420</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4218,6 +4440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>421</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4237,6 +4460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>422</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4256,6 +4480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>423</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4275,6 +4500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>424</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4294,6 +4520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>425</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4313,6 +4540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>426</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4332,6 +4560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>427</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4351,6 +4580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>428</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4370,6 +4600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>429</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4389,6 +4620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>430</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4408,6 +4640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>431</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4427,6 +4660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>432</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4446,6 +4680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>433</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4465,6 +4700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>434</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4484,6 +4720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>435</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4503,6 +4740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>436</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4522,6 +4760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>437</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4541,6 +4780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>438</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4560,6 +4800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>439</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4579,6 +4820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>440</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4598,6 +4840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>441</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4617,6 +4860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>442</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4636,6 +4880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>443</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4655,6 +4900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>444</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4674,6 +4920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>445</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4693,6 +4940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>446</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4712,6 +4960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>447</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4731,6 +4980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>448</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4750,6 +5000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>449</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4769,6 +5020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>450</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4788,6 +5040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>451</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4807,6 +5060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>452</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4826,6 +5080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>453</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4845,6 +5100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>454</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4864,6 +5120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>455</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4883,6 +5140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>456</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4902,6 +5160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>457</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4921,6 +5180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>458</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4940,6 +5200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>459</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4959,6 +5220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>460</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4978,6 +5240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>461</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -4997,6 +5260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>462</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5016,6 +5280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>463</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5035,6 +5300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>464</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5054,6 +5320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>465</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5073,6 +5340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>466</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5092,6 +5360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>467</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5111,6 +5380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>468</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5130,6 +5400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>469</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5149,6 +5420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>470</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5168,6 +5440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>471</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5187,6 +5460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>472</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5206,6 +5480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>473</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5225,6 +5500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>474</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5244,6 +5520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>475</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5263,6 +5540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>476</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5282,6 +5560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>477</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5301,6 +5580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>478</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5320,6 +5600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>479</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5339,6 +5620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>480</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5358,6 +5640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>481</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5377,6 +5660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>482</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5396,6 +5680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>483</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5415,6 +5700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>484</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5434,6 +5720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>485</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5453,6 +5740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>486</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5472,6 +5760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>487</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5491,6 +5780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>488</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5510,6 +5800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>489</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5529,6 +5820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>490</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5548,6 +5840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>491</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5567,6 +5860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>492</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5586,6 +5880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>493</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5605,6 +5900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>494</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5624,6 +5920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>495</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5643,6 +5940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>496</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5662,6 +5960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>497</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5681,6 +5980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>498</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5700,6 +6000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>499</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5719,6 +6020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>500</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5738,6 +6040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>501</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5757,6 +6060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>502</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5776,6 +6080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>503</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5795,6 +6100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>504</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5814,6 +6120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>505</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5833,6 +6140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>506</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5852,6 +6160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>507</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5871,6 +6180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>508</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5890,6 +6200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>509</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5909,6 +6220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>510</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5928,6 +6240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>511</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5947,6 +6260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>512</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5966,6 +6280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>513</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -5985,6 +6300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>514</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6004,6 +6320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>515</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6023,6 +6340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>516</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6042,6 +6360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>517</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6061,6 +6380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>518</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6080,6 +6400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>519</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6099,6 +6420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>520</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6118,6 +6440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>521</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6137,6 +6460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>522</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6156,6 +6480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>523</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6175,6 +6500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>524</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6194,6 +6520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>525</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6213,6 +6540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>526</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6232,6 +6560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>527</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6251,6 +6580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>528</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6270,6 +6600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>529</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6289,6 +6620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>530</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6308,6 +6640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>531</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6327,6 +6660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>532</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6346,6 +6680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>533</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6365,6 +6700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>534</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6384,6 +6720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>535</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6403,6 +6740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>536</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6422,6 +6760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>537</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6441,6 +6780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>538</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6460,6 +6800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>539</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6479,6 +6820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>540</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6498,6 +6840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>541</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6517,6 +6860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>542</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6536,6 +6880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>543</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6555,6 +6900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>544</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6574,6 +6920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>545</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6593,6 +6940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>546</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6612,6 +6960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>547</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6631,6 +6980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>548</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6650,6 +7000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>549</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6669,6 +7020,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>550</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6688,6 +7040,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>551</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6707,6 +7060,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>552</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6726,6 +7080,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>553</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6745,6 +7100,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>554</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6764,6 +7120,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>555</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6783,6 +7140,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>556</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6802,6 +7160,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>557</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6821,6 +7180,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>558</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6840,6 +7200,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>559</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6859,6 +7220,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>560</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6878,6 +7240,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>561</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6897,6 +7260,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>562</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6916,6 +7280,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>563</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6935,6 +7300,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>564</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6954,6 +7320,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>565</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6973,6 +7340,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>566</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -6992,6 +7360,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>567</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7011,6 +7380,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>568</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7030,6 +7400,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>569</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7049,6 +7420,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>570</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7068,6 +7440,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>571</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7087,6 +7460,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>572</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7106,6 +7480,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>573</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7125,6 +7500,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>574</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7144,6 +7520,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>575</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7163,6 +7540,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>576</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7182,6 +7560,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>577</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7201,6 +7580,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>578</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7220,6 +7600,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>579</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7239,6 +7620,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>580</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7258,6 +7640,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>581</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7277,6 +7660,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>582</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7296,6 +7680,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>583</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7315,6 +7700,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>584</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7334,6 +7720,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>585</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7353,6 +7740,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>586</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7372,6 +7760,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>587</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7391,6 +7780,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>588</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7410,6 +7800,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>589</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7429,6 +7820,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>590</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7448,6 +7840,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>591</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7467,6 +7860,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>592</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7486,6 +7880,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>593</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7505,6 +7900,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>594</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7524,6 +7920,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>595</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7543,6 +7940,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>596</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7562,6 +7960,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>597</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7581,6 +7980,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>598</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",
@@ -7600,6 +8000,7 @@ exports[`(.not).toHaveSwitchingProtocolsStatus > using axios > .toHaveSwitchingP
 Expected status code to be 101 received:
   <red>599</color>
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/status",

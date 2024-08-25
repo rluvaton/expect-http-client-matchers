@@ -4,6 +4,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -25,6 +26,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"Accept"</color> to not exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -46,6 +48,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not have value <green>Any<String></color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -67,6 +70,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not have value <green>StringContaining "some"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -88,6 +92,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"accept"</color> to not have value <green>Any<String></color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -109,6 +114,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"accept"</color> to not have value <green>StringContaining "application"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -130,6 +136,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not have value <green>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -151,6 +158,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"Accept"</color> to not have value <green>"application/json"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -172,6 +180,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-CuStOm-heAdEr"</color> to not exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -192,6 +201,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"X-CUSTOM-HEADER"</color> to not exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -212,6 +222,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -232,6 +243,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-CuStOm-heAdEr"</color> to not have value <green>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -252,6 +264,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"X-CUSTOM-HEADER"</color> to not have value <green>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -272,6 +285,7 @@ exports[`(.not).toHaveHeader > using axios > .not.toHaveHeader > should fail whe
 Expected header <green>"x-custom-header"</color> to not have value <green>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -293,6 +307,7 @@ Expected header <green>"x-custom-header"</color> to have value <green>Any<Number
 But instead received: <red>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -315,6 +330,7 @@ Expected header <green>"x-custom-header"</color> to have value <green>"hello"</c
 But instead received: <red>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -337,6 +353,7 @@ Expected header <green>"x-custom-header"</color> to have value <green>"applicati
 But instead received: <red>"some value"</color>
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -358,6 +375,7 @@ exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when th
 Expected header <green>"Authorization"</color> to exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -379,6 +397,7 @@ exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when th
 Expected header <green>"X-Custom"</color> to exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -399,6 +418,7 @@ exports[`(.not).toHaveHeader > using axios > .toHaveHeader > should fail when th
 Expected header <green>"X-Custom-Header"</color> to exists
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",
@@ -420,6 +440,7 @@ Expected header <green>"Authorization"</color> to have value <green>"hello"</col
 But no header with that name found
 
 
+------------
 response is:
 {
   "url": "http://127.0.0.1:54607/headers",

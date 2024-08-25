@@ -354,6 +354,21 @@ async function run() {
     // @ts-expect-error - we should not allow asymmetrical matchers as header name
     expect(res).toEqual(expect.not.toHaveHeader(expect.any(String), 'hello'));
   }
+
+  expect(res).toHaveBodyEqualsTo({ foo: 'bar' });
+  expect(res).not.toHaveBodyEqualsTo({ foo: 'bar' });
+  expect(res).toEqual(expect.toHaveBodyEqualsTo({ foo: 'bar' }));
+  expect(res).toEqual(expect.not.toHaveBodyEqualsTo({ foo: 'bar' }));
+
+  expect(res).toHaveBodyEqualsTo('some text');
+  expect(res).not.toHaveBodyEqualsTo('some text');
+  expect(res).toEqual(expect.toHaveBodyEqualsTo('some text'));
+  expect(res).toEqual(expect.not.toHaveBodyEqualsTo('some text'));
+
+  expect(res).toHaveBodyEqualsTo(expect.anything());
+  expect(res).not.toHaveBodyEqualsTo(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyEqualsTo(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyEqualsTo(expect.anything()));
 }
 
 run();

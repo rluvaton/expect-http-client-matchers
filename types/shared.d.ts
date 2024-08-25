@@ -311,6 +311,12 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * @param {unknown} expectedHeaderValue Optional expected header value, if not passed, than only header presence will be checked
    **/
   toHaveHeader(headerName: string, expectedHeaderValue?: unknown): R;
+
+  /**
+   * Use .toHaveDataEqualsTo when checking if the response body is equal to the expected body.
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyEqualsTo(expectedBody: unknown): R;
 }
 
 // noinspection JSUnusedGlobalSymbols
@@ -627,4 +633,10 @@ export interface SharedMatchers<R> {
    * @param {unknown} expectedHeaderValue Optional expected header value, if not passed, than only header presence will be checked
    **/
   toHaveHeader(headerName: string, expectedHeaderValue?: unknown): R;
+
+  /**
+   * Use .toHaveBodyEqualsTo when checking if the response body is equal to the expected body.
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyEqualsTo(expectedBody: unknown): R;
 }
