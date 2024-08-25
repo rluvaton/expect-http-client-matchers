@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/rluvaton/expect-http-client-matchers/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest-matcher-utils": "^29.7.0"
+  }
 }

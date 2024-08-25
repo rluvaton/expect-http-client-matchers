@@ -1,12 +1,13 @@
 const { printDebugInfo } = require('../../utils/get-debug-info');
 const { getJSONBody, isJSONBody } = require('../../utils/json-body');
 const { getMatchingAdapter } = require('../../http-clients');
+const { printDiffOrStringify } = require('jest-matcher-utils');
 
 /**
  * @this {import('expect').MatcherUtils}
  */
 function toHaveBodyEquals(actual, expectedValue) {
-  const { matcherHint, printExpected, printDiffOrStringify, printReceived } = this.utils;
+  const { matcherHint, printExpected, printReceived } = this.utils;
 
   const adapter = getMatchingAdapter(actual);
 
