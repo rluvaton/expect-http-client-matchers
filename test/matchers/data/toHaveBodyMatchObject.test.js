@@ -117,16 +117,16 @@ describe('(.not).toHaveBodyMatchObject', () => {
           ],
         });
 
+        expect(response).toHaveBodyMatchObject({
+          items: [{ a: 1 }, { a: 3 }],
+        });
+
         expect(response).not.toHaveBodyMatchObject({
           items: [{ a: 1, b: 2 }],
         });
 
         expect(response).not.toHaveBodyMatchObject({
           items: [{ a: 3, b: 4 }],
-        });
-
-        expect(response).not.toHaveBodyMatchObject({
-          items: [{ a: 1 }, { a: 3 }],
         });
       });
 
