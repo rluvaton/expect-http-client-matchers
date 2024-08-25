@@ -364,6 +364,17 @@ async function run() {
   expect(res).toEqual(expect.toHaveBodyEquals('some text'));
   expect(res).toEqual(expect.not.toHaveBodyEquals('some text'));
 
+  expect(res).toHaveBodyEquals<{ foo: string; ll: string }>({ foo: expect.any(String), ll: 'hey' });
+  expect(res).not.toHaveBodyEquals<{ foo: string; ll: string }>({ foo: expect.any(String), ll: 'hey' });
+  expect(res).toEqual(expect.toHaveBodyEquals<{ foo: string; ll: string }>({ foo: expect.any(String), ll: 'hey' }));
+  expect(res).toEqual(expect.not.toHaveBodyEquals<{ foo: string; ll: string }>({ foo: expect.any(String), ll: 'hey' }));
+
+  expect(res).toHaveBodyEquals<string>(expect.anything());
+  expect(res).not.toHaveBodyEquals<string>(expect.anything());
+  expect(res).not.toHaveBodyEquals(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyEquals<string>(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyEquals<string>(expect.anything()));
+
   expect(res).toHaveBodyEquals(expect.anything());
   expect(res).not.toHaveBodyEquals(expect.anything());
   expect(res).toEqual(expect.toHaveBodyEquals(expect.anything()));
