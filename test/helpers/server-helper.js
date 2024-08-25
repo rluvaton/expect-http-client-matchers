@@ -20,6 +20,10 @@ async function buildServer() {
     return reply.headers(request.body).send({});
   });
 
+  fastify.post('/body', async (request, reply) => {
+    return reply.header('Content-Type', request.body.contentType).send(request.body.data);
+  });
+
   await fastify.listen({
     host: '127.0.0.1',
 

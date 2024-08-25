@@ -20,10 +20,10 @@ class AxiosHttpClientAdapter {
 
   /**
    *
-   * @param response
+   * @param _response
    * @return {CanAdapterHandle}
    */
-  static canHandle(response) {
+  static canHandle(_response) {
     // TODO - implement
     return 'maybe';
   }

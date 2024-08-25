@@ -1,22 +1,29 @@
 /**
  *
  * @param {HttpClientAdapter} adapter
+ * @param {{omitBody?: boolean}} options
  */
-function getDebuggingInfo(adapter) {
-  return {
+function getDebuggingInfo(adapter, options = {}) {
+  const info = {
     url: adapter.getUrl(),
     status: adapter.getStatusCode(),
     headers: adapter.getHeaders(),
-    body: adapter.getBody(),
   };
+
+  if (!options.omitBody) {
+    info.body = adapter.getBody();
+  }
+
+  return info;
 }
 /**
  *
  * @param {HttpClientAdapter} adapter
+ * @param {{omitBody?: boolean}} options
  * @return {string}
  */
-function printDebugInfo(adapter) {
-  return `response is:\n` + JSON.stringify(getDebuggingInfo(adapter), null, 2);
+function printDebugInfo(adapter, options = {}) {
+  return `------------\nresponse is:\n` + JSON.stringify(getDebuggingInfo(adapter, options), null, 2);
 }
 
 module.exports = {

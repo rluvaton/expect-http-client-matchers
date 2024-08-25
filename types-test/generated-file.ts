@@ -355,6 +355,31 @@ async function run() {
     // @ts-expect-error - we should not allow non-string matchers as header name
     expect(res).toEqual(expect.not.toHaveHeader({}, 'hello'));
   }
+
+  expect(res).toHaveBodyEquals({ foo: 'bar' });
+  expect(res).not.toHaveBodyEquals({ foo: 'bar' });
+  expect(res).toEqual(expect.toHaveBodyEquals({ foo: 'bar' }));
+  expect(res).toEqual(expect.not.toHaveBodyEquals({ foo: 'bar' }));
+
+  expect(res).toHaveBodyEquals('some text');
+  expect(res).not.toHaveBodyEquals('some text');
+  expect(res).toEqual(expect.toHaveBodyEquals('some text'));
+  expect(res).toEqual(expect.not.toHaveBodyEquals('some text'));
+
+  expect(res).toHaveBodyEquals(expect.anything());
+  expect(res).not.toHaveBodyEquals(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyEquals(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyEquals(expect.anything()));
+
+  expect(res).toHaveBodyMatchObject({ foo: 'bar' });
+  expect(res).not.toHaveBodyMatchObject({ foo: 'bar' });
+  expect(res).toEqual(expect.toHaveBodyMatchObject({ foo: 'bar' }));
+  expect(res).toEqual(expect.not.toHaveBodyMatchObject({ foo: 'bar' }));
+
+  expect(res).toHaveBodyMatchObject(expect.anything());
+  expect(res).not.toHaveBodyMatchObject(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyMatchObject(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyMatchObject(expect.anything()));
 }
 
 run();

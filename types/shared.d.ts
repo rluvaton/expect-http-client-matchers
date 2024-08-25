@@ -311,6 +311,24 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * @param {unknown} expectedHeaderValue Optional expected header value, if not passed, than only header presence will be checked
    **/
   toHaveHeader(headerName: string, expectedHeaderValue?: unknown): R;
+
+  /**
+   * Use .toHaveBodyEquals when checking if the response body is equal to the expected body.
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyEquals(expectedBody: unknown): R;
+
+  /**
+   * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
+   *
+   * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
+   * except only valid JSON values or asymmetric matchers are supported in the expected body
+   *
+   * Undefined values in the expected body means that the response body should not contain the key at all (not even with null value)
+   *
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyMatchObject(expectedBody: unknown): R;
 }
 
 // noinspection JSUnusedGlobalSymbols
@@ -627,4 +645,22 @@ export interface SharedMatchers<R> {
    * @param {unknown} expectedHeaderValue Optional expected header value, if not passed, than only header presence will be checked
    **/
   toHaveHeader(headerName: string, expectedHeaderValue?: unknown): R;
+
+  /**
+   * Use .toHaveBodyEquals when checking if the response body is equal to the expected body.
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyEquals(expectedBody: unknown): R;
+
+  /**
+   * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
+   *
+   * The implementation of the matcher is similar to the implementation of [expect's toMatchObject](https://jestjs.io/docs/en/expect#tomatchobjectobject)
+   * except only valid JSON values or asymmetric matchers are supported in the expected body
+   *
+   * Undefined values in the expected body means that the response body should not contain the key at all (not even with null value)
+   *
+   * @param {unknown} expectedBody the expected body to match with
+   **/
+  toHaveBodyMatchObject(expectedBody: unknown): R;
 }
