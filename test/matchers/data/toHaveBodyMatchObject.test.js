@@ -98,6 +98,38 @@ describe('(.not).toHaveBodyMatchObject', () => {
         });
       });
 
+      it(`testing various array matching`, async () => {
+        const response = await testClient.post(`${apiUrl}/body`, {
+          contentType: 'application/json',
+          data: {
+            items: [
+              { a: 1, b: 2 },
+              { a: 3, b: 4 },
+            ],
+            somethingElse: 3,
+          },
+        });
+
+        expect(response).toHaveBodyMatchObject({
+          items: [
+            { a: 1, b: 2 },
+            { a: 3, b: 4 },
+          ],
+        });
+
+        expect(response).not.toHaveBodyMatchObject({
+          items: [{ a: 1, b: 2 }],
+        });
+
+        expect(response).not.toHaveBodyMatchObject({
+          items: [{ a: 3, b: 4 }],
+        });
+
+        expect(response).not.toHaveBodyMatchObject({
+          items: [{ a: 1 }, { a: 3 }],
+        });
+      });
+
       // Taken from expect `toMatchObject` tests and modified
       // https://github.com/jestjs/jest/blob/bd1c6db7c15c23788ca3e09c919138e48dd3b28a/packages/expect/src/__tests__/matchers.test.js#L2087-L2347
       describe('toMatchObject tests', () => {
@@ -242,41 +274,6 @@ describe('(.not).toHaveBodyMatchObject', () => {
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
             ).toThrowError(JestAssertionError);
-          });
-
-          it(`should pass when the response body is {items: [{a: 1, b: 2}], c: 'd'} and expected value is {a: 'b'}`, async (t) => {
-            // Should have the assert snapshot assertion
-            t.plan(1);
-
-            const response = await testClient.post(`${apiUrl}/body`, {
-              contentType: 'application/json',
-              data: {
-                items: [
-                  { a: 1, b: 2 },
-                  { a: 3, b: 4 },
-                ],
-                somethingElse: 3,
-              },
-            });
-
-            expect(response).toHaveBodyMatchObject({
-              items: [
-                { a: 1, b: 2 },
-                { a: 3, b: 4 },
-              ],
-            });
-
-            expect(response).not.toHaveBodyMatchObject({
-              items: [{ a: 1, b: 2 }],
-            });
-
-            expect(response).not.toHaveBodyMatchObject({
-              items: [{ a: 3, b: 4 }],
-            });
-
-            expect(response).not.toHaveBodyMatchObject({
-              items: [{ a: 1 }, { a: 3 }],
-            });
           });
 
           it(`should pass when the response body is {a: 'b', c: 'd'} and expected value is {a: 'b', c: 'd'}`, async (t) => {
