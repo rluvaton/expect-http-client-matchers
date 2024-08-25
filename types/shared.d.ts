@@ -1,3 +1,5 @@
+import { WrapWithPossibleAsymmetricMatcher } from './utils';
+
 export interface CustomMatchers<R> extends Record<string, any> {
   /**
    * Use .toBeSuccessful when checking if Axios response status code is between 200 and 299 included
@@ -316,7 +318,7 @@ export interface CustomMatchers<R> extends Record<string, any> {
    * Use .toHaveBodyEquals when checking if the response body is equal to the expected body.
    * @param {unknown} expectedBody the expected body to match with
    **/
-  toHaveBodyEquals(expectedBody: unknown): R;
+  toHaveBodyEquals<T>(expectedBody: WrapWithPossibleAsymmetricMatcher<T>): R;
 
   /**
    * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
@@ -650,7 +652,7 @@ export interface SharedMatchers<R> {
    * Use .toHaveBodyEquals when checking if the response body is equal to the expected body.
    * @param {unknown} expectedBody the expected body to match with
    **/
-  toHaveBodyEquals(expectedBody: unknown): R;
+  toHaveBodyEquals<T>(expectedBody: WrapWithPossibleAsymmetricMatcher<T>): R;
 
   /**
    * Use .toHaveBodyMatchObject when checking if the response body match the expected body.
