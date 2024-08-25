@@ -355,20 +355,20 @@ async function run() {
     expect(res).toEqual(expect.not.toHaveHeader(expect.any(String), 'hello'));
   }
 
-  expect(res).toHaveBodyEqualsTo({ foo: 'bar' });
-  expect(res).not.toHaveBodyEqualsTo({ foo: 'bar' });
-  expect(res).toEqual(expect.toHaveBodyEqualsTo({ foo: 'bar' }));
-  expect(res).toEqual(expect.not.toHaveBodyEqualsTo({ foo: 'bar' }));
+  expect(res).toHaveBodyEquals({ foo: 'bar' });
+  expect(res).not.toHaveBodyEquals({ foo: 'bar' });
+  expect(res).toEqual(expect.toHaveBodyEquals({ foo: 'bar' }));
+  expect(res).toEqual(expect.not.toHaveBodyEquals({ foo: 'bar' }));
 
-  expect(res).toHaveBodyEqualsTo('some text');
-  expect(res).not.toHaveBodyEqualsTo('some text');
-  expect(res).toEqual(expect.toHaveBodyEqualsTo('some text'));
-  expect(res).toEqual(expect.not.toHaveBodyEqualsTo('some text'));
+  expect(res).toHaveBodyEquals('some text');
+  expect(res).not.toHaveBodyEquals('some text');
+  expect(res).toEqual(expect.toHaveBodyEquals('some text'));
+  expect(res).toEqual(expect.not.toHaveBodyEquals('some text'));
 
-  expect(res).toHaveBodyEqualsTo(expect.anything());
-  expect(res).not.toHaveBodyEqualsTo(expect.anything());
-  expect(res).toEqual(expect.toHaveBodyEqualsTo(expect.anything()));
-  expect(res).toEqual(expect.not.toHaveBodyEqualsTo(expect.anything()));
+  expect(res).toHaveBodyEquals(expect.anything());
+  expect(res).not.toHaveBodyEquals(expect.anything());
+  expect(res).toEqual(expect.toHaveBodyEquals(expect.anything()));
+  expect(res).toEqual(expect.not.toHaveBodyEquals(expect.anything()));
 }
 
 run();

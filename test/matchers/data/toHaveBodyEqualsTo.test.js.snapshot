@@ -1,4 +1,4 @@
-exports[`(.not).toHaveBodyEqualsTo > using axios > .not.toHaveBodyEqualsTo > should fail when the expected data match and body is json 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .not.toHaveBodyEquals > should fail when the expected data match and body is json 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).not.toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to not have data:
@@ -19,7 +19,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .not.toHaveBodyEqualsTo > should fail when the expected data match and body is json when using asymmetric matchers in the data 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .not.toHaveBodyEquals > should fail when the expected data match and body is json when using asymmetric matchers in the data 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).not.toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to not have data:
@@ -40,7 +40,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .not.toHaveBodyEqualsTo > should fail when the expected data match and body is text 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .not.toHaveBodyEquals > should fail when the expected data match and body is text 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).not.toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to not have data:
@@ -61,7 +61,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the json data does not match 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .toHaveBodyEquals > should fail when the json data does not match 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to have data:
@@ -92,7 +92,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the json data does not match when using asymmetric matchers in the data 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .toHaveBodyEquals > should fail when the json data does not match when using asymmetric matchers in the data 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to have data:
@@ -124,7 +124,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the response body type does not match 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .toHaveBodyEquals > should fail when the response body type does not match 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to have data:
@@ -144,7 +144,7 @@ response is:
 }
 `;
 
-exports[`(.not).toHaveBodyEqualsTo > using axios > .toHaveBodyEqualsTo > should fail when the text data does not match 1`] = `
+exports[`(.not).toHaveBodyEquals > using axios > .toHaveBodyEquals > should fail when the text data does not match 1`] = `
 <dim>expect(</intensity><red>received</color><dim>).toHaveDataEqualsTo(</intensity><green>expected</color><dim>)</intensity>
 
 Expected request to have data:

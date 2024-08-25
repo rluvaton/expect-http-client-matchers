@@ -30,7 +30,7 @@ function getJSONBody(adapter) {
 /**
  * @this {import('expect').MatcherUtils}
  */
-function toHaveBodyEqualsTo(actual, expectedValue) {
+function toHaveBodyEquals(actual, expectedValue) {
   const { matcherHint, printExpected, printDiffOrStringify, printReceived } = this.utils;
 
   const adapter = getMatchingAdapter(actual);
@@ -78,4 +78,4 @@ function toHaveBodyEqualsTo(actual, expectedValue) {
   };
 }
 
-module.exports = { toHaveBodyEqualsTo };
+module.exports = { toHaveBodyEquals };

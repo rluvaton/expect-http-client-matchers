@@ -1,5 +1,5 @@
-const { toHaveBodyEqualsTo } = require('./toHaveBodyEqualsTo');
+const { toHaveBodyEquals } = require('./toHaveBodyEquals');
 
 module.exports = {
-  toHaveBodyEqualsTo,
+  toHaveBodyEquals,
 };

@@ -1,13 +1,13 @@
-const { toHaveBodyEqualsTo } = require('../../../src');
+const { toHaveBodyEquals } = require('../../../src');
 const { describe, before, it } = require('node:test');
 const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../helpers/server-helper');
 const { testClients } = require('../../helpers/supported-clients');
 
-expect.extend({ toHaveBodyEqualsTo });
+expect.extend({ toHaveBodyEquals });
 
-describe('(.not).toHaveBodyEqualsTo', () => {
+describe('(.not).toHaveBodyEquals', () => {
   let apiUrl = getServerUrl();
 
   before(async () => {
@@ -16,7 +16,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
   for (const testClient of testClients) {
     describe(`using ${testClient.name}`, () => {
-      describe('.toHaveBodyEqualsTo', () => {
+      describe('.toHaveBodyEquals', () => {
         it('should pass when the expected data match and body is json', async () => {
           const response = await testClient.post(`${apiUrl}/body`, {
             contentType: 'application/json',
@@ -31,7 +31,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             },
           });
 
-          expect(response).toHaveBodyEqualsTo({
+          expect(response).toHaveBodyEquals({
             a: '1',
             b: 2,
             c: true,
@@ -42,7 +42,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           expect({ response }).toEqual({
-            response: expect.toHaveBodyEqualsTo({
+            response: expect.toHaveBodyEquals({
               a: '1',
               b: 2,
               c: true,
@@ -60,10 +60,10 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             data: 'Hello World',
           });
 
-          expect(response).toHaveBodyEqualsTo('Hello World');
+          expect(response).toHaveBodyEquals('Hello World');
 
           expect({ response }).toEqual({
-            response: expect.toHaveBodyEqualsTo('Hello World'),
+            response: expect.toHaveBodyEquals('Hello World'),
           });
         });
 
@@ -81,7 +81,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             },
           });
 
-          expect(response).toHaveBodyEqualsTo(
+          expect(response).toHaveBodyEquals(
             expect.objectContaining({
               b: expect.any(Number),
               c: true,
@@ -89,7 +89,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           );
 
           expect({ response }).toEqual({
-            response: expect.toHaveBodyEqualsTo(
+            response: expect.toHaveBodyEquals(
               expect.objectContaining({
                 b: expect.any(Number),
                 c: true,
@@ -110,7 +110,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).toHaveBodyEqualsTo({
+            expect(response).toHaveBodyEquals({
               a: '1',
               b: 2,
               c: true,
@@ -125,7 +125,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.toHaveBodyEqualsTo({
+              response: expect.toHaveBodyEquals({
                 a: '1',
                 b: 2,
                 c: true,
@@ -148,14 +148,14 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).toHaveBodyEqualsTo('Someone');
+            expect(response).toHaveBodyEquals('Someone');
           } catch (e) {
             t.assert.snapshot(e);
           }
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.toHaveBodyEqualsTo('Someone'),
+              response: expect.toHaveBodyEquals('Someone'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -178,7 +178,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).toHaveBodyEqualsTo(
+            expect(response).toHaveBodyEquals(
               expect.objectContaining({
                 a: expect.any(Number),
               }),
@@ -189,7 +189,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.toHaveBodyEqualsTo(
+              response: expect.toHaveBodyEquals(
                 expect.objectContaining({
                   a: expect.any(Number),
                 }),
@@ -210,20 +210,20 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).toHaveBodyEqualsTo('Hello World');
+            expect(response).toHaveBodyEquals('Hello World');
           } catch (e) {
             t.assert.snapshot(e);
           }
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.toHaveBodyEqualsTo('Hello World'),
+              response: expect.toHaveBodyEquals('Hello World'),
             }),
           ).toThrowError(JestAssertionError);
         });
       });
 
-      describe('.not.toHaveBodyEqualsTo', () => {
+      describe('.not.toHaveBodyEquals', () => {
         it('should pass when the json data does not match', async () => {
           const response = await testClient.post(`${apiUrl}/body`, {
             contentType: 'application/json',
@@ -232,7 +232,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             },
           });
 
-          expect(response).not.toHaveBodyEqualsTo({
+          expect(response).not.toHaveBodyEquals({
             a: '1',
             b: 2,
             c: true,
@@ -243,7 +243,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           expect({ response }).toEqual({
-            response: expect.not.toHaveBodyEqualsTo({
+            response: expect.not.toHaveBodyEquals({
               a: '1',
               b: 2,
               c: true,
@@ -261,10 +261,10 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             data: 'Hello World',
           });
 
-          expect(response).not.toHaveBodyEqualsTo('Someone');
+          expect(response).not.toHaveBodyEquals('Someone');
 
           expect({ response }).toEqual({
-            response: expect.not.toHaveBodyEqualsTo('Someone'),
+            response: expect.not.toHaveBodyEquals('Someone'),
           });
         });
 
@@ -282,14 +282,14 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             },
           });
 
-          expect(response).not.toHaveBodyEqualsTo(
+          expect(response).not.toHaveBodyEquals(
             expect.objectContaining({
               a: expect.any(Number),
             }),
           );
 
           expect({ response }).toEqual({
-            response: expect.not.toHaveBodyEqualsTo(
+            response: expect.not.toHaveBodyEquals(
               expect.objectContaining({
                 a: expect.any(Number),
               }),
@@ -305,9 +305,9 @@ describe('(.not).toHaveBodyEqualsTo', () => {
             },
           });
 
-          expect(response).not.toHaveBodyEqualsTo('Hello World');
+          expect(response).not.toHaveBodyEquals('Hello World');
           expect({ response }).toEqual({
-            response: expect.not.toHaveBodyEqualsTo('Hello World'),
+            response: expect.not.toHaveBodyEquals('Hello World'),
           });
         });
 
@@ -329,7 +329,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).not.toHaveBodyEqualsTo({
+            expect(response).not.toHaveBodyEquals({
               a: '1',
               b: 2,
               c: true,
@@ -344,7 +344,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.not.toHaveBodyEqualsTo({
+              response: expect.not.toHaveBodyEquals({
                 a: '1',
                 b: 2,
                 c: true,
@@ -367,14 +367,14 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).not.toHaveBodyEqualsTo('Hello World');
+            expect(response).not.toHaveBodyEquals('Hello World');
           } catch (e) {
             t.assert.snapshot(e);
           }
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.not.toHaveBodyEqualsTo('Hello World'),
+              response: expect.not.toHaveBodyEquals('Hello World'),
             }),
           ).toThrowError(JestAssertionError);
         });
@@ -397,7 +397,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
           });
 
           try {
-            expect(response).not.toHaveBodyEqualsTo(
+            expect(response).not.toHaveBodyEquals(
               expect.objectContaining({
                 b: expect.any(Number),
                 c: true,
@@ -409,7 +409,7 @@ describe('(.not).toHaveBodyEqualsTo', () => {
 
           expect(() =>
             expect({ response }).toEqual({
-              response: expect.not.toHaveBodyEqualsTo(
+              response: expect.not.toHaveBodyEquals(
                 expect.objectContaining({
                   b: expect.any(Number),
                   c: true,
