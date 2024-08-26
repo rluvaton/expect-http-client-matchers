@@ -5,6 +5,7 @@ const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../helpers/server-helper');
 const { testClients } = require('../../helpers/supported-clients');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../helpers/can-test-snapshot');
 
 expect.extend({ toHaveHeader });
 
@@ -166,7 +167,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('Authorization'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is missing and there is another header that contain the expected header', async (t) => {
@@ -187,7 +188,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('X-Custom'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is missing and there is another header that is substring of the expected header', async (t) => {
@@ -208,7 +209,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('X-Custom-Header'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is missing when expected header value is provided', async (t) => {
@@ -230,7 +231,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('Authorization', 'hello'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header exist but the expected value does not match', async (t) => {
@@ -252,7 +253,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('x-custom-header', 'hello'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header exist but the expected value does not match but the value match another header value', async (t) => {
@@ -274,7 +275,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('x-custom-header', 'application/json'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header exist and passing asymmetric matcher as the expected value that does not match', async (t) => {
@@ -296,7 +297,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.toHaveHeader('x-custom-header', expect.any(Number)),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 
@@ -437,7 +438,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('Accept');
@@ -449,7 +450,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('Accept'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is present and the value is provided and match', async (t) => {
@@ -471,7 +472,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header', 'some value'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('Accept', 'application/json');
@@ -483,7 +484,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('Accept', 'application/json'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is present and the expected value is matching asymmetric matcher', async (t) => {
@@ -505,7 +506,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header', expect.any(String)),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('x-custom-header', expect.stringContaining('some'));
@@ -517,7 +518,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header', expect.stringContaining('some')),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('accept', expect.any(String));
@@ -529,7 +530,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('accept', expect.any(String)),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('accept', expect.stringContaining('application'));
@@ -541,7 +542,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('accept', expect.stringContaining('application')),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is present even when the header case is not the same (case insensitive)', async (t) => {
@@ -562,7 +563,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-CuStOm-heAdEr'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('X-CUSTOM-HEADER');
@@ -574,7 +575,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('X-CUSTOM-HEADER'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('x-custom-header');
@@ -586,7 +587,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected header is present even when the header case is not the same (case insensitive) and expected value is provided', async (t) => {
@@ -606,7 +607,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-CuStOm-heAdEr', 'some value'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('X-CUSTOM-HEADER', 'some value');
@@ -618,7 +619,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('X-CUSTOM-HEADER', 'some value'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
 
           try {
             expect(response).not.toHaveHeader('x-custom-header', 'some value');
@@ -630,7 +631,7 @@ describe('(.not).toHaveHeader', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveHeader('x-custom-header', 'some value'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
     });
