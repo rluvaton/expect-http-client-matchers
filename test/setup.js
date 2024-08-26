@@ -1,19 +1,10 @@
-const { snapshot, after } = require('node:test');
+const { fixHttpClients, getGot } = require('./helpers/override-http-client-defaults');
+
+const { snapshot, before, after } = require('node:test');
 const ansiSerializer = require('./helpers/ansi-snapshot-serializer/serializer');
-const axios = require('axios');
 const { closeServer } = require('./helpers/server-helper');
 
-// Don't throw on error
-axios.defaults.validateStatus = () => true;
-
-// Add a response interceptor
-axios.interceptors.response.use(function (response) {
-  // Delete the following headers as they are dynamic and the test snapshot won't match
-  delete response.headers['keep-alive'];
-  delete response.headers['date'];
-
-  return response;
-});
+fixHttpClients();
 
 snapshot.setDefaultSnapshotSerializers([
   function getErrorMessage(input) {
@@ -34,6 +25,10 @@ snapshot.setDefaultSnapshotSerializers([
     return JSON.stringify(input, null, 2);
   },
 ]);
+
+before(async () => {
+  await getGot();
+});
 
 after(async () => {
   await closeServer();

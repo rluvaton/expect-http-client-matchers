@@ -5,6 +5,7 @@ const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../../helpers/can-test-snapshot');
 
 expect.extend({ toHavePartialContentStatus });
 
@@ -52,7 +53,7 @@ describe('(.not).toHavePartialContentStatus', () => {
             expect({ response }).toEqual({
               response: expect.toHavePartialContentStatus(),
             });
-          }).toThrowError(JestAssertionError);
+          }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 
@@ -93,7 +94,7 @@ describe('(.not).toHavePartialContentStatus', () => {
             expect({ response }).toEqual({
               response: expect.not.toHavePartialContentStatus(),
             });
-          }).toThrowError(JestAssertionError);
+          }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
     });

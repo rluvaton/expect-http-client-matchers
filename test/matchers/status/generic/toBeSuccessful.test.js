@@ -4,6 +4,7 @@ const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../../helpers/can-test-snapshot');
 const { testClients } = require('../../../helpers/supported-clients');
 
 expect.extend({ toBeSuccessful });
@@ -60,7 +61,7 @@ describe('(.not).toBeSuccessful', () => {
                 expect({ response }).toEqual({
                   response: expect.toBeSuccessful(),
                 });
-              }).toThrowError(JestAssertionError);
+              }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });
@@ -106,7 +107,7 @@ describe('(.not).toBeSuccessful', () => {
                 expect({ response }).toEqual({
                   response: expect.not.toBeSuccessful(),
                 });
-              }).toThrowError(JestAssertionError);
+              }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });

@@ -4,6 +4,7 @@ const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../../helpers/can-test-snapshot');
 const { testClients } = require('../../../helpers/supported-clients');
 
 expect.extend({ toHaveStatus });
@@ -75,7 +76,7 @@ describe('(.not).toHaveStatus', () => {
             expect({ response }).toEqual({
               response: expect.toHaveStatus(expect.any(String)),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         describe('status 200 to 599', function allTests() {
@@ -98,7 +99,7 @@ describe('(.not).toHaveStatus', () => {
                 expect({ response }).toEqual({
                   response: expect.toHaveStatus(status - 1),
                 }),
-              ).toThrowError(JestAssertionError);
+              ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });
@@ -159,7 +160,7 @@ describe('(.not).toHaveStatus', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveStatus(expect.any(Number)),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         describe('status 200 to 599', function allTests() {
@@ -182,7 +183,7 @@ describe('(.not).toHaveStatus', () => {
                 expect({ response }).toEqual({
                   response: expect.not.toHaveStatus(status),
                 }),
-              ).toThrowError(JestAssertionError);
+              ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });

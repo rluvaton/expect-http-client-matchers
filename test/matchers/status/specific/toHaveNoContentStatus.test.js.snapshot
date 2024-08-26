@@ -35,3 +35,41 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveNoContentStatus > using got > .not.toHaveNoContentStatus > fails when response have status code 204 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveNoContentStatus()</intensity>
+
+Expected status code to not be 204 received:
+  <red>204</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 204,
+  "headers": {
+    "connection": "keep-alive"
+  },
+  "body": ""
+}
+`;
+
+exports[`(.not).toHaveNoContentStatus > using got > .toHaveNoContentStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveNoContentStatus()</intensity>
+
+Expected status code to be 204 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

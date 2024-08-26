@@ -16,12 +16,15 @@ class AxiosHttpClientAdapter extends HttpClientAdapter {
 
   /**
    *
-   * @param _response
+   * @param response
    * @return {CanAdapterHandle}
    */
-  static canHandle(_response) {
-    // TODO - implement
-    return 'maybe';
+  static canHandle(response) {
+    if (response.config) {
+      return 'maybe';
+    }
+
+    return 'no';
   }
 
   getUrl() {

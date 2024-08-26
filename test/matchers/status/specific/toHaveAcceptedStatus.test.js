@@ -5,6 +5,7 @@ const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
 const { testClients } = require('../../../helpers/supported-clients');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../../helpers/can-test-snapshot');
 
 expect.extend({ toHaveAcceptedStatus });
 
@@ -52,7 +53,7 @@ describe('(.not).toHaveAcceptedStatus', () => {
             expect({ response }).toEqual({
               response: expect.toHaveAcceptedStatus(),
             });
-          }).toThrowError(JestAssertionError);
+          }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 
@@ -93,7 +94,7 @@ describe('(.not).toHaveAcceptedStatus', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveAcceptedStatus(),
             });
-          }).toThrowError(JestAssertionError);
+          }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
     });

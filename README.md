@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Expect HTTP Client Matchers</h1>
 
-Additional expect matchers for http clients (e.g. Axios, got), supports `jest`, `vitest`, `expect`.
+Additional expect matchers for http clients (e.g. Axios, got, or custom), supports `jest`, `vitest`, `expect`.
 
 </div>
 
@@ -17,12 +17,16 @@ Additional expect matchers for http clients (e.g. Axios, got), supports `jest`, 
       - [Typescript](#typescript-1)
     - [Jest](#jest)
       - [Typescript](#typescript-2)
+- [Asymmetric matchers](#asymmetric-matchers)
 - [HTTP Clients](#http-clients)
   - [Axios](#axios)
     - [Setup](#setup)
+    - [Got](#got)
+      - [Setup](#setup-1)
+      - [Troubleshooting](#troubleshooting)
+        - [Error: _The `searchParameters` option does not exist. Use `searchParams` instead._](#error-_the-searchparameters-option-does-not-exist-use-searchparams-instead_)
   - [Custom HTTP Client](#custom-http-client)
 - [Configure](#configure)
-- [Asymmetric matchers](#asymmetric-matchers)
 - [API](#api)
   - [.toBeSuccessful()](#tobesuccessful)
   - [.toHave2xxStatus()](#tohave2xxstatus)
@@ -302,6 +306,38 @@ all the examples assume you have:
 // Don't throw an error on un-successful status code for ALL axios clients
 axios.defaults.validateStatus = () => true;
 ```
+
+### Got
+
+#### Setup
+
+When using `got`, you should disable throwing on unsuccessful status codes as well
+
+At the moment, `got` does not allow globally disabling throwing on unsuccessful status codes, you will need to do it per client/request
+```js
+import got from 'got';
+
+// Use this client for all requests
+const yourClient = got.extend({
+  // Don't throw on error
+  throwHttpErrors: false,
+  
+  // I recommend disabling retry on failure as well
+  // retry: {
+  //   limit: 0
+  // }
+});
+```
+
+#### Troubleshooting
+
+##### Error: _The `searchParameters` option does not exist. Use `searchParams` instead._
+
+This is due to `jest-matcher-utils` bug (which `expect` and we use under the hood) when printing the request it evaluates every property getter
+And `got` has a getter for `searchParameters` which throw an error as it's deprecated
+
+See more here: [jest/jest#15280](https://github.com/jestjs/jest/issues/15280)
+
 
 ### Custom HTTP Client
 

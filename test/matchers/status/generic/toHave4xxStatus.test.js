@@ -4,6 +4,7 @@ const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../../helpers/server-helper');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../../helpers/can-test-snapshot');
 const { testClients } = require('../../../helpers/supported-clients');
 
 expect.extend({ toHave4xxStatus });
@@ -62,7 +63,7 @@ describe('(.not).toHave4xxStatus', () => {
                 expect({ response }).toEqual({
                   response: expect.toHave4xxStatus(),
                 });
-              }).toThrowError(JestAssertionError);
+              }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });
@@ -110,7 +111,7 @@ describe('(.not).toHave4xxStatus', () => {
                 expect({ response }).toEqual({
                   response: expect.not.toHave4xxStatus(),
                 });
-              }).toThrowError(JestAssertionError);
+              }).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
             });
           }
         });

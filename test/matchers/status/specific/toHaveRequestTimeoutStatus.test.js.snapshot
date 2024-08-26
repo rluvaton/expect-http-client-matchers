@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveRequestTimeoutStatus > using got > .not.toHaveRequestTimeoutStatus > fails when response have status code 408 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveRequestTimeoutStatus()</intensity>
+
+Expected status code to not be 408 received:
+  <red>408</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 408,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveRequestTimeoutStatus > using got > .toHaveRequestTimeoutStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveRequestTimeoutStatus()</intensity>
+
+Expected status code to be 408 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

@@ -4,6 +4,7 @@
  *
  * HTTP Client Adapter
  * @abstract
+ * @template HttpClientResponse
  */
 class HttpClientAdapter {
   /**
@@ -17,13 +18,13 @@ class HttpClientAdapter {
 
   /**
    * The response object
-   * @type {unknown}
+   * @type {HttpClientResponse}
    */
   response;
 
   /**
    *
-   * @param response
+   * @param {HttpClientResponse} response
    * @protected
    */
   constructor(response) {

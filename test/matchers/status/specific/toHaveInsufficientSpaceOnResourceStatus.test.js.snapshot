@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveInsufficientSpaceOnResourceStatus > using got > .not.toHaveInsufficientSpaceOnResourceStatus > fails when response have status code 419 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveInsufficientSpaceOnResourceStatus()</intensity>
+
+Expected status code to not be 419 received:
+  <red>419</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 419,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveInsufficientSpaceOnResourceStatus > using got > .toHaveInsufficientSpaceOnResourceStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveInsufficientSpaceOnResourceStatus()</intensity>
+
+Expected status code to be 419 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
