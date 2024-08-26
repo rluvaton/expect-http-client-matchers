@@ -1,4 +1,5 @@
-const { toHaveBodyEquals } = require('../../../src');
+const { matchers } = require('../../../src');
+const { toHaveBodyEquals } = matchers;
 const { describe, before, it } = require('node:test');
 const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

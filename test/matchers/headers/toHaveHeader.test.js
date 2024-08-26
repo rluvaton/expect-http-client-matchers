@@ -1,4 +1,5 @@
-const { toHaveHeader } = require('../../../src');
+const { matchers } = require('../../../src');
+const { toHaveHeader } = matchers;
 const { describe, before, it } = require('node:test');
 const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

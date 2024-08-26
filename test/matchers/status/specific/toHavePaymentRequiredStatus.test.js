@@ -1,4 +1,5 @@
-const { toHavePaymentRequiredStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHavePaymentRequiredStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

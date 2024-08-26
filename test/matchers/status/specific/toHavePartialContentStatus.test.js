@@ -1,4 +1,5 @@
-const { toHavePartialContentStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHavePartialContentStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

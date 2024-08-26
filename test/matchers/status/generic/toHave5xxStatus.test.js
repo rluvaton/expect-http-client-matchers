@@ -1,4 +1,5 @@
-const { toHave5xxStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHave5xxStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
