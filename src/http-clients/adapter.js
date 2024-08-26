@@ -82,4 +82,4 @@ class HttpClientAdapter {
   }
 }
 
-module.exports = HttpClientAdapter;
+module.exports = { HttpClientAdapter };
