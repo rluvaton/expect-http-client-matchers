@@ -112,12 +112,12 @@ yarn add -D expect-http-client-matchers
 import {expect} from 'expect';
 
 // add all expect-http-client-matchers matchers
-import * as matchers from 'expect-http-client-matchers';
+import {matchers} from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
-expect.extend({ toBeSuccessful, toHave2xxStatus });
+import { matchers } from 'expect-http-client-matchers';
+const { toBeSuccessful, toHave2xxStatus } = matchers;
 ```
 
 #### Typescript
@@ -134,12 +134,12 @@ import 'expect-http-client-matchers/expect.d.ts';
 // ./testSetup.js
 
 // add all expect-http-client-matchers matchers
-import * as matchers from 'expect-http-client-matchers';
+import { matchers } from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
-expect.extend({ toBeSuccessful, toHave2xxStatus });
+import { matchers } from 'expect-http-client-matchers';
+const { toBeSuccessful, toHave2xxStatus } = matchers;
 ```
 
 Add your setup script to your Vitest `setupFiles` configuration. [See for help](https://vitest.dev/config/#setupfiles)
@@ -198,11 +198,12 @@ and add that file to the `"files"` list inside your `tsconfig.json`
 // ./testSetup.js
 
 // add all expect-http-client-matchers matchers
-import * as matchers from 'expect-http-client-matchers';
+import { matchers } from 'expect-http-client-matchers';
 expect.extend(matchers);
 
 // or just add specific matchers
-import { toBeSuccessful, toHave2xxStatus } from 'expect-http-client-matchers';
+import { matchers } from 'expect-http-client-matchers';
+const { toBeSuccessful, toHave2xxStatus } = matchers;
 expect.extend({ toBeSuccessful, toHave2xxStatus });
 ```
 

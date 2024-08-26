@@ -1,6 +1,7 @@
 import 'expect-http-client-matchers/jest.d.ts';
 
-import { toBeSuccessful } from 'expect-http-client-matchers';
+import { matchers } from 'expect-http-client-matchers';
+const {toBeSuccessful} = matchers;
 
 expect.extend({
   toBeSuccessful,
