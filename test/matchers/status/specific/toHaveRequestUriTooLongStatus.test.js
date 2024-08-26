@@ -1,4 +1,5 @@
-const { toHaveRequestUriTooLongStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHaveRequestUriTooLongStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

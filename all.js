@@ -1,4 +1,4 @@
-const matchers = require('./src');
+const { matchers } = require('./src');
 
 const globalExpect = global.expect;
 if (globalExpect !== undefined) {
@@ -7,6 +7,6 @@ if (globalExpect !== undefined) {
   throw new Error(
     'Unable to find global expect. ' +
       'Please check you have added expect-http-client-matchers correctly.' +
-      'See https://github.com/rluvaton/expect-axios-matchers#setup for help.',
+      'See https://github.com/rluvaton/expect-http-client-matchers#setup for help.',
   );
 }

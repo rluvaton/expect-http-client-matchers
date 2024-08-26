@@ -1,4 +1,5 @@
-const { toHaveMisdirectedRequestStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHaveMisdirectedRequestStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

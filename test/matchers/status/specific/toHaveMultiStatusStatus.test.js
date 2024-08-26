@@ -1,4 +1,5 @@
-const { toHaveMultiStatusStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHaveMultiStatusStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');

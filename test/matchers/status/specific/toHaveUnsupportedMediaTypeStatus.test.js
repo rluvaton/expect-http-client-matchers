@@ -1,4 +1,5 @@
-const { toHaveUnsupportedMediaTypeStatus } = require('../../../../src');
+const { matchers } = require('../../../../src');
+const { toHaveUnsupportedMediaTypeStatus } = matchers;
 const { describe, test, before } = require('node:test');
 const { buildServer } = require('../../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
