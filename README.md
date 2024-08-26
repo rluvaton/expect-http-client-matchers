@@ -9,6 +9,7 @@ Additional expect matchers for http clients (e.g. Axios, got, or custom), suppor
 
 [![version](https://img.shields.io/npm/v/expect-http-client-matchers.svg?style=flat-square)](https://www.npmjs.com/package/expect-http-client-matchers)
 
+- [Why](#why)
 - [Installation](#installation)
 - [Setup](#setup)
     - [Vanilla `expect`](#vanilla-expect)
@@ -94,6 +95,37 @@ Additional expect matchers for http clients (e.g. Axios, got, or custom), suppor
   - [.toHaveBodyEquals(`<body>`)](#tohavebodyequalsbody)
   - [.toHaveBodyMatchObject(`<body>`)](#tohavebodymatchobjectbody)
 
+
+## Why
+
+The problem this library solves is that when you check
+
+```js
+const response = await axios.get(); // send request
+
+// If the response status is 400 the test will fail but you wouldn't know what was the response body...
+expect(response.status).toEqual(200)
+expect(response.data).toEqual({something: 1});
+```
+
+If the response status is 400 the test will fail with:
+
+```
+expect(received).toEqual(expected) // deep equality
+
+Expected: 200
+Received: 400
+```
+
+But you don't know what was the response body to debug the issue...
+
+using this package the test will fail with the response body, url, headers and status code so you can debug the issue.
+
+
+Also, when you just wanna assert that the response was successful, without checking specific status code you can use `expect(response).toBeSuccessful()`
+which will check if the status code is between 200 and 299 (inclusive).
+
+this is great when you need to send request to the server as part of your test without it being the main focus of the test
 
 ## Installation
 
