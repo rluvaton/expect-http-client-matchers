@@ -5,6 +5,7 @@ const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../helpers/server-helper');
 const { testClients } = require('../../helpers/supported-clients');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../helpers/can-test-snapshot');
 
 expect.extend({ toHaveBodyEquals });
 
@@ -136,7 +137,7 @@ describe('(.not).toHaveBodyEquals', () => {
                 g: {},
               }),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the text data does not match', async (t) => {
@@ -158,7 +159,7 @@ describe('(.not).toHaveBodyEquals', () => {
             expect({ response }).toEqual({
               response: expect.toHaveBodyEquals('Someone'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the json data does not match when using asymmetric matchers in the data', async (t) => {
@@ -196,7 +197,7 @@ describe('(.not).toHaveBodyEquals', () => {
                 }),
               ),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the response body type does not match', async (t) => {
@@ -220,7 +221,7 @@ describe('(.not).toHaveBodyEquals', () => {
             expect({ response }).toEqual({
               response: expect.toHaveBodyEquals('Hello World'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 
@@ -355,7 +356,7 @@ describe('(.not).toHaveBodyEquals', () => {
                 g: {},
               }),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected data match and body is text', async (t) => {
@@ -377,7 +378,7 @@ describe('(.not).toHaveBodyEquals', () => {
             expect({ response }).toEqual({
               response: expect.not.toHaveBodyEquals('Hello World'),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the expected data match and body is json when using asymmetric matchers in the data', async (t) => {
@@ -417,7 +418,7 @@ describe('(.not).toHaveBodyEquals', () => {
                 }),
               ),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 

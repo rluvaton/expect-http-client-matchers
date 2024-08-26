@@ -4,6 +4,7 @@ const { describe, before, it } = require('node:test');
 const { buildServer } = require('../../helpers/server-helper.js');
 const { expect, JestAssertionError } = require('expect');
 const { getServerUrl } = require('../../helpers/server-helper');
+const { shouldTestAsymmetricMatcherErrorsSnapshot } = require('../../helpers/can-test-snapshot');
 const { testClients } = require('../../helpers/supported-clients');
 
 expect.extend({ toHaveBodyMatchObject });
@@ -41,7 +42,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
                 a: '1',
               }),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
 
         it('should fail when the received response body have content type plain/text even though the data itself is JSON string ', async (t) => {
@@ -63,7 +64,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
             expect({ response }).toEqual({
               response: expect.toHaveBodyMatchObject({}),
             }),
-          ).toThrowError(JestAssertionError);
+          ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
         });
       });
 
@@ -201,7 +202,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(circularObjA1),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it('should not pass when expected object contain transitive circular references as its not possible in response object', async (t) => {
@@ -231,7 +232,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(transitiveCircularObjA1),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
         });
 
@@ -261,7 +262,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject({ a: undefined }),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 'b', c: 'd'} and expected value is {a: 'b'}`, async (t) => {
@@ -289,7 +290,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 'b', c: 'd'} and expected value is {a: 'b', c: 'd'}`, async (t) => {
@@ -317,7 +318,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {a: 'b', t: {z: 'z'}}`, async (t) => {
@@ -345,7 +346,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {t: {x: {r: 'r'}}}`, async (t) => {
@@ -373,7 +374,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: [3, 4, 5]}`, async (t) => {
@@ -401,7 +402,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: [3, 4, 5, 'v'], b: 'b'} and expected value is {a: [3, 4, 5, 'v']}`, async (t) => {
@@ -429,7 +430,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 1, c: 2} and expected value is {a: expect.any(Number)}`, async (t) => {
@@ -457,7 +458,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: {x: 'x', y: 'y'}} and expected value is {a: {x: expect.any(String)}}`, async (t) => {
@@ -485,7 +486,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: null, b: 'b'} and expected value is {a: null}`, async (t) => {
@@ -513,7 +514,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {b: 'b'} and expected value is {}`, async (t) => {
@@ -541,7 +542,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: [{a: 'a', b: 'b'}]} and expected value is {a: [{a: 'a'}]}`, async (t) => {
@@ -569,7 +570,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is [1, 2] and expected value is [1, 2]`, async (t) => {
@@ -597,7 +598,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {} and expected value is {}`, async (t) => {
@@ -625,7 +626,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is [] and expected value is []`, async (t) => {
@@ -653,7 +654,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {message: 'bar'} and expected value is {message: 'bar'}`, async (t) => {
@@ -681,7 +682,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is {a: 'b'} and expected value is Object.assign(Object.create(null), {a: 'b'})`, async (t) => {
@@ -711,7 +712,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
             //     expect({response}).toEqual({
             //         response: expect.not.toHaveBodyMatchObject(expectedValue),
             //     }),
-            // ).toThrowError(JestAssertionError);
+            // ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should pass when the response body is [0] and expected value is [-0] as -0 and 0 are the same value in JSON`, async (t) => {
@@ -739,7 +740,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.not.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
         });
 
@@ -770,7 +771,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 'b', c: 'd'} and expected value is {a: 'b!', c: 'd'}`, async (t) => {
@@ -799,7 +800,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 'a', c: 'd'} and expected value is {a: expect.any(Number)}`, async (t) => {
@@ -828,7 +829,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {a: 'b', t: {z: [3]}}`, async (t) => {
@@ -857,7 +858,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 'b', t: {x: {r: 'r'}, z: 'z'}} and expected value is {t: {l: {r: 'r'}}}`, async (t) => {
@@ -886,7 +887,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: [3, 4, 5, 6]}`, async (t) => {
@@ -915,7 +916,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: [3, 4]}`, async (t) => {
@@ -944,7 +945,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [3, 4, 'v'], b: 'b'} and expected value is {a: ['v']}`, async (t) => {
@@ -973,7 +974,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: {b: 4}}`, async (t) => {
@@ -1002,7 +1003,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [3, 4, 5], b: 'b'} and expected value is {a: {b: expect.any(String)}}`, async (t) => {
@@ -1031,7 +1032,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is [1, 2] and expected value is [1, 3]`, async (t) => {
@@ -1060,7 +1061,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: {}} and expected value is {a: new Set([])}`, async (t) => {
@@ -1089,7 +1090,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: new Date('2015-11-30').toISOString(), b: 'b'} and expected value is {a: new Date('2015-10-10')}`, async (t) => {
@@ -1118,7 +1119,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: null, b: 'b'} and expected value is {a: '4'}`, async (t) => {
@@ -1147,7 +1148,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {} and expected value is  {a: null}`, async (t) => {
@@ -1176,7 +1177,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: [{a: 'a', b: 'b'}]} and expected value is {a: [{a: 'c'}]}`, async (t) => {
@@ -1205,7 +1206,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 1, b: 1, c: 1, d: {e: {f: 555}}} and expected value is {d: {e: {f: 222}}}`, async (t) => {
@@ -1234,7 +1235,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is [1, 2, 3] and expected value is [2, 3, 1]`, async (t) => {
@@ -1263,7 +1264,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is [1, 2, 3] and expected value is [1, 2, 2]`, async (t) => {
@@ -1292,7 +1293,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {c: 'd'} and expected value is Object.assign(Object.create(null), {a: 'b'})`, async (t) => {
@@ -1322,7 +1323,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
             //     expect({response}).toEqual({
             //         response: expect.toHaveBodyMatchObject(expectedValue),
             //     }),
-            // ).toThrowError(JestAssertionError);
+            // ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is { a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers').toString()]: 'expect-http-client-matchers' } and expected value is {a: 'c', [Symbol.for('expect-http-client-matchers')]: expect.any(String)}`, async (t) => {
@@ -1355,7 +1356,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is { a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers').toString()]: 'expect-http-client-matchers' } and expected value is {a: 'b', [Symbol.for('expect-http-client-matchers')]: 'expect-http-client-matchers'}`, async (t) => {
@@ -1391,7 +1392,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers').toString()]: 'expect-http-client-matchers'} and expected value is {a: 'b', c: 'd', [Symbol.for('expect-http-client-matchers')]: 'expect-http-client-matchers'}`, async (t) => {
@@ -1428,7 +1429,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: undefined, b: 'b'} and expected value is new Foo() as cant match because classes are not valid JSON value`, async (t) => {
@@ -1457,7 +1458,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {a: undefined, b: 'b', c: 'c'} and expected value is new Sub()`, async (t) => {
@@ -1486,7 +1487,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
 
           it(`should not match when the response body is {d: 4} and expected value is withDefineProperty(new Sub(), 'd', 4)`, async (t) => {
@@ -1515,7 +1516,7 @@ describe('(.not).toHaveBodyMatchObject', () => {
               expect({ response }).toEqual({
                 response: expect.toHaveBodyMatchObject(expectedValue),
               }),
-            ).toThrowError(JestAssertionError);
+            ).toThrowError(shouldTestAsymmetricMatcherErrorsSnapshot(testClient) ? JestAssertionError : Error);
           });
         });
 
