@@ -1,21 +1,15 @@
+const {HttpClientAdapter} = require("./adapter");
+
 /**
  * @typedef {import('axios').AxiosResponse} AxiosResponse
  */
 
-/**
- *
- * @type {UnknownHttpClientAdapter}
- */
-class AxiosHttpClientAdapter {
+class AxiosHttpClientAdapter extends HttpClientAdapter {
   /**
-   * @type {AxiosResponse}
+   * @param {AxiosResponse} response
    */
-  response;
-
-  httpClientName = 'axios';
-
   constructor(response) {
-    this.response = response;
+    super(response);
   }
 
   /**

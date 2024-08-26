@@ -1,4 +1,5 @@
 const { AxiosHttpClientAdapter } = require('./axios-adapter');
+const { hasDefaultAdapterConfigured, getDefaultAdapter } = require('./defaults');
 
 /**
  *
@@ -12,6 +13,12 @@ const adapters = [AxiosHttpClientAdapter];
  * @return {HttpClientAdapter}
  */
 function getMatchingAdapter(response) {
+  if (hasDefaultAdapterConfigured()) {
+    const DefaultAdapter = getDefaultAdapter();
+
+    return new DefaultAdapter(response);
+  }
+
   const MatchingAdapter = adapters.find((adapter) => adapter.canHandle(response) === 'yes');
 
   if (MatchingAdapter) {
