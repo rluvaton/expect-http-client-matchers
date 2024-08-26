@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Expect HTTP Client Matchers</h1>
 
-Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vitest`, `expect`.
+Additional expect matchers for http clients (e.g. Axios, got), supports `jest`, `vitest`, `expect`.
 
 </div>
 
@@ -17,6 +17,11 @@ Additional expect matchers for http clients (e.g. Axios), supports `jest`, `vite
       - [Typescript](#typescript-1)
     - [Jest](#jest)
       - [Typescript](#typescript-2)
+- [HTTP Clients](#http-clients)
+  - [Axios](#axios)
+    - [Setup](#setup)
+  - [Custom HTTP Client](#custom-http-client)
+- [Configure](#configure)
 - [Asymmetric matchers](#asymmetric-matchers)
 - [API](#api)
   - [.toBeSuccessful()](#tobesuccessful)
@@ -241,9 +246,19 @@ test('passes when using an asymmetrical matcher', () => {
 });
 ```
 
-## Notes
+## HTTP Clients
 
-### Axios reject on unsuccessful status code
+The supported HTTP clients currently are `axios` and `got`.
+
+There are plan to support more clients in the future and user provided clients
+
+For best experience, you should disable throwing on unsuccessful status code,
+you should look at the specific client section for more information if it's needed
+
+
+### Axios
+
+When using `axios` client, you should disable throwing on unsuccessful status code
 
 By default `axios` throws error on error status code, this means that you will need to do the following which is ugly and have many problems:
 
@@ -270,7 +285,7 @@ const response = await axios.get('http://some-page.com/this-will-return-400');
 expect(response).not.toBeSuccessful();
 ```
 
-You need to do:
+You need to do **one of the following**:
 ```js
 // Don't throw an error on un-successful status code for ALL axios clients
 axios.defaults.validateStatus = () => true;
@@ -286,6 +301,96 @@ all the examples assume you have:
 ```js
 // Don't throw an error on un-successful status code for ALL axios clients
 axios.defaults.validateStatus = () => true;
+```
+
+### Custom HTTP Client
+
+If you are using a custom HTTP client or a client that is not supported, you can register it
+
+You will need to extend the `abstract` `HttpClientAdapter` class and implement the functions below
+
+Notice, the function may be called multiple times.
+
+**Example: Axios adapter**
+
+```js
+const { HttpClientAdapter } = require('expect-http-client-matchers');
+
+/**
+ * @typedef {import('axios').AxiosResponse} AxiosResponse
+ */
+
+class MyHttpClientAdapter extends HttpClientAdapter {
+  static name = 'My custom adapter';
+
+  /**
+   * @param {CustomResponse} response
+   */
+  constructor(response) {
+    super(response);
+  }
+
+  /**
+   * Return whether the response can be handled by this adapter (usefull when using multiple http clients)
+   * @param {unknown} response
+   * @return {'yes' | 'no' | 'maybe'}
+   */
+  static canHandle(response) {
+    if(response.someUniqueIdentifierOnResponse) {
+        return 'yes';
+    }
+    
+    return 'no';
+  }
+
+  // the request url
+  getUrl() {
+    return this.response.url;
+  }
+
+  // The repsonse status code
+  getStatusCode() {
+    return this.response.status;
+  }
+
+  // The response headers
+  getHeaders() {
+    return this.response.headers;
+  }
+
+  // The response body
+  getBody() {
+    return this.response.data;
+  }
+}
+
+```
+
+Then you can register it
+
+```js
+import { configure } from 'expect-http-client-matchers';
+
+configure({
+  customAdapters: [YourHttpClientAdapter]
+})
+```
+
+## Configure
+
+you have the `configure` function that you can use to configure the library
+
+```js
+import { configure } from 'expect-http-client-matchers';
+
+configure({
+  // Add custom adapters
+  customAdapters: [],
+
+  // default HTTP adapter to use
+  // when using only single client and the library can't determine the matching one
+  defaultAdapterName: undefined,
+})
 ```
 
 ## API
