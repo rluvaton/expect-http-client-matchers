@@ -43,7 +43,7 @@ class GotHttpClientAdapter extends HttpClientAdapter {
   }
 
   getBody() {
-    return this.response.rawBody;
+    return this.response.body
   }
 }
 module.exports = { GotHttpClientAdapter };

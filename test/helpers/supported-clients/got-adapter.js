@@ -1,7 +1,4 @@
-
-async function getGot() {
-  return (await import('got')).default
-}
+const {getGot} = require("../override-http-client-defaults");
 
 const gotTestAdapterClient = {
   name: 'got',
