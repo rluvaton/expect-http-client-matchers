@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveGatewayTimeoutStatus > using got > .not.toHaveGatewayTimeoutStatus > fails when response have status code 504 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveGatewayTimeoutStatus()</intensity>
+
+Expected status code to not be 504 received:
+  <red>504</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 504,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveGatewayTimeoutStatus > using got > .toHaveGatewayTimeoutStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveGatewayTimeoutStatus()</intensity>
+
+Expected status code to be 504 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

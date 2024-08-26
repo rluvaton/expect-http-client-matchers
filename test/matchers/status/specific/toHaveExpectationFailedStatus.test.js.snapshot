@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveExpectationFailedStatus > using got > .not.toHaveExpectationFailedStatus > fails when response have status code 417 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveExpectationFailedStatus()</intensity>
+
+Expected status code to not be 417 received:
+  <red>417</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 417,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveExpectationFailedStatus > using got > .toHaveExpectationFailedStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveExpectationFailedStatus()</intensity>
+
+Expected status code to be 417 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

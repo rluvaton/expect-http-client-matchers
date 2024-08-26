@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveUnauthorizedStatus > using got > .not.toHaveUnauthorizedStatus > fails when response have status code 401 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveUnauthorizedStatus()</intensity>
+
+Expected status code to not be 401 received:
+  <red>401</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 401,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveUnauthorizedStatus > using got > .toHaveUnauthorizedStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveUnauthorizedStatus()</intensity>
+
+Expected status code to be 401 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

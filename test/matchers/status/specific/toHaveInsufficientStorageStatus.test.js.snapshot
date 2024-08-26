@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHaveInsufficientStorageStatus > using got > .not.toHaveInsufficientStorageStatus > fails when response have status code 507 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHaveInsufficientStorageStatus()</intensity>
+
+Expected status code to not be 507 received:
+  <red>507</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 507,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHaveInsufficientStorageStatus > using got > .toHaveInsufficientStorageStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHaveInsufficientStorageStatus()</intensity>
+
+Expected status code to be 507 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;

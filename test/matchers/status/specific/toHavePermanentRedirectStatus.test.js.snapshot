@@ -37,3 +37,43 @@ response is:
   "body": {}
 }
 `;
+
+exports[`(.not).toHavePermanentRedirectStatus > using got > .not.toHavePermanentRedirectStatus > fails when response have status code 308 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).not.toHavePermanentRedirectStatus()</intensity>
+
+Expected status code to not be 308 received:
+  <red>308</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 308,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
+
+exports[`(.not).toHavePermanentRedirectStatus > using got > .toHavePermanentRedirectStatus > fails when response have other status code 1`] = `
+<dim>expect(</intensity><red>received</color><dim>).toHavePermanentRedirectStatus()</intensity>
+
+Expected status code to be 308 received:
+  <red>200</color>
+
+------------
+response is:
+{
+  "url": "http://127.0.0.1:54607/status",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2",
+    "connection": "keep-alive"
+  },
+  "body": "{}"
+}
+`;
