@@ -8,7 +8,7 @@ const { HttpClientAdapter } = require('./adapter');
  * @extends {HttpClientAdapter<GotResponse>}
  */
 class GotHttpClientAdapter extends HttpClientAdapter {
-  name = 'got';
+  static name = 'got';
 
   /**
    * @param {GotResponse} response

@@ -1,5 +1,5 @@
 const { axiosTestAdapterClient } = require('./axios-adapter');
-const { gotTestAdapterClient } = require('./got-adapter.mjs');
+const { gotTestAdapterClient } = require('./got-adapter.js');
 
 /**
  * @type {TestAdapterClient[]}
