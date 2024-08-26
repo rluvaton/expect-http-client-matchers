@@ -5,6 +5,8 @@ const { HttpClientAdapter } = require('./adapter');
  */
 
 class AxiosHttpClientAdapter extends HttpClientAdapter {
+  static name = 'axios';
+
   /**
    * @param {AxiosResponse} response
    */
