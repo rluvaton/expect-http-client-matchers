@@ -1,10 +1,11 @@
 const { AxiosHttpClientAdapter } = require('./axios-adapter');
+const { GotHttpClientAdapter } = require('./got-adapter');
 
 /**
  *
  * @type {(typeof HttpClientAdapter)[]}
  */
-let adapters = [AxiosHttpClientAdapter];
+let adapters = [AxiosHttpClientAdapter, GotHttpClientAdapter];
 
 /**
  *

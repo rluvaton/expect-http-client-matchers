@@ -31,6 +31,7 @@
     "concurrently": "^8.2.2",
     "expect": "^29.7.0",
     "fastify": "^4.28.1",
+    "got": "^14.4.2",
     "husky": "^8.0.3",
     "pretty-ansi": "^2.0.0",
     "semantic-release": "^19.0.5"
