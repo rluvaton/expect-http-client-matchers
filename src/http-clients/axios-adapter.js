@@ -1,4 +1,4 @@
-const {HttpClientAdapter} = require("./adapter");
+const { HttpClientAdapter } = require('./adapter');
 
 /**
  * @typedef {import('axios').AxiosResponse} AxiosResponse

@@ -1,48 +1,53 @@
 declare module 'expect-http-client-matchers' {
-    export const matchers: import('./shared').CustomMatchers<any>;
+  export const matchers: import('./shared').CustomMatchers<any>;
 
-    export function configure(options?: { defaultAdapter?: typeof HttpClientAdapter }): void;
+  export interface ConfigureOptions {
+    customAdapters?: (typeof HttpClientAdapter)[];
+    defaultAdapterName?: string;
+  }
 
-    export type CanAdapterHandle = 'no' | 'yes' | 'maybe';
-    export abstract class HttpClientAdapter<Response> {
-        /**
-         * The name of the client the adapter
-         *
-         * @example axios
-         */
-        public static name: string;
+  export function configure(options?: ConfigureOptions): void;
 
-        /**
-         * The current response
-         * @protected
-         */
-        protected response: Response;
+  export type CanAdapterHandle = 'no' | 'yes' | 'maybe';
+  export abstract class HttpClientAdapter<Response> {
+    /**
+     * The name of the client the adapter
+     *
+     * @example axios
+     */
+    public static name: string;
 
-        protected constructor(response: Response);
+    /**
+     * The current response
+     * @protected
+     */
+    protected response: Response;
 
-        /**
-         * Test whether this response can be handled by this adapter
-         */
-        public static canHandle(response: any): CanAdapterHandle;
+    protected constructor(response: Response);
 
-        /**
-         * Get the url of the request, **this may be called multiple times**
-         */
-        public abstract getUrl(): string;
+    /**
+     * Test whether this response can be handled by this adapter
+     */
+    public static canHandle(response: any): CanAdapterHandle;
 
-        /**
-         * Get the status code of the response, **this may be called multiple times**
-         */
-        public abstract getStatusCode(): number;
+    /**
+     * Get the url of the request, **this may be called multiple times**
+     */
+    public abstract getUrl(): string;
 
-        /**
-         * Get the headers of the response, **this may be called multiple times**
-         */
-        public abstract getHeaders(): Record<string, string>;
+    /**
+     * Get the status code of the response, **this may be called multiple times**
+     */
+    public abstract getStatusCode(): number;
 
-        /**
-         * Get the body of the response, **this may be called multiple times**
-         */
-        public abstract getBody(): unknown;
-    }
+    /**
+     * Get the headers of the response, **this may be called multiple times**
+     */
+    public abstract getHeaders(): Record<string, string>;
+
+    /**
+     * Get the body of the response, **this may be called multiple times**
+     */
+    public abstract getBody(): unknown;
+  }
 }

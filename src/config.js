@@ -1,16 +1,20 @@
-const { setDefaultAdapter } = require('./http-clients/defaults');
+const { addSupportedAdapters, setDefaultAdapterName } = require('./http-clients');
 
 /**
  *
- * @param {{defaultAdapter?: typeof HttpClientAdapter}} options
+ * @param {{ customAdapters?: (typeof HttpClientAdapter)[], defaultAdapterName?: string }} options
  */
 function configure(options = {}) {
   if (!options) {
     return;
   }
 
-  if (options.defaultAdapter) {
-    setDefaultAdapter(options.defaultAdapter);
+  if (options.customAdapters) {
+    addSupportedAdapters(options.customAdapters || []);
+  }
+
+  if (options.defaultAdapterName) {
+    setDefaultAdapterName(options.defaultAdapterName);
   }
 }
 
