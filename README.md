@@ -20,11 +20,11 @@ Additional expect matchers for http clients (e.g. Axios, got, or custom), suppor
 - [Asymmetric matchers](#asymmetric-matchers)
 - [HTTP Clients](#http-clients)
   - [Axios](#axios)
-    - [Setup](#setup)
-    - [Got](#got)
-      - [Setup](#setup-1)
-      - [Troubleshooting](#troubleshooting)
-        - [Error: _The `searchParameters` option does not exist. Use `searchParams` instead._](#error-_the-searchparameters-option-does-not-exist-use-searchparams-instead_)
+    - [Setup](#setup-1)
+  - [Got](#got)
+    - [Setup](#setup-2)
+    - [Troubleshooting](#troubleshooting)
+      - [Error: _The `searchParameters` option does not exist. Use `searchParams` instead._](#error-_the-searchparameters-option-does-not-exist-use-searchparams-instead_)
   - [Custom HTTP Client](#custom-http-client)
 - [Configure](#configure)
 - [API](#api)
@@ -261,6 +261,8 @@ you should look at the specific client section for more information if it's need
 
 
 ### Axios
+
+#### Setup
 
 When using `axios` client, you should disable throwing on unsuccessful status code
 
