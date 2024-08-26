@@ -1,4 +1,4 @@
-const {getGot} = require("../override-http-client-defaults");
+const { getGot } = require('../override-http-client-defaults');
 
 const gotTestAdapterClient = {
   name: 'got',
