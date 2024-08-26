@@ -27,8 +27,8 @@ class GotHttpClientAdapter extends HttpClientAdapter {
    * @return {CanAdapterHandle}
    */
   static canHandle(response) {
-    if(response.timings) {
-      return 'maybe'
+    if (response.timings) {
+      return 'maybe';
     }
 
     return 'no';

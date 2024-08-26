@@ -1,4 +1,4 @@
-import got from "got";
+import got from 'got';
 
 const gotTestAdapterClient = {
   name: 'axios',
@@ -59,4 +59,4 @@ const gotTestAdapterClient = {
   },
 };
 
-export {gotTestAdapterClient}
+export { gotTestAdapterClient };
